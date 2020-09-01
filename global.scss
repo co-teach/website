@@ -6,6 +6,10 @@
   --coteach-purple: #642882;
   --coteach-pink-rgb: 228, 3, 127;
   --coteach-purple-rgb: 100, 40, 130;
+
+  --coteach-header-height: 70px;
+
+  background-color: #ddd;
 }
 
 /* GLOBAL */
@@ -14,8 +18,7 @@ body,
 #__next {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.6;
   font-size: 18px;
   height: 100%;
@@ -26,53 +29,7 @@ body,
   box-sizing: border-box;
 }
 
-/* HOME / LANDING PAGE */
-main {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  user-select: none;
-
-  background: #fff;
-  background: linear-gradient(
-    -45deg,
-    rgba(var(--coteach-pink-rgb), 0.1),
-    rgba(var(--coteach-purple-rgb), 0.1)
-  );
-  background-size: 200% 200%;
-  animation: Gradient 8s ease infinite;
-
-  img {
-    width: 80%;
-    max-width: 600px;
-    display: block;
-  }
-  p {
-    font-size: 20px;
-    text-align: center;
-    margin: 5px 20px;
-  }
-}
-
-/* MEDIA QUERIES */
-@media (max-width: 500px) {
-  main p {
-    font-size: 16px;
-  }
-}
-
-/* ANIMATIONS */
-@keyframes Gradient {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
+h1 {
+  margin: 0;
+  padding: 0;
 }
