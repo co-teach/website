@@ -28,6 +28,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e4037f" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
+        <script src="/js/polyfills.js" />
       </Head>
       <Component {...pageProps} />{" "}
     </>
