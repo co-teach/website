@@ -88,3 +88,13 @@
   height: 1.38em;
   margin-top: 0.11em;
 }
+
+@media (min-height: 1000px) {
+  .Banner {
+    min-height: 0;
+  }
+  .Content {
+    padding-top: 500px;
+    padding-bottom: 100px;
+  }
+}

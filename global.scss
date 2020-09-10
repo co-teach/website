@@ -14,7 +14,8 @@
 
   --coteach-border-radius: 20px;
 
-  background-color: #ddd;
+  // Only seen on very large displays
+  background-color: #222;
 }
 
 /* GLOBAL */
@@ -26,7 +27,6 @@ body {
 #__next {
   position: relative;
   padding: 0;
-  margin: 0;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
   font-size: 18px;
@@ -34,6 +34,11 @@ body {
   width: 100%;
 
   overflow-x: hidden;
+
+  max-width: 2000px;
+  margin: auto;
+
+  background-color: #ddd;
 }
 
 * {
