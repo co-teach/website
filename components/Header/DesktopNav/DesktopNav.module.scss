@@ -1,0 +1,38 @@
+#DesktopNav {
+  position: relative;
+
+  a {
+    color: var(--coteach-purple);
+  }
+
+  align-self: center;
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - 60px);
+
+  ul {
+    height: 100%;
+
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+    text-transform: uppercase;
+
+    margin: 0 10px 0 0;
+
+    li {
+      margin-right: 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  #DesktopNav {
+    display: none;
+  }
+}

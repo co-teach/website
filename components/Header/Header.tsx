@@ -1,6 +1,23 @@
 import React from "react";
 import Link from "next/link";
 import classes from "./Header.module.scss";
+import MobileNav from "./MobileNav/MobileNav";
+import DesktopNav from "./DesktopNav/DesktopNav";
+
+const navData = [
+  {
+    href: "/over",
+    label: "Over Co-Teach",
+  },
+  {
+    href: "/scholen",
+    label: "Scholen",
+  },
+  {
+    href: "/professionals",
+    label: "Professionals",
+  },
+];
 
 const Header = (props: { transparent?: boolean; superSized?: boolean }) => {
   return (
@@ -26,26 +43,8 @@ const Header = (props: { transparent?: boolean; superSized?: boolean }) => {
           />
         </a>
       </Link>
-
-      <nav>
-        <ul>
-          <li>
-            <Link href="/over">
-              <a>Over Co-Teach</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/scholen">
-              <a>Scholen</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/professionals">
-              <a>Professionals</a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <DesktopNav navData={navData} />
+      <MobileNav navData={navData} headerIsTransparent={props.transparent} />
     </header>
   );
 };

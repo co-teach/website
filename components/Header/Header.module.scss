@@ -2,38 +2,7 @@
   position: relative;
   display: flex;
   height: var(--coteach-header-height);
-
-  a {
-    color: var(--coteach-purple);
-  }
-
-  nav {
-    align-self: center;
-    display: flex;
-    flex-flow: row-reverse;
-    justify-content: flex-end;
-    width: calc(100% - 60px);
-
-    ul {
-      height: 100%;
-
-      list-style-type: none;
-      padding: 0;
-      display: flex;
-
-      text-transform: uppercase;
-
-      margin: 0 10px 0 0;
-
-      li {
-        margin-right: 20px;
-      }
-
-      a {
-        text-decoration: none;
-      }
-    }
-  }
+  background-color: var(--coteach-light);
 }
 
 .Logo {
@@ -50,9 +19,11 @@
   z-index: 100;
   width: 100%;
 
+  background-color: transparent;
+
   a {
-    color: white;
-    font-weight: 600;
+    color: white !important;
+    font-weight: 600 !important;
   }
 }
 

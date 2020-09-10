@@ -6,16 +6,25 @@
   --coteach-purple: #642882;
   --coteach-pink-rgb: 228, 3, 127;
   --coteach-purple-rgb: 100, 40, 130;
+  --coteach-medium: #ccc;
+  --coteach-light: #fff;
+  --coteach-dark: #111;
 
   --coteach-header-height: 70px;
+
+  --coteach-border-radius: 20px;
 
   background-color: #ddd;
 }
 
 /* GLOBAL */
-html,
-body,
+body {
+  padding: 0;
+  margin: 0;
+}
+
 #__next {
+  position: relative;
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -23,6 +32,8 @@ body,
   font-size: 18px;
   height: 100%;
   width: 100%;
+
+  overflow-x: hidden;
 }
 
 * {
@@ -32,4 +43,10 @@ body,
 h1 {
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 1000px) {
+  #__next {
+    font-size: 14px;
+  }
 }
