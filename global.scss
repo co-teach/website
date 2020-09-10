@@ -45,6 +45,12 @@ h1 {
   padding: 0;
 }
 
+a {
+  color: var(--coteach-purple);
+  text-decoration-color: rgba(var(--coteach-purple-rgb), 0.25);
+  font-weight: 700;
+}
+
 @media (max-width: 1000px) {
   #__next {
     font-size: 14px;

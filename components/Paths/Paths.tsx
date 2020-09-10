@@ -1,9 +1,11 @@
 import React from "react";
 import classes from "./Paths.module.scss";
+import Link from "next/link";
 
 const Paths = (props: {}) => (
-  <section>
+  <section id={classes.Paths}>
     <div id={classes.Professionals}>
+      <h2>Voor bedrijven en professionals met oog voor de toekomst</h2>
       <ul>
         <li>Enthusiasmeer leerlingen om in IT te werken</li>
         <li>Gebruik je expertise om authentieke uitdagingen te ontwerpen</li>
@@ -13,11 +15,14 @@ const Paths = (props: {}) => (
       <p>
         Als gastdocent ontvang je een <em>crash course</em>, doorlopende
         professionele begeleiding en heb je de vrijheid om zelf projectonderwijs
-        vorm te geven. Lees hier meer over hoe professionals en bedrijven kunnen
-        aanhaken en wat de spelregels zijn.
+        vorm te geven.{" "}
+        <Link href="/voor-professionals">
+          <a>Meer informatie voor IT professional, managers en eigenaren.</a>
+        </Link>
       </p>
     </div>
     <div id={classes.Schools}>
+      <h2>Voor leerlingen die hun hart willen volgen</h2>
       <ul>
         <li>Volg informatica, van de eerste kennismaking tot het eindexamen</li>
         <li>Leer van professionals en bouw je netwerk op</li>
@@ -26,8 +31,10 @@ const Paths = (props: {}) => (
       <p>
         Door het aanbieden van zowel een leerlijn als projectonderwijs geeft
         Co-Teach Informatica scholen de kans om ondanks het leraartekort toch
-        dit belangrijke vak vorm te kunnen geven. Ben jij een leerling, leraar,
-        of school en wil je meedoen? Kijk dan hier.
+        dit belangrijke vak vorm te kunnen geven.{" "}
+        <Link href="/voor-scholen">
+          <a>Meer informatie voor leerlingen, leraren en schoolbestuurders</a>
+        </Link>
       </p>
     </div>
   </section>

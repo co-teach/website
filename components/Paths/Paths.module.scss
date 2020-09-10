@@ -1,0 +1,51 @@
+#Paths {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+  font-size: 1.2em;
+
+  div {
+    background: var(--coteach-light);
+    color: var(--coteach-dark);
+    padding: 20px 20px;
+    max-width: 70ch;
+
+    h2,
+    p {
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 1.2em;
+    }
+  }
+}
+
+#Professionals {
+  border-radius: 0 var(--coteach-border-radius) var(--coteach-border-radius) 0;
+}
+
+#Schools {
+  border-radius: var(--coteach-border-radius) 0 0 var(--coteach-border-radius);
+  justify-self: right;
+}
+
+@media (max-width: 1000px) {
+  #Paths {
+    grid-template:
+      "empty1 prof prof prof prof prof"
+      "scho scho scho scho scho empty2";
+    grid-gap: 40px;
+  }
+  #Professionals {
+    border-radius: var(--coteach-border-radius) 0 0 var(--coteach-border-radius);
+    grid-area: prof;
+    justify-self: right;
+  }
+  #Schools {
+    border-radius: 0 var(--coteach-border-radius) var(--coteach-border-radius) 0;
+    grid-area: scho;
+    justify-self: left;
+  }
+}

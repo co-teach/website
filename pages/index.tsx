@@ -13,6 +13,7 @@ const Home = () => {
       <Header transparent superSized />
       <main>
         <Banner />
+        <Paths />
       </main>
     </>
   );
