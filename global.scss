@@ -6,6 +6,7 @@
   --coteach-purple: #642882;
   --coteach-pink-rgb: 228, 3, 127;
   --coteach-purple-rgb: 100, 40, 130;
+  --coteach-purple-haze: #bba9bf;
   --coteach-medium: #ccc;
   --coteach-light: #fff;
   --coteach-dark: #111;
@@ -38,7 +39,7 @@ body {
   max-width: 2000px;
   margin: auto;
 
-  background-color: #ddd;
+  background-color: var(--coteach-purple-haze);
 }
 
 * {
