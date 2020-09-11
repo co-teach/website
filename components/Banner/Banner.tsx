@@ -7,7 +7,7 @@ const Banner = (props: {}) => (
     <div className={classes.Content}>
       <h1 className={classes.SignatureHeader}>
         <span>Informatica op school</span>
-        <span>ook als er nog geen leraar is.</span>
+        <span> ook als er nog geen leraar is.</span>
       </h1>
       <p>
         Dat ICT-vaardigheden er toe doen, staat buiten kijf. Middelbare scholen
