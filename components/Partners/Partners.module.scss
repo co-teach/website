@@ -19,27 +19,28 @@
     padding: 10px;
 
     li {
-      max-width: 300px;
+      width: 400px;
       text-align: center;
       padding: 30px;
-      transition: transform 0.6s ease-out;
+      position: relative;
 
       img {
+        transition: transform 0.6s ease-out;
+        max-width: 100%;
         max-height: 50px;
       }
     }
 
-    li:hover {
-      transform: scale(1.1);
+    li img:hover {
+      transform: scale(1.2);
     }
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   #Partners {
-    ul {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+    ul li {
+      width: 150px;
     }
   }
 }
