@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import Paths from "../components/Paths/Paths";
+import Partners from "../components/Partners/Partners";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <main>
         <Banner />
         <Paths />
+        <Partners />
       </main>
     </>
   );

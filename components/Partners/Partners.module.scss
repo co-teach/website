@@ -1,0 +1,40 @@
+#Partners {
+  background-color: white;
+
+  h2 {
+    font-size: 1em;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-weight: 600;
+    text-transform: lowercase;
+  }
+
+  ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+
+    li {
+      max-width: 300px;
+      text-align: center;
+      padding: 30px;
+
+      img {
+        max-height: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  #Partners {
+    ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
