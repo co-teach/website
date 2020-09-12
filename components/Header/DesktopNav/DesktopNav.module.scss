@@ -49,12 +49,16 @@
   }
 }
 
-.transparentBackground {
+#DesktopNav.transparentBackground {
   ul {
     a:hover,
     a:focus {
       color: var(--coteach-purple);
       border-bottom: 2px solid var(--coteach-light) !important;
     }
+  }
+
+  a {
+    color: white !important;
   }
 }

@@ -20,7 +20,7 @@
 
 #menuToggle a {
   text-decoration: none;
-  color: var(--coteach-dark) !important;
+  color: var(--coteach-purple);
 
   transition: color 0.3s ease;
 }
@@ -81,7 +81,7 @@
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: var(--coteach-dark);
+  background: var(--coteach-purple);
 }
 
 /*
@@ -110,10 +110,14 @@
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
-  transform-origin: 0% 0%;
-  transform: translate(100%, 0);
+  left: -100000px;
+  transition-duration: 400ms, 0ms;
+  transition-property: transform, left;
+  transition-delay: 0ms, 400ms;
+  transition-timing-function: cubic-bezier(0.77, 0.2, 0.05, 1), linear;
 
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  form-origin: 0% 0%;
+  transform: translate(100%, 0);
 }
 
 #menu li {
@@ -122,18 +126,28 @@
 }
 
 #menu li a:hover {
-  color: var(--coteach-pink) !important;
+  border-bottom: 2px solid var(--coteach-pink) !important;
 }
 
-#menu li a.active {
-  color: var(--coteach-pink);
+#menu li :global a.active {
+  color: var(--coteach-pink) !important;
+}
+#menu li :global a.active:hover,
+#menu li :global a.active:focus {
+  border-bottom: none;
 }
 
 /*
  * And let's slide it in from the left
  */
-#menuToggle input:checked ~ ul {
+#menuToggle input:checked ~ ul,
+#menu:focus-within {
+  left: 0;
+  transition-delay: 0ms, 0ms;
   transform: translate(-50%);
+}
+#menu:focus-within {
+  left: -36px;
 }
 
 #menuToggle.transparentBackground span {

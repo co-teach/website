@@ -18,22 +18,18 @@ const MobileNav = (props: {
           props.headerIsTransparent ? classes.transparentBackground : ""
         }
       >
-        <input type="checkbox" />
+        <input type="checkbox" aria-hidden />
 
         {/* Hamburger menu bars*/}
-        <span />
-        <span />
-        <span />
+        <span aria-hidden />
+        <span aria-hidden />
+        <span aria-hidden />
 
         <ul id={classes.menu}>
           {props.navData.map((navItem) => (
             <li key={navItem.href}>
               <Link href={navItem.href}>
-                <a
-                  className={
-                    router.pathname === navItem.href ? "active" : "not-active"
-                  }
-                >
+                <a className={router.pathname === navItem.href ? "active" : ""}>
                   {navItem.label}
                 </a>
               </Link>
