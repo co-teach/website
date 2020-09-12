@@ -4,22 +4,31 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 60px;
   font-size: 1.2em;
+}
 
-  div {
-    background: var(--coteach-light);
-    color: var(--coteach-dark);
-    padding: 20px 20px;
-    max-width: 70ch;
+#Professionals,
+#Schools {
+  background: rgba(var(--coteach-purple-rgb), 0.15);
+  color: var(--coteach-dark);
+  padding: 20px 20px;
+  max-width: 70ch;
+  transition: transform 0.6s ease-out;
 
-    h2,
-    p {
-      margin: 0;
-    }
-
-    h2 {
-      font-size: 1.2em;
-    }
+  h2,
+  p {
+    margin: 0;
   }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+#Professionals:hover {
+  transform: scale(1.01) translateX(5px);
+}
+#Schools:hover {
+  transform: scale(1.01) translateX(-5px);
 }
 
 #Professionals {
@@ -47,5 +56,12 @@
     border-radius: 0 var(--coteach-border-radius) var(--coteach-border-radius) 0;
     grid-area: scho;
     justify-self: left;
+  }
+
+  #Professionals:hover {
+    transform: scale(1.01) translateX(-3px);
+  }
+  #Schools:hover {
+    transform: scale(1.01) translateX(3px);
   }
 }

@@ -22,10 +22,15 @@
       max-width: 300px;
       text-align: center;
       padding: 30px;
+      transition: transform 0.6s ease-out;
 
       img {
         max-height: 50px;
       }
+    }
+
+    li:hover {
+      transform: scale(1.1);
     }
   }
 }

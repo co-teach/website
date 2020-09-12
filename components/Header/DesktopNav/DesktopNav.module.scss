@@ -4,11 +4,23 @@
   a {
     color: var(--coteach-purple);
   }
+  a:hover,
+  a:focus {
+    // color: var(--coteach-pink);
+    border-bottom: 2px solid var(--coteach-pink);
+  }
+  :global a.active {
+    color: var(--coteach-pink);
+  }
+  :global a.active:hover,
+  :global a.active:focus {
+    border-bottom: none;
+  }
 
   align-self: center;
   display: flex;
   justify-content: flex-end;
-  width: calc(100% - 60px);
+  width: 100%;
 
   ul {
     height: 100%;
@@ -34,5 +46,15 @@
 @media (max-width: 700px) {
   #DesktopNav {
     display: none;
+  }
+}
+
+.transparentBackground {
+  ul {
+    a:hover,
+    a:focus {
+      color: var(--coteach-purple);
+      border-bottom: 2px solid var(--coteach-light) !important;
+    }
   }
 }

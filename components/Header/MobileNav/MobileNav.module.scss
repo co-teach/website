@@ -121,6 +121,14 @@
   font-size: 22px;
 }
 
+#menu li a:hover {
+  color: var(--coteach-pink) !important;
+}
+
+#menu li a.active {
+  color: var(--coteach-pink);
+}
+
 /*
  * And let's slide it in from the left
  */

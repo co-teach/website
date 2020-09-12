@@ -3,6 +3,10 @@
   display: flex;
   height: var(--coteach-header-height);
   background-color: var(--coteach-light);
+
+  a {
+    font-weight: 600;
+  }
 }
 
 .Logo {
@@ -23,7 +27,6 @@
 
   a {
     color: white !important;
-    font-weight: 600 !important;
   }
 }
 

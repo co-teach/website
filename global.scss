@@ -6,7 +6,6 @@
   --coteach-purple: #642882;
   --coteach-pink-rgb: 228, 3, 127;
   --coteach-purple-rgb: 100, 40, 130;
-  --coteach-purple-haze: #bba9bf;
   --coteach-medium: #ccc;
   --coteach-light: #fff;
   --coteach-dark: #111;
@@ -14,9 +13,6 @@
   --coteach-header-height: 70px;
 
   --coteach-border-radius: 20px;
-
-  // Only seen on very large displays
-  background-color: #222;
 }
 
 /* GLOBAL */
@@ -39,7 +35,7 @@ body {
   max-width: 2000px;
   margin: auto;
 
-  background-color: var(--coteach-purple-haze);
+  background-color: var(--coteach-light);
 }
 
 * {
