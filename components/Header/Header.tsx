@@ -10,11 +10,11 @@ const navData = [
     label: "Over Co-Teach",
   },
   {
-    href: "/scholen",
+    href: "/voor-scholen",
     label: "Scholen",
   },
   {
-    href: "/professionals",
+    href: "/voor-professionals",
     label: "Professionals",
   },
 ];

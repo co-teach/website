@@ -1,0 +1,41 @@
+.BodyText {
+  position: relative;
+  margin-top: 20px;
+  columns: 2;
+
+  img {
+    width: 100%;
+  }
+
+  :first-child {
+    margin-top: 0;
+  }
+}
+
+.Lede {
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.pdfDownload {
+  text-align: right;
+  font-style: italic;
+  margin: 10px;
+  font-size: 0.8em;
+
+  a {
+    text-decoration: none;
+    color: rgba(var(--coteach-pink-rgb), 0.3);
+  }
+
+  span {
+    font-weight: 800;
+    font-style: normal;
+  }
+}
+
+@media (max-width: 1000px) {
+  .BodyText {
+    columns: 1;
+  }
+}

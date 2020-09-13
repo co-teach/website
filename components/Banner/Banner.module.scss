@@ -68,8 +68,7 @@
 
 .SignatureHeader {
   position: relative;
-
-  font-weight: 600;
+  font-weight: 500;
   font-size: 3em;
   margin-left: 30px;
   margin-right: 10px;
@@ -80,6 +79,7 @@
     background-color: var(--coteach-pink);
     padding-right: 0.25em;
     padding-bottom: 0.1em;
+    font-weight: 600;
   }
 }
 

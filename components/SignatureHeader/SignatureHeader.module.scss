@@ -1,0 +1,32 @@
+.SignatureHeader {
+  position: relative;
+  font-weight: 500;
+  margin-right: 10px;
+
+  font-size: 2.2em;
+  line-height: 1.6;
+
+  white-space: pre-wrap;
+
+  span:first-child {
+    color: white;
+    background-color: var(--coteach-purple);
+    padding-right: 0.25em;
+    padding-bottom: 0.1em;
+    font-weight: 600;
+  }
+  span:last-child {
+    display: inline;
+  }
+}
+
+.SignatureHeader::before {
+  content: "";
+  background-color: var(--coteach-purple);
+  padding: 0 0 0 30px;
+  position: absolute;
+
+  left: -30px;
+  height: 1.465em;
+  top: 0.1135em;
+}
