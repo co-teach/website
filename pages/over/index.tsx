@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Header from "../../components/Header/Header";
+import ImageDivider from "../../components/ImageDivider/ImageDivider";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <title>Co-Teach Informatica</title>
       </Head>
       <Header />
+      <ImageDivider />
       <main>
         <h1>
           An vero, inquit, quisquam potest probare, quod perceptfum, quod.
