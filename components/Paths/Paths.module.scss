@@ -8,11 +8,16 @@
 
 #Professionals,
 #Schools {
-  background: rgba(var(--coteach-purple-rgb), 0.15);
   color: var(--coteach-dark);
-  padding: 20px 20px;
   max-width: 70ch;
   transition: transform 0.6s ease-out;
+
+  img {
+    display: block;
+    max-height: 200px;
+    margin: auto;
+    transition: transform 0.6s ease-out;
+  }
 
   h2,
   p {
@@ -26,16 +31,30 @@
 
 #Professionals:hover {
   transform: scale(1.01) translateX(5px);
+
+  img {
+    transform: scale(1.05) translateY(-5px) translateX(-5px);
+  }
 }
 #Schools:hover {
   transform: scale(1.01) translateX(-5px);
+
+  img {
+    transform: scale(1.05) translateY(-5px) translateX(5px);
+  }
 }
 
-#Professionals {
+.content {
+  margin-top: 0;
+  background: rgba(var(--coteach-purple-rgb), 0.15);
+  padding: 20px 20px;
+}
+
+#Professionals .content {
   border-radius: 0 var(--coteach-border-radius) var(--coteach-border-radius) 0;
 }
 
-#Schools {
+#Schools .content {
   border-radius: var(--coteach-border-radius) 0 0 var(--coteach-border-radius);
   justify-self: right;
 }
@@ -48,20 +67,36 @@
     grid-gap: 40px;
   }
   #Professionals {
-    border-radius: var(--coteach-border-radius) 0 0 var(--coteach-border-radius);
     grid-area: prof;
     justify-self: right;
+
+    .content {
+      border-radius: var(--coteach-border-radius) 0 0
+        var(--coteach-border-radius);
+    }
   }
   #Schools {
-    border-radius: 0 var(--coteach-border-radius) var(--coteach-border-radius) 0;
     grid-area: scho;
     justify-self: left;
+
+    .content {
+      border-radius: 0 var(--coteach-border-radius) var(--coteach-border-radius)
+        0;
+    }
   }
 
   #Professionals:hover {
     transform: scale(1.01) translateX(-3px);
+
+    img {
+      transform: scale(1.05) translateY(-5px) translateX(3px);
+    }
   }
   #Schools:hover {
     transform: scale(1.01) translateX(3px);
+
+    img {
+      transform: scale(1.05) translateY(-5px) translateX(-3px);
+    }
   }
 }
