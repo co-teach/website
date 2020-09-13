@@ -1,7 +1,8 @@
 import Head from "next/head";
 import React from "react";
 import Header from "../../components/Header/Header";
-import ImageDivider from "../../components/ImageDivider/ImageDivider";
+import Divider from "../../components/Divider/Divider";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
         <title>Co-Teach Informatica</title>
       </Head>
       <Header />
-      <ImageDivider />
+      <Divider marginBottom />
       <main>
         <h1>
           An vero, inquit, quisquam potest probare, quod perceptfum, quod.
@@ -144,6 +145,7 @@ const Home = () => {
           <mark>Quo modo autem philosophus loquitur?</mark>{" "}
         </p>
       </main>
+      <Footer />
     </>
   );
 };

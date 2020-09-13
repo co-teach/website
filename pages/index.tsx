@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import Paths from "../components/Paths/Paths";
 import Partners from "../components/Partners/Partners";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Paths />
         <Partners />
       </main>
+      <Footer />
     </>
   );
 };

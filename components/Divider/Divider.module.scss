@@ -1,7 +1,6 @@
 .ImageDivider {
   position: relative;
   height: 80px;
-  margin-bottom: 30px;
 
   background-color: var(--coteach-purple);
 
@@ -23,4 +22,11 @@
   transform: translateY(-50%) translateX(80%) rotate(45deg);
   overflow: hidden;
   height: 3200px;
+}
+
+.ImageDivider.marginTop {
+  margin-top: 30px;
+}
+.ImageDivider.marginBottom {
+  margin-bottom: 30px;
 }

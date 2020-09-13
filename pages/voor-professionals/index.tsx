@@ -3,6 +3,8 @@ import Head from "next/head";
 import Header from "../../components/Header/Header";
 import classes from "./voor-professionals.module.scss";
 import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
+import Divider from "../../components/Divider/ImageDivider";
+import Footer from "../../components/Footer/Footer";
 
 const Index = (props: {}) => (
   <>
@@ -65,6 +67,7 @@ const Index = (props: {}) => (
         </p>
       </div>
     </main>
+    <Footer />
   </>
 );
 
