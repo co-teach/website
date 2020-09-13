@@ -64,6 +64,11 @@ mark {
 a {
   color: var(--coteach-pink);
   text-decoration-color: rgba(var(--coteach-pink-rgb), 0.25);
+  transition: text-decoration-color 200ms ease-out;
+}
+a:hover,
+a:focus {
+  text-decoration-color: rgba(var(--coteach-pink-rgb), 0.75);
 }
 
 /* Default styling of regular body content */
