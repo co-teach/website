@@ -29,8 +29,15 @@
 .Content {
   padding-top: 50vh;
   padding-bottom: 10vh;
+  margin-right: 20px;
   position: relative;
   z-index: 2;
+
+  h1 {
+    letter-spacing: -0.025em;
+    line-height: 1.35;
+    color: white;
+  }
 
   p {
     font-size: 1.5em;
@@ -72,6 +79,7 @@
   span:first-child {
     background-color: var(--coteach-pink);
     padding-right: 0.25em;
+    padding-bottom: 0.1em;
   }
 }
 
@@ -82,8 +90,8 @@
   position: absolute;
 
   left: -30px;
-  height: 1.38em;
-  margin-top: 0.11em;
+  height: 1.465em;
+  margin-top: -0.005em;
 }
 
 @media (min-height: 1000px) {
@@ -100,5 +108,21 @@
   .Background {
     max-height: 1000px;
     background-position: 50% 40%;
+  }
+}
+
+@media (max-width: 506px) {
+  .Content {
+    h1 {
+      letter-spacing: -0.04em;
+      line-height: 1.6;
+      color: white;
+    }
+  }
+
+  .SignatureHeader::before {
+    left: -30px;
+    height: 1.45em;
+    margin-top: 0.12em;
   }
 }

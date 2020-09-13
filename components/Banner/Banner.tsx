@@ -6,6 +6,7 @@ const Banner = (props: {}) => (
     <div className={classes.Background} />
     <div className={classes.Content}>
       <h1 className={classes.SignatureHeader}>
+        {/* WARNING: The current styling (spacing etc.) is tailored to this sentence. CSS requires an update if changed. */}
         <span>Informatica op school</span>
         <span> ook als er nog geen leraar is.</span>
       </h1>

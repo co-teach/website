@@ -45,15 +45,34 @@ body {
   }
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
+  letter-spacing: -0.05em;
+  line-height: 1.6;
+  color: var(--coteach-purple);
+}
+mark {
+  background-color: rgba(var(--coteach-pink-rgb), 0.3);
+  padding: 1px 4px;
+}
+a {
+  color: var(--coteach-pink);
+  text-decoration-color: rgba(var(--coteach-pink-rgb), 0.25);
 }
 
-a {
-  color: var(--coteach-purple);
-  text-decoration-color: rgba(var(--coteach-purple-rgb), 0.25);
-  font-weight: 700;
+/* Default styling of regular body content */
+main:not(.home) {
+  margin: auto;
+  max-width: 72ch;
+  letter-spacing: -0.01em;
+  padding: 0 20px;
+  color: var(--coteach-dark);
 }
 
 @media (max-width: 1000px) {

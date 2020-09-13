@@ -12,7 +12,7 @@ const Home = () => {
         <title>Co-Teach Informatica</title>
       </Head>
       <Header transparent superSized />
-      <main>
+      <main className="home">
         <Banner />
         <Paths />
         <Partners />
