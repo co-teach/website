@@ -30,17 +30,13 @@
 }
 
 #Professionals:hover {
-  transform: scale(1.01) translateX(5px);
-
   img {
-    transform: scale(1.05) translateY(-5px) translateX(-5px);
+    transform: scale(1.05) translateY(-5px);
   }
 }
 #Schools:hover {
-  transform: scale(1.01) translateX(-5px);
-
   img {
-    transform: scale(1.05) translateY(-5px) translateX(5px);
+    transform: scale(1.05) translateY(-5px);
   }
 }
 
@@ -84,21 +80,6 @@
     .content {
       border-radius: 0 var(--coteach-border-radius) var(--coteach-border-radius)
         0;
-    }
-  }
-
-  #Professionals:hover {
-    transform: scale(1.01) translateX(-3px);
-
-    img {
-      transform: scale(1.05) translateY(-5px) translateX(3px);
-    }
-  }
-  #Schools:hover {
-    transform: scale(1.01) translateX(3px);
-
-    img {
-      transform: scale(1.05) translateY(-5px) translateX(-3px);
     }
   }
 }
