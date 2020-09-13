@@ -54,9 +54,11 @@
   border-radius: 0 var(--coteach-border-radius) var(--coteach-border-radius) 0;
 }
 
+#Schools {
+  justify-self: right;
+}
 #Schools .content {
   border-radius: var(--coteach-border-radius) 0 0 var(--coteach-border-radius);
-  justify-self: right;
 }
 
 @media (max-width: 1000px) {
