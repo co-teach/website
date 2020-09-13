@@ -62,3 +62,8 @@
     color: white !important;
   }
 }
+
+#DesktopNav.superSized {
+  align-self: auto;
+  top: calc(var(--coteach-header-height) / 3);
+}

@@ -7,13 +7,17 @@ import { useRouter } from "next/router";
 const DesktopNav = (props: {
   navData: navItem[];
   headerIsTransparent: boolean | undefined;
+  headerIsSupersized: boolean | undefined;
 }) => {
   const router = useRouter();
 
   return (
     <nav
       id={classes.DesktopNav}
-      className={props.headerIsTransparent ? classes.transparentBackground : ""}
+      className={[
+        props.headerIsTransparent ? classes.transparentBackground : "",
+        props.headerIsSupersized ? classes.superSized : "",
+      ].join(" ")}
     >
       <ul>
         {props.navData.map((navItem) => (

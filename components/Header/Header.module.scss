@@ -26,6 +26,10 @@
   background-color: transparent;
 }
 
-.SupersizedHeader {
-  --coteach-header-height: 120px;
+.Header.SupersizedHeader {
+  height: var(--coteach-supersized-header-height);
+
+  .Logo {
+    height: calc(var(--coteach-supersized-header-height) - 10px);
+  }
 }

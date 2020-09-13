@@ -43,7 +43,11 @@ const Header = (props: { transparent?: boolean; superSized?: boolean }) => {
           />
         </a>
       </Link>
-      <DesktopNav navData={navData} headerIsTransparent={props.transparent} />
+      <DesktopNav
+        navData={navData}
+        headerIsTransparent={props.transparent}
+        headerIsSupersized={props.superSized}
+      />
       <MobileNav navData={navData} headerIsTransparent={props.transparent} />
     </header>
   );
