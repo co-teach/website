@@ -5,7 +5,11 @@ import Link from "next/link";
 const Paths = (props: {}) => (
   <section id={classes.Paths}>
     <div id={classes.Professionals}>
-      <img src="/images/professionals_illustration.svg" aria-hidden />
+      <Link href="/voor-professionals">
+        <a>
+          <img src="/images/professionals_illustration.svg" aria-hidden />
+        </a>
+      </Link>
       <div className={classes.content}>
         <h2>Voor bedrijven en professionals met oog voor de toekomst</h2>
         <ul>
@@ -25,7 +29,11 @@ const Paths = (props: {}) => (
       </div>
     </div>
     <div id={classes.Schools}>
-      <img src="/images/schools_illustration.svg" aria-hidden />
+      <Link href="/voor-scholen">
+        <a>
+          <img src="/images/schools_illustration.svg" aria-hidden />
+        </a>
+      </Link>
       <div className={classes.content}>
         <h2>Voor leerlingen die hun hart willen volgen</h2>
         <ul>
