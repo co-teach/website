@@ -9,7 +9,7 @@ const Paths = (props: {}) => (
       <div className={classes.content}>
         <h2>Voor bedrijven en professionals met oog voor de toekomst</h2>
         <ul>
-          <li>Enthusiasmeer leerlingen om in IT te werken</li>
+          <li>Enthousiasmeer leerlingen om in IT te werken</li>
           <li>Gebruik je expertise om authentieke uitdagingen te ontwerpen</li>
           <li>Bouw bekwaamheden op in lesgeven en communicatie</li>
           <li>Lever een maatschappelijke bijdrage in digitale geletterheid</li>
