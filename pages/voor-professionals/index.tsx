@@ -15,7 +15,7 @@ const Index = (props: {}) => (
     <main className={classes.Article}>
       <SignatureHeader
         title="Draag bij aan meer informatica op scholen"
-        subtitle="Co-teach Informatica"
+        subtitle="Co-teach Informatica."
       />
 
       <img src={"/images/decorative_1.png"} aria-hidden />
