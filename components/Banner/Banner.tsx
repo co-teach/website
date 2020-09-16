@@ -8,14 +8,16 @@ const Banner = (props: {}) => (
       <h1 className={classes.SignatureHeader}>
         {/* WARNING: The current styling (spacing etc.) is tailored to this sentence. CSS requires an update if changed. */}
         <span>Informatica op school</span>
-        <span> ook als er nog geen leraar is.</span>
+        <span> dat doen we samen.</span>
       </h1>
       <p>
-        Dat ICT-vaardigheden er toe doen, staat buiten kijf. Middelbare scholen
-        en leerlingen staan dan ook te popelen om aan de slag te gaan met
-        informatica, maar de vraag naar docenten is al jaren groter dan het
-        aanbod. Wij willen in 2023 ruim 3000 leerlingen Informatica onderwijs
-        aan kunnen bieden - <strong>doe jij mee?</strong>
+        Middelbare scholen en leerlingen staan te popelen om aan de slag te gaan
+        met informatica, maar de vraag naar docenten is al jaren groter dan het
+        aanbod. Gelukkig zit Nederland bomvol enthousiast IT talent. Binnen
+        Co-Teach Informatica ontwikkelen zij projectonderwijs naar hun
+        expertise, samen met bevoegde leraren en vakdidactici. Co-Teaching
+        noemen we dat. Zo willen wij in 2023 minstens 3000 extra leerlingen
+        informatica aan kunnen bieden – <strong>doe jij mee?</strong>
       </p>
     </div>
   </section>
