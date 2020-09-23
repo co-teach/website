@@ -58,6 +58,15 @@ h6 {
   line-height: 1.35;
   color: var(--coteach-purple);
 }
+p {
+  margin-top: 0;
+}
+h1 {
+  margin-bottom: 1em;
+}
+h2 {
+  margin-bottom: 0.2em;
+}
 mark {
   background-color: rgba(var(--coteach-pink-rgb), 0.3);
   padding: 1px 4px;
@@ -78,9 +87,17 @@ blockquote {
   font-size: 1.2em;
   margin: 0;
   line-height: 1.35;
+  margin-bottom: 1em;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid var(--coteach-purple);
 }
 
 ul,
+ol,
 li {
   padding-left: 0;
   margin-left: 0.75em;
