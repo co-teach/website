@@ -1,7 +1,11 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import classes from "./Divider.module.scss";
 
-const Divider = (props: { marginTop?: boolean; marginBottom?: boolean }) => {
+const Divider = (props: {
+  marginTop?: boolean;
+  marginBottom?: boolean;
+  children?: ReactElement;
+}) => {
   let classNames = [classes.ImageDivider];
 
   if (props.marginTop) {
@@ -11,7 +15,7 @@ const Divider = (props: { marginTop?: boolean; marginBottom?: boolean }) => {
     classNames.push(classes.marginBottom);
   }
 
-  return <div className={classNames.join(" ")} />;
+  return <div className={classNames.join(" ")}>{props.children}</div>;
 };
 
 export default Divider;
