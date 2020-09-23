@@ -57,12 +57,14 @@ h6 {
   letter-spacing: -0.05em;
   line-height: 1.35;
   color: var(--coteach-purple);
+  font-weight: 600;
 }
 p {
   margin-top: 0;
 }
 h1 {
   margin-bottom: 1em;
+  font-size: 2em;
 }
 h2 {
   margin-bottom: 0.2em;
@@ -91,7 +93,8 @@ blockquote {
 }
 
 hr {
-  margin: 20px 0;
+  max-width: 80ch;
+  margin: 60px auto;
   border: none;
   border-bottom: 1px solid var(--coteach-purple);
 }
@@ -110,8 +113,6 @@ li::marker {
 
 /* Default styling of regular body content */
 main:not(.home) {
-  margin: auto;
-  max-width: 80ch;
   letter-spacing: -0.01em;
   padding: 0 20px;
   color: var(--coteach-dark);
@@ -122,8 +123,25 @@ main:not(.home) {
   }
 }
 
+main:not(.home) section {
+  max-width: 72ch;
+  margin: auto;
+}
+main:not(.home) section.columns {
+  margin: auto;
+  max-width: 110ch;
+}
+
 @media (max-width: 1000px) {
   #__next {
     font-size: 14px;
+  }
+
+  main:not(.home) section.columns {
+    max-width: 72ch;
+  }
+
+  hr {
+    margin: 20px auto;
   }
 }
