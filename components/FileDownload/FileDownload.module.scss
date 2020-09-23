@@ -1,0 +1,52 @@
+.FileDownload {
+  position: relative;
+  display: grid;
+  grid-template-areas: "icon text download";
+  grid-template-columns: 50px 1fr 50px;
+  background-color: var(--coteach-purple);
+  color: white;
+  padding: 20px 10px;
+  border-radius: 3px;
+  align-items: center;
+  text-decoration: none;
+  max-width: 600px;
+
+  div:first-child {
+    grid-area: icon;
+  }
+  div:nth-child(2) {
+    grid-area: text;
+    word-break: break-word;
+    font-size: 1.2em;
+  }
+  div:nth-child(3) {
+    color: rgba(256, 256, 256, 0.5);
+    transition: color 200ms ease;
+    grid-area: download;
+  }
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.FileDownload:hover div:nth-child(3) {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .FileDownload {
+    div:nth-child(2) {
+      grid-area: text;
+      word-break: break-word;
+      font-size: 1em;
+    }
+  }
+}
