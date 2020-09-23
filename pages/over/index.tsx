@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Divider from "../../components/Divider/Divider";
 import Footer from "../../components/Footer/Footer";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -13,136 +14,105 @@ const Home = () => {
       <Header />
       <Divider marginBottom />
       <main>
-        <h1>
-          An vero, inquit, quisquam potest probare, quod perceptfum, quod.
-        </h1>
+        <h1>Over Co-Teach Informatica</h1>
 
+        <h2>Wat?</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Omnia
-          contraria, quos etiam insanos esse vultis. <mark>Equidem e Cn.</mark>{" "}
-          <b>Traditur, inquit, ab Epicuro ratio neglegendi doloris.</b>{" "}
-          Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem
-          iam cur Peripateticum appellem nescio.{" "}
-          <b>Itaque hic ipse iam pridem est reiectus;</b> Duo Reges: constructio
-          interrete.{" "}
+          Co-Teach Informatica is een pilotproject waarin met behulp van
+          gastdocenten uit het bedrijfsleven, universiteiten, en rijksinstanties
+          het{" "}
+          <strong>
+            vak informatica aangeboden kan worden op middelbare scholen – ook
+            zonder informaticaleraar
+          </strong>
+          . Dit begeleid door een regionaal vaksteunpunt en een online leerlijn
+          die het schoolexamen informatica omvat.
         </p>
 
-        <ol>
-          <li>Haec et tu ita posuisti, et verba vestra sunt.</li>
-          <li>
-            Nos autem non solum beatae vitae istam esse oblectationem videmus,
-            sed etiam levamentum miseriarum.
-          </li>
-          <li>
-            Ut enim consuetudo loquitur, id solum dicitur honestum, quod est
-            populari fama gloriosum.
-          </li>
-        </ol>
-
-        <h2>Tecum optime, deinde etiam cum mediocri amico.</h2>
-
+        <h2>Waarom?</h2>
         <p>
-          <a href="http://loripsum.net/" target="_blank">
-            Sed ne, dum huic obsequor, vobis molestus sim.
-          </a>{" "}
-          Primum Theophrasti, Strato, physicum se voluit;{" "}
-          <code>Si quae forte-possumus.</code> Audax negotium, dicerem impudens,
-          nisi hoc institutum postea translatum ad philosophos nostros esset.{" "}
-          <code>Quae cum essent dicta, discessimus.</code>{" "}
-          <a href="http://loripsum.net/" target="_blank">
-            Sed hoc sane concedamus.
-          </a>{" "}
-          Neque solum ea communia, verum etiam paria esse dixerunt.{" "}
-        </p>
-
-        <ul>
-          <li>Bonum incolumis acies: misera caecitas.</li>
-          <li>
-            Quos nisi redarguimus, omnis virtus, omne decus, omnis vera laus
-            deserenda est.
-          </li>
-          <li>Prioris generis est docilitas, memoria;</li>
-          <li>Cur id non ita fit?</li>
-          <li>Tu enim ista lenius, hic Stoicorum more nos vexat.</li>
-          <li>
-            Aut unde est hoc contritum vetustate proverbium: quicum in tenebris?
-          </li>
-        </ul>
-
-        <dl>
-          <dt>
-            <dfn>Nihilo magis.</dfn>
-          </dt>
-          <dd>Restatis igitur vos;</dd>
-          <dt>
-            <dfn>Moriatur, inquit.</dfn>
-          </dt>
-          <dd>Haeret in salebra.</dd>
-          <dt>
-            <dfn>Paria sunt igitur.</dfn>
-          </dt>
-          <dd>
-            Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae
-            recordamur.
-          </dd>
-          <dt>
-            <dfn>Poterat autem inpune;</dfn>
-          </dt>
-          <dd>
-            Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti
-            videmus boves, nepas aculeis.
-          </dd>
-        </dl>
-
-        <blockquote cite="http://loripsum.net">
-          Tenuit permagnam <i>[redacted]</i>tilius hereditatem, unde, si secutus
-          esset eorum sententiam, qui honesta et recta emolumentis omnibus et
-          commodis anteponerent, nummum nullum attigisset.
-        </blockquote>
-
-        <pre>
-          Tum ille: Tu autem cum ipse tantum librorum habeas, quos hic tandem
-          requiris? Quo igitur, inquit, modo?
-        </pre>
-
-        <h3>
-          Sed quia studebat laudi et dignitati, multum in virtute processerat.
-        </h3>
-
-        <p>
-          Ita fit ut, quanta differentia est in principiis naturalibus, tanta
-          sit in finibus bonorum malorumque dissimilitudo. Itaque haec cum illis
-          est dissensio, cum Peripateticis nulla sane. Expectoque quid ad id,
-          quod quaerebam, respondeas.{" "}
-          <a href="http://loripsum.net/" target="_blank">
-            Quid de Pythagora?
-          </a>{" "}
-          <code>Sed haec in pueris;</code> Similiter sensus, cum accessit ad
-          naturam, tuetur illam quidem, sed etiam se tuetur;{" "}
+          Informatica kent erg grote tekorten. Het vak wordt daardoor steeds
+          minder aangeboden op scholen terwijl steeds meer leerlingen het willen
+          volgen. Wij stellen scholen in staat om (weer) informatica aan te
+          bieden wanneer er geen bevoegd docent beschikbaar is. Het doel is om
+          in 2024 120 getrainde gastdocenten te hebben en minstens 3000
+          leerlingen van informatica onderwijs te hebben voorzien.
         </p>
 
         <p>
-          Modo etiam paulum ad dexteram de via declinavi, ut ad Pericli
-          sepulcrum accederem. Ut optime, secundum naturam affectum esse possit.
-          Non igitur de improbo, sed de callido improbo quaerimus, qualis Q.
-          Respondent extrema primis, media utrisque, omnia omnibus. Putabam
-          equidem satis, inquit, me dixisse.{" "}
-          <i>Videamus animi partes, quarum est conspectus illustrior;</i>{" "}
+          Een bijkomend voordeel van deze vorm is dat het{" "}
+          <strong>
+            informatica-onderwijs dichter bij de dagelijkse praktijk brengt
+          </strong>
+          . Daarom werken we ook met scholen die <em>wel</em> een bevoegd
+          informaticadocent hebben, of die deze in de loop van het project
+          aantrekken.
         </p>
 
+        <h2>Hoe?</h2>
+        <img
+          src="/images/co-teach_hoe.png"
+          alt="Co-teaching en een online leerlijn maken het eindexamen mogelijk."
+          style={{ margin: "20px 0px" }}
+        />
         <p>
-          <a href="http://loripsum.net/" target="_blank">
-            Sed plane dicit quod intellegit.
-          </a>{" "}
-          Audio equidem philosophi vocem, Epicure, sed quid tibi dicendum sit
-          oblitus es. Quasi vero, inquit, perpetua oratio rhetorum solum, non
-          etiam philosophorum sit. Quod ea non occurrentia fingunt, vincunt
-          Aristonem;{" "}
-          <code>
-            Ergo illi intellegunt quid Epicurus dicat, ego non intellego?
-          </code>{" "}
-          An haec ab eo non dicuntur?{" "}
-          <mark>Quo modo autem philosophus loquitur?</mark>{" "}
+          Scholen, lerarenopleidingen en het ICT-bedrijfsleven werken aan:
+          <ol>
+            <li>
+              <strong>Co-teaching</strong> van projectonderwijs door
+              inhoudsdeskundige gastdocenten en (anders-)bevoegde leraren in
+              onderbouw en bovenbouw havo/vwo. Dit hele proces, van
+              vooropleiding tot projectontwikkeling, van uitvoer tot
+              examinering, wordt ondersteund door een regionale vakdidacticus.
+            </li>
+            <li>
+              Het ontwikkelen en aanbieden van een{" "}
+              <strong>online leerlijn</strong> voor de (verplichte en
+              keuze-)informaticadomeinen uit het examenprogramma (naar voorbeeld
+              van{" "}
+              <a href="https://www.ou.nl/web/wiskunde-d">Wiskunde D online</a>
+              ). Deze leerlijn wordt ondersteund door een regionaal vaksteunpunt
+              (bemenst door studenten informatica).
+            </li>
+            <li>
+              Ook steunen we scholen in het{" "}
+              <strong>vormgeven van hun schoolexamens</strong> in de bovenbouw,
+              en maken het zo mogelijk dat leerlingen in informatica kunnen
+              afstuderen.
+            </li>
+          </ol>
+        </p>
+
+        <h2>Waar?</h2>
+        <p>
+          Het pilotproject start in{" "}
+          <strong>Amsterdam, Utrecht en Twente</strong>. Als het project
+          succesvol blijkt wordt Co-Teach Informatica ook uitgezet in andere
+          regio's.
+        </p>
+
+        <h2>Wanneer?</h2>
+        <p>
+          2020-2021 geldt als opstartjaar, waarin we met een kleine groep
+          scholen per regio beginnen met het opzetten van projectonderwijs in de
+          derde klas (HAVO/VWO). Het doel is dat zoveel mogelijk leerlingen
+          kennismaken met het vak, om hen te motiverenvoor een gefundeerde keus
+          voor het vak in de bovenbouw.
+        </p>
+        <p>
+          In de opvolgende jaren breiden we uit naar meer scholen en de
+          bovenbouw.{" "}
+          <strong>
+            Aanmelden kan ten alle tijden via de formulieren voor{" "}
+            <Link href="/voor-scholen">
+              <a>scholen</a>
+            </Link>{" "}
+            en{" "}
+            <Link href="/voor-professionals">
+              <a>professionals</a>
+            </Link>
+          </strong>
+          .
         </p>
       </main>
       <Footer />
