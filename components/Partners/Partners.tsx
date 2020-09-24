@@ -69,6 +69,7 @@ const Partners = (props: {}) => (
             <a
               href={partner.website ? partner.website.toString() : "#"}
               target="_blank"
+              rel="noopener"
             >
               <img
                 src={`/images/partners/${partner.slug}_logo.${partner.fileType}`}

@@ -78,7 +78,11 @@ const Home = () => {
             Het ontwikkelen en aanbieden van een online leerlijn voor de{" "}
             <strong>informaticadomeinen uit het examenprogramma</strong> (naar
             voorbeeld van{" "}
-            <a href="https://www.ou.nl/web/wiskunde-d" target="_blank">
+            <a
+              href="https://www.ou.nl/web/wiskunde-d"
+              target="_blank"
+              rel="noreferrer"
+            >
               Wiskunde D online
             </a>
             ). Leerlingbegeleiding op het online leerplatform gebeurt vanuit het

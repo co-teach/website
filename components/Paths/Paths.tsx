@@ -6,7 +6,7 @@ const Paths = (props: {}) => (
   <section id={classes.Paths}>
     <div id={classes.Professionals}>
       <Link href="/voor-professionals">
-        <a>
+        <a aria-hidden>
           <img src="/images/professionals_illustration.svg" aria-hidden />
         </a>
       </Link>
@@ -30,7 +30,7 @@ const Paths = (props: {}) => (
     </div>
     <div id={classes.Schools}>
       <Link href="/voor-scholen">
-        <a>
+        <a aria-hidden>
           <img src="/images/schools_illustration.svg" aria-hidden />
         </a>
       </Link>
