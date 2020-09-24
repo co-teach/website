@@ -22,7 +22,12 @@ const Index = (props: {}) => (
             subtitle="Co-teach Informatica."
           />
 
-          <img src={"/images/decorative_1.jpg"} aria-hidden />
+          <img
+            src={"/images/decorative_1.jpg"}
+            width="1219px"
+            height="834px"
+            aria-hidden
+          />
 
           <div className={classes.pdfDownload}>
             <a
