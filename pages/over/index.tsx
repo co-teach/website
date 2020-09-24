@@ -1,9 +1,10 @@
 import Head from "next/head";
 import React from "react";
 import Header from "../../components/Header/Header";
-import Divider from "../../components/Divider/Divider";
 import Footer from "../../components/Footer/Footer";
 import Link from "next/link";
+import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
+import classes from "./over.module.scss";
 
 const Home = () => {
   return (
@@ -12,10 +13,9 @@ const Home = () => {
         <title>Over Co-Teach Informatica</title>
       </Head>
       <Header />
-      <Divider marginBottom />
-      <main>
+      <main className={classes.Over}>
         <section>
-          <h1>Over Co-Teach Informatica</h1>
+          <SignatureHeader title="Over Co-Teach Informatica" subtitle="" />
 
           <h2>Wat?</h2>
           <p>
