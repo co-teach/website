@@ -71,7 +71,9 @@ const Home = () => {
                 <strong>online leerlijn</strong> voor de (verplichte en
                 keuze-)informaticadomeinen uit het examenprogramma (naar
                 voorbeeld van{" "}
-                <a href="https://www.ou.nl/web/wiskunde-d">Wiskunde D online</a>
+                <a href="https://www.ou.nl/web/wiskunde-d" target="_blank">
+                  Wiskunde D online
+                </a>
                 ). Deze leerlijn wordt ondersteund door een regionaal
                 vaksteunpunt (bemenst door studenten informatica).
               </li>
