@@ -19,6 +19,9 @@ const Banner = (props: {}) => (
         noemen we dat. Zo willen wij in 2023 minstens 3000 extra leerlingen
         eindexamen informatica kunnen laten doen – <strong>doe jij mee?</strong>
       </p>
+      <div className={classes.Downwards} aria-hidden>
+        ﹀
+      </div>
     </div>
   </section>
 );

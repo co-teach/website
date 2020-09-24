@@ -96,6 +96,16 @@
   margin-top: -0.005em;
 }
 
+.Downwards {
+  color: var(--coteach-white);
+  text-align: center;
+  font-weight: 800;
+  pointer-events: none;
+  user-select: none;
+  font-size: 2em;
+  margin-bottom: -1.5em;
+}
+
 @media (min-height: 1000px) {
   .Banner {
     min-height: 0;
@@ -110,6 +120,13 @@
   .Background {
     max-height: 1000px;
     background-position: 50% 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Downwards {
+    text-align: left;
+    padding-left: 30px;
   }
 }
 
