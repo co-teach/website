@@ -20,11 +20,14 @@ const Index = (props: {}) => (
 
       <img src={"/images/decorative_2.png"} aria-hidden />
 
-      <div className={classes.pdfDownload}>
-        <a href="#">
-          <span>🗎</span> ook in pdf-formaat beschikbaar
-        </a>
-      </div>
+          <div className={classes.pdfDownload}>
+            <a
+              href="/docs/co-teach-informatica_flyer_scholen.pdf"
+              target="_blank"
+            >
+              <span>🗎</span> ook in pdf-formaat beschikbaar
+            </a>
+          </div>
 
       <p className={classes.Lede}>
         ICT-vaardigheden doen ertoe, dat staat buiten kijf. Toch biedt minder

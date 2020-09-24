@@ -95,6 +95,16 @@ blockquote {
   margin-bottom: 1em;
 }
 
+details summary {
+  color: var(--coteach-pink);
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+details summary * {
+  display: inline;
+}
+
 hr {
   max-width: var(--coteach-char-width);
   margin: 30px auto;

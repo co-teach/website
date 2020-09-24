@@ -25,7 +25,10 @@ const Index = (props: {}) => (
           <img src={"/images/decorative_1.png"} aria-hidden />
 
           <div className={classes.pdfDownload}>
-            <a href="#">
+            <a
+              href="/docs/co-teach-informatica_flyer_professionals.pdf"
+              target="_blank"
+            >
               <span>🗎</span> ook in pdf-formaat beschikbaar
             </a>
           </div>
