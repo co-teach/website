@@ -2,4 +2,21 @@
   h2:first-of-type {
     margin-top: 0.75em;
   }
+
+  h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+  }
+
+  h3 span {
+    background: var(--coteach-purple);
+    color: white;
+    border-radius: 100%;
+    width: 1.55em;
+    height: 1.55em;
+    text-align: center;
+    display: inline-block;
+    font-weight: 800;
+    margin-right: 7px;
+  }
 }

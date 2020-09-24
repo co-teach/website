@@ -130,9 +130,9 @@ const Index = (props: {}) => (
           <h2>Meld je aan</h2>
           <p>
             Ben jij een leerling die informatica wil kunnen volgen, een
-            schoolbestuurder die het vak wil aanbieden, of een
-            informatica-leraar die het bedrijfsleven het klaslokaal in wil
-            halen? Vul dan onderstaand formulier in.
+            schoolbestuurder die het vak wil aanbieden, of een informatica
+            leraar die het bedrijfsleven het klaslokaal in wil halen? Vul dan
+            onderstaand formulier in.
           </p>
           <iframe
             className={classes.Survey}

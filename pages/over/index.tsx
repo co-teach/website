@@ -19,15 +19,16 @@ const Home = () => {
 
           <h2>Wat?</h2>
           <p>
-            Co-Teach Informatica is een pilotproject waarin met behulp van
-            gastdocenten uit het bedrijfsleven, universiteiten, en
-            rijksinstanties het{" "}
+            Co-Teach Informatica is een pilotproject waarin scholen het{" "}
+            <strong>eindexamenvak informatica kunnen aanbieden</strong> door een
+            combinatie van projectonderwijs door IT professionals en een online
+            leerlijn –{" "}
             <strong>
-              vak informatica aangeboden kan worden op middelbare scholen – ook
-              zonder informaticaleraar
-            </strong>
-            . Dit begeleid door een regionaal vaksteunpunt en een online
-            leerlijn die het schoolexamen informatica omvat.
+              ook wanneer een school (nog) geen informaticaleraar in dienst
+              heeft.
+            </strong>{" "}
+            Het project start op met havo/vwo leerlingen in klas 3 en de
+            bovenbouw.
           </p>
 
           <h2>Waarom?</h2>
@@ -35,18 +36,19 @@ const Home = () => {
             Informatica kent erg grote tekorten. Het vak wordt daardoor steeds
             minder aangeboden op scholen terwijl steeds meer leerlingen het
             willen volgen. Wij stellen scholen in staat om (weer) informatica
-            aan te bieden wanneer er geen bevoegd docent beschikbaar is. Het
-            doel is om in 2024 120 getrainde gastdocenten te hebben en minstens
-            3000 leerlingen van informatica onderwijs te hebben voorzien.
+            aan te bieden als er geen bevoegde leraar beschikbaar is. Het doel
+            is om in 2024 120 getrainde gastdocenten te hebben en minstens 3000
+            extra leerlingen van informatica onderwijs te hebben voorzien,
+            uitmondend in het eindexamen.
           </p>
 
           <p>
-            Een bijkomend voordeel van deze vorm is dat het{" "}
+            Een bijkomend voordeel is dat co-teaching het{" "}
             <strong>
               informatica-onderwijs dichter bij de dagelijkse praktijk brengt
             </strong>
             . Daarom werken we ook met scholen die <em>wel</em> een bevoegd
-            informaticadocent hebben, of die deze in de loop van het project
+            informaticaleraar hebben, of die deze in de loop van het project
             aantrekken.
           </p>
 
@@ -56,34 +58,43 @@ const Home = () => {
             alt="Co-teaching en een online leerlijn maken het eindexamen mogelijk."
             style={{ margin: "20px 0px" }}
           />
+          <h3>
+            <span>1</span>Co-Teaching
+          </h3>
           <p>
-            Scholen, lerarenopleidingen en het ICT-bedrijfsleven werken aan:
-            <ol>
-              <li>
-                <strong>Co-teaching</strong> van projectonderwijs door
-                inhoudsdeskundige gastdocenten en (anders-)bevoegde leraren in
-                onderbouw en bovenbouw havo/vwo. Dit hele proces, van
-                vooropleiding tot projectontwikkeling, van uitvoer tot
-                examinering, wordt ondersteund door een regionale vakdidacticus.
-              </li>
-              <li>
-                Het ontwikkelen en aanbieden van een{" "}
-                <strong>online leerlijn</strong> voor de (verplichte en
-                keuze-)informaticadomeinen uit het examenprogramma (naar
-                voorbeeld van{" "}
-                <a href="https://www.ou.nl/web/wiskunde-d" target="_blank">
-                  Wiskunde D online
-                </a>
-                ). Deze leerlijn wordt ondersteund door een regionaal
-                vaksteunpunt (bemenst door studenten informatica).
-              </li>
-              <li>
-                Ook steunen we scholen in het{" "}
-                <strong>vormgeven van hun schoolexamens</strong> in de
-                bovenbouw, en maken het zo mogelijk dat leerlingen in
-                informatica kunnen afstuderen.
-              </li>
-            </ol>
+            Het verzorgen van <strong>projectonderwijs</strong> door een tandem
+            van een inhoudsdeskundige gastdocent en een (anders-)bevoegde leraar
+            van de school in kwestie. Hiervoor werken we samen met experts uit
+            het bedrijfsleven en vanuit universiteiten en rijksinstanties. Een
+            regionale vakdidacticus verzorgt de begeleiding van het gehele
+            traject.
+          </p>
+
+          <h3>
+            <span>2</span>Online Leerlijn
+          </h3>
+
+          <p>
+            Het ontwikkelen en aanbieden van een online leerlijn voor de{" "}
+            <strong>informaticadomeinen uit het examenprogramma</strong> (naar
+            voorbeeld van{" "}
+            <a href="https://www.ou.nl/web/wiskunde-d" target="_blank">
+              Wiskunde D online
+            </a>
+            ). Leerlingbegeleiding op het online leerplatform gebeurt vanuit het
+            regionale vaksteunpunt.
+          </p>
+
+          <h3>
+            <span>3</span>Eindexamen
+          </h3>
+
+          <p>
+            Met de expertise van het SLO in hand, steunen we op landelijk en
+            regionaal niveau scholen in het{" "}
+            <strong>vormgeven van hun schoolexamens</strong> in de bovenbouw, en
+            maken het zo mogelijk dat leerlingen in informatica eindexamen
+            kunnen doen.
           </p>
 
           <h2>Waar?</h2>
@@ -98,15 +109,15 @@ const Home = () => {
           <p>
             2020-2021 geldt als opstartjaar, waarin we met een kleine groep
             scholen per regio beginnen met het opzetten van projectonderwijs in
-            de derde klas (HAVO/VWO). Het doel is dat zoveel mogelijk leerlingen
+            de derde klas (havo/vwo). Het doel is dat zoveel mogelijk leerlingen
             kennismaken met het vak, om hen te motiverenvoor een gefundeerde
-            keus voor het vak in de bovenbouw.
+            keuze voor het vak in de bovenbouw.
           </p>
           <p>
             In de opvolgende jaren breiden we uit naar meer scholen en de
             bovenbouw.{" "}
             <strong>
-              Aanmelden kan ten alle tijden via de formulieren voor{" "}
+              Aanmelden kan te allen tijde via de formulieren voor{" "}
               <Link href="/voor-scholen">
                 <a>scholen</a>
               </Link>{" "}

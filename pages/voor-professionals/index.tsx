@@ -85,8 +85,9 @@ const Index = (props: {}) => (
             </summary>
             <p>
               Als gastdocent geef je vorm aan <strong>40 studielasturen</strong>
-              . Om dit mogelijk te maken vragen we werkgevers om deze uren vrij
-              te maken voor enthousiaste medewerkers. Gelukkig hebben veel
+              : 40 klokuren waarin leerlingen binnen en buiten het klaslokaal
+              aan de slag gaan met jouw project. Om dit mogelijk te maken vragen
+              we je werkgever om deze uren vrij te maken. Gelukkig hebben veel
               bedrijven al regelingen om een maatschappelijke bijdrage te
               leveren namens het bedrijf voor 40 (of meer) uur. En uiteraard
               verwelkomt Co-Teach ook zzp'ers. Let op dat het hele traject,
@@ -101,12 +102,12 @@ const Index = (props: {}) => (
               helpt ons om een groep leerlingen te vinden die voorbereid is om
               in jouw wereld te duiken. Ook vragen we je alvast wat voor
               tijdsinzet mogelijk is voor je: verspreid over meerdere weken of
-              juist instensief (bijv. een projectweek).
+              juist intensief (bijv. een projectweek).
             </p>
             <p>
               Nadat je je aangemeld hebt wordt je opgenomen in de Co-Teach
-              gastdocent-database. Geen zorgen, deze is AVG-proof en wordt
-              beheerd door de Universiteit van Utrecht (lees{" "}
+              database. Geen zorgen, deze is AVG-proof en wordt beheerd door de
+              Universiteit Utrecht (lees{" "}
               <Link href="/privacyverklaring">
                 <a>onze privacyverklaring</a>
               </Link>
@@ -121,33 +122,34 @@ const Index = (props: {}) => (
 
             <h3>Het trainings- en ontwikkelingstraject</h3>
             <p>
-              Wanneer we een goede match voor je gevonden hebben sturen we je
-              een uitnodiging om daadwerkelijk een co-teach traject af te
-              leggen. Nadat jij en je werkgever (waar van toepassing) akkoord
-              zijn gegaan met de voorwaarden, begint het voortraject.
+              Wanneer we een goede match voor je gevonden hebben, leggen we
+              contact met je over ons voorstel. Nadat jij en je werkgever (waar
+              van toepassing) akkoord zijn gegaan met de voorwaarden, begint het
+              voortraject.
             </p>
             <p>
               Je zult daarin eerst een crash course (vak)pedagogische kennis en
-              vaardigheden ontvangen. Vervolgens werk je een-op-een met een
+              vaardigheden volgen. Vervolgens werk je een-op-een met een
               regionale vakdidacticus die je helpt om het aanstaande
               projectonderwijs vorm te geven. Zo zorgen we ervoor dat er goede
-              aansluiting is tussen de kennis van jou en de leerlingen. Ook zoek
-              je samen naar de beste vormen: waar virtueel of fysiek, en waar
-              theorie of praktijk? Tot slot ga je ook nadenken over examinering:
-              wanneer weet je dat leerlingen de leerstof hebben opgenomen?
+              aansluiting is tussen jouw kennis en die van de leerlingen. Ook
+              zoek je samen naar de beste vormen: waar virtueel of fysiek, en
+              waar theorie of praktijk? Tot slot ga je ook nadenken over
+              examinering: wanneer weet je dat leerlingen de leerstof hebben
+              opgenomen?
             </p>
 
             <h3>Co-Teaching</h3>
             <p>
               Met je project op zak ga je aan de slag op jouw school. Hier werk
               je samen met een co-teacher: een (anders-)bevoegde docent die je
-              ondersteund tijdens het projectonderwijs. Op afstand kijkt ook de
+              ondersteunt tijdens het projectonderwijs. Op afstand kijkt ook de
               vakdidacticus mee naar de voortgang.
             </p>
 
             <p>
-              Afhankelijk van de wensen van de school werk je samen met één of
-              meer klassen binnen de 40 studielasturen.
+              Afhankelijk van de wensen van de school werk je met één of meer
+              klassen binnen de 40 studielasturen.
             </p>
 
             <h3>Afronding</h3>
@@ -168,8 +170,8 @@ const Index = (props: {}) => (
             <p>
               Co-Teach Informatica zet in op bedrijven die hun medewerkers uren
               geven om een maatschappelijke bijdrage te leveren en deze uren
-              willen inzetten om informaticaonderwijs te verbeteren, al dan niet
-              mogelijk te maken.
+              willen inzetten om informaticaonderwijs te verbeteren en te
+              stimuleren.
             </p>
 
             <p>
@@ -191,7 +193,7 @@ const Index = (props: {}) => (
         <section>
           <h2>Meld je aan</h2>
           <p>
-            Ben jij een IT professional en wil jij ook gastdocent worden in
+            Ben jij een IT-professional en wil jij ook gastdocent worden in
             Co-Teach Informatica? Of wil je gewoon meer informatie ontvangen?
             Vul dan onderstaand formulier in.
           </p>
