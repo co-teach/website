@@ -29,6 +29,20 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
         <script src="/js/polyfills.js" />
+
+        <meta
+          name="Description"
+          content="Informatica op school: ook als er nog geen leraar is. Dat doen we met IT-professionals die projectonderwijs vormgeven en een online leerlijn. Doe jij ook mee?"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="/images/co-teach-informatica_logo.png"
+        />
+        <meta
+          property="twitter:image"
+          content="/images/co-teach-informatica_logo.png"
+        />
       </Head>
       <Component {...pageProps} />{" "}
     </>
