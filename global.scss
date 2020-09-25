@@ -155,3 +155,9 @@ main:not(.home) section.columns {
     max-width: var(--coteach-char-width);
   }
 }
+
+@media screen {
+  html {
+    margin-right: calc(-100vw + 100%);
+  }
+}
