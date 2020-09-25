@@ -11,7 +11,10 @@ const Paths = (props: {}) => (
         </a>
       </Link>
       <div className={classes.content}>
-        <h2>Voor bedrijven en professionals met oog voor de toekomst</h2>
+        <h2>
+          Professionals{" "}
+          <span>Voor bedrijven en instanties met oog voor de toekomst</span>
+        </h2>
         <ul>
           <li>Enthousiasmeer leerlingen om in IT te werken</li>
           <li>Gebruik je expertise om authentieke uitdagingen te ontwerpen</li>
@@ -35,7 +38,9 @@ const Paths = (props: {}) => (
         </a>
       </Link>
       <div className={classes.content}>
-        <h2>Voor leerlingen die hun hart willen volgen</h2>
+        <h2>
+          Scholen <span>Voor leerlingen die hun hart willen volgen</span>{" "}
+        </h2>
         <ul>
           <li>
             Volg informatica, van de eerste kennismaking tot het eindexamen
