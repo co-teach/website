@@ -159,5 +159,6 @@ main:not(.home) section.columns {
 @media screen {
   html {
     margin-right: calc(-100vw + 100%);
+    overflow-x: hidden;
   }
 }
