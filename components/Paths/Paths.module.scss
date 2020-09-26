@@ -35,6 +35,25 @@
       font-size: 0.5em;
     }
   }
+
+  p a {
+    display: block;
+    background-color: var(--coteach-purple);
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 15px 0 5px 0;
+    max-width: 75%;
+    border-radius: 5px;
+
+    transition: background-color 400ms ease;
+
+    text-decoration: none;
+  }
+  p a:hover {
+    background-color: var(--coteach-pink);
+  }
 }
 
 #Professionals:hover {

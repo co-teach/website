@@ -18,7 +18,7 @@ const MobileNav = (props: {
           props.headerIsTransparent ? classes.transparentBackground : ""
         }
       >
-        <input type="checkbox" aria-hidden />
+        <input type="checkbox" aria-hidden tabIndex={-1} />
 
         {/* Hamburger menu bars*/}
         <span aria-hidden />
