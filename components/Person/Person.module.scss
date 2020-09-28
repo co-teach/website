@@ -50,7 +50,10 @@
 
     transition: color 200ms ease;
   }
-  a[property="email"]:hover {
+  a[property="email"]:hover,
+  a[property="email"]:focus,
+  a[property="mainEntityOfPage"]:hover,
+  a[property="mainEntityOfPage"]:focus {
     color: rgba(0, 0, 0, 1);
   }
 }
