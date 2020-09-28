@@ -4,13 +4,14 @@ import Header from "../../components/Header/Header";
 import classes from "./voor-scholen.module.scss";
 import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import Footer from "../../components/Footer/Footer";
+import { menuStructure } from "../../contents/menuStructure";
 
 const Index = (props: {}) => (
   <>
     <Head>
       <title>Co-Teach Informatica voor Leerlingen, Leraren en Scholen</title>
     </Head>
-    <Header />
+    <Header navData={menuStructure} />
 
     <main className={classes.main}>
       <article className="restrictedWidth">

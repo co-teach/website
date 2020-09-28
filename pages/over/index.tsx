@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import Link from "next/link";
 import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import classes from "./over.module.scss";
+import { menuStructure } from "../../contents/menuStructure";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       <Head>
         <title>Over Co-Teach Informatica</title>
       </Head>
-      <Header />
+      <Header navData={menuStructure} />
       <main className={classes.Over}>
         <article className="restrictedWidth">
           <SignatureHeader

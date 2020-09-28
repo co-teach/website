@@ -1,6 +1,6 @@
-import { PersonModel } from "../../models/PersonModel";
+import { PersonModel } from "../models/PersonModel";
 
-export const persons: { [id: string]: PersonModel } = {
+export const teamMembers: { [id: string]: PersonModel } = {
   ivar: {
     firstName: "Ivar",
     lastName: "Troost",

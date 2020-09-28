@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import { navItem } from "../../../models/NavItem";
+import { NavItem } from "../../../models/NavItem";
 import classes from "./MobileNav.module.scss";
 import { useRouter } from "next/router";
 
 const MobileNav = (props: {
-  navData: navItem[];
+  navData: NavItem[];
   headerIsTransparent: boolean | undefined;
 }) => {
   const router = useRouter();

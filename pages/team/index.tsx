@@ -5,22 +5,23 @@ import Footer from "../../components/Footer/Footer";
 import React from "react";
 import Person from "../../components/Person/Person";
 import classes from "./team.module.scss";
-import { persons } from "./persons";
+import { teamMembers } from "../../contents/teamMembers";
 import { PersonModel } from "../../models/PersonModel";
+import { menuStructure } from "../../contents/menuStructure";
 
 const Index = (props: {}) => {
   const projectGroup: PersonModel[] = [
-    persons.ivar,
-    persons.ingrid,
-    persons.martijn,
-    persons.berenice,
-    persons.felienne,
-    persons.rhea,
-    persons.fleur,
-    persons.jelmer,
-    persons.jos,
-    persons.aad,
-    persons.vera,
+    teamMembers.ivar,
+    teamMembers.ingrid,
+    teamMembers.martijn,
+    teamMembers.berenice,
+    teamMembers.felienne,
+    teamMembers.rhea,
+    teamMembers.fleur,
+    teamMembers.jelmer,
+    teamMembers.jos,
+    teamMembers.aad,
+    teamMembers.vera,
   ];
 
   return (
@@ -28,7 +29,7 @@ const Index = (props: {}) => {
       <Head>
         <title>Over Co-Teach Informatica</title>
       </Head>
-      <Header />
+      <Header navData={menuStructure} />
       <main className={classes.Team}>
         <article className={"restrictedWidth"}>
           <SignatureHeader title="Het team" subtitle="stelt zich graag voor" />

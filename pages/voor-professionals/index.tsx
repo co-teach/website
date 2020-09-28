@@ -5,6 +5,7 @@ import classes from "./voor-professionals.module.scss";
 import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import Footer from "../../components/Footer/Footer";
 import Link from "next/link";
+import { menuStructure } from "../../contents/menuStructure";
 
 const Index = (props: {}) => (
   <>
@@ -13,7 +14,7 @@ const Index = (props: {}) => (
         Co-Teach Informatica voor Professionals, Bedrijven en Organisaties
       </title>
     </Head>
-    <Header />
+    <Header navData={menuStructure} />
 
     <main className={classes.main}>
       <article className="restrictedWidth">

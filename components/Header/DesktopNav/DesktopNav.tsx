@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import { navItem } from "../../../models/NavItem";
+import { NavItem } from "../../../models/NavItem";
 import classes from "./DesktopNav.module.scss";
 import { useRouter } from "next/router";
 
 const DesktopNav = (props: {
-  navData: navItem[];
+  navData: NavItem[];
   headerIsTransparent: boolean | undefined;
   headerIsSupersized: boolean | undefined;
 }) => {

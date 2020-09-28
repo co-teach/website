@@ -3,24 +3,13 @@ import Link from "next/link";
 import classes from "./Header.module.scss";
 import MobileNav from "./MobileNav/MobileNav";
 import DesktopNav from "./DesktopNav/DesktopNav";
+import { NavItem } from "../../models/NavItem";
 
-const navData = [
-  {
-    href: "/over",
-    label: "Over Co‑Teach",
-  },
-  { href: "/team", label: "Het Team" },
-  {
-    href: "/voor-scholen",
-    label: "Voor scholen",
-  },
-  {
-    href: "/voor-professionals",
-    label: "Voor professionals",
-  },
-];
-
-const Header = (props: { transparent?: boolean; superSized?: boolean }) => {
+const Header = (props: {
+  navData: NavItem[];
+  transparent?: boolean;
+  superSized?: boolean;
+}) => {
   return (
     <header
       className={`${classes.Header} ${
@@ -47,11 +36,14 @@ const Header = (props: { transparent?: boolean; superSized?: boolean }) => {
         </a>
       </Link>
       <DesktopNav
-        navData={navData}
+        navData={props.navData}
         headerIsTransparent={props.transparent}
         headerIsSupersized={props.superSized}
       />
-      <MobileNav navData={navData} headerIsTransparent={props.transparent} />
+      <MobileNav
+        navData={props.navData}
+        headerIsTransparent={props.transparent}
+      />
     </header>
   );
 };

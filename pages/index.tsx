@@ -5,6 +5,7 @@ import Banner from "../components/Banner/Banner";
 import Paths from "../components/Paths/Paths";
 import Partners from "../components/Partners/Partners";
 import Footer from "../components/Footer/Footer";
+import { menuStructure } from "../contents/menuStructure";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       <Head>
         <title>Co-Teach Informatica</title>
       </Head>
-      <Header transparent superSized />
+      <Header navData={menuStructure} transparent superSized />
       <main className="home">
         <Banner />
         <Paths />
