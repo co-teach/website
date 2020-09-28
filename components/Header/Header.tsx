@@ -24,8 +24,6 @@ const Header = (props: {
                 ? "/images/co-teach-informatica_logo_wit.png"
                 : "/images/co-teach-informatica_logo.png"
             }
-            width="194.717px"
-            height="80px"
             srcSet={
               props.transparent
                 ? "/images/co-teach-informatica_logo_wit.svg"
