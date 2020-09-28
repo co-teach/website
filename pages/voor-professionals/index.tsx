@@ -26,8 +26,8 @@ const Index = (props: {}) => (
 
           <img
             src={"/images/decorative_1.jpg"}
-            width="1219px"
-            height="834px"
+            width="1219"
+            height="834"
             aria-hidden
           />
 

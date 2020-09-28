@@ -61,8 +61,8 @@ const Home = () => {
             src="/images/co-teach_hoe.png"
             alt="Co-teaching en een online leerlijn maken het eindexamen mogelijk."
             style={{ margin: "20px 0px" }}
-            width="1165px"
-            height="330px"
+            width="1165"
+            height="330"
           />
           <h3>
             <span>1</span>Co-Teaching
