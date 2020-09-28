@@ -26,7 +26,9 @@ const Paths = (props: {}) => (
           professionele begeleiding en heb je de vrijheid om zelf
           projectonderwijs vorm te geven.{" "}
           <Link href="/voor-professionals">
-            <a>Meer informatie voor IT-professionals, managers en eigenaren.</a>
+            <a>
+              Meer informatie voor IT-professionals, managers en werkgevers.
+            </a>
           </Link>
         </p>
       </div>
