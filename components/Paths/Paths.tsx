@@ -56,7 +56,9 @@ const Paths = (props: {}) => (
           Co-Teach Informatica scholen de kans om ondanks het lerarentekort toch
           dit belangrijke vak vorm te kunnen geven.{" "}
           <Link href="/voor-scholen">
-            <a>Meer informatie voor leerlingen, leraren en schoolbestuurders</a>
+            <a>
+              Meer informatie voor leerlingen, leraren en schoolbestuurders.
+            </a>
           </Link>
         </p>
       </div>
