@@ -137,11 +137,11 @@ main:not(.home) {
   }
 }
 
-main:not(.home) section {
+.restrictedWidth {
   max-width: var(--coteach-char-width);
   margin: auto;
 }
-main:not(.home) section.columns {
+.restrictedWidth.columns {
   margin: auto;
   max-width: var(--coteach-char-width);
 }
@@ -151,7 +151,7 @@ main:not(.home) section.columns {
     font-size: 14px;
   }
 
-  main:not(.home) section.columns {
+  .restrictedWidth {
     max-width: var(--coteach-char-width);
   }
 }

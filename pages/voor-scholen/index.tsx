@@ -13,7 +13,7 @@ const Index = (props: {}) => (
     <Header />
 
     <main className={classes.main}>
-      <article>
+      <article className="restrictedWidth">
         <section className="columns">
           <SignatureHeader
             title="Informatica op school"

@@ -7,15 +7,16 @@ import DesktopNav from "./DesktopNav/DesktopNav";
 const navData = [
   {
     href: "/over",
-    label: "Over Co-Teach",
+    label: "Over Co‑Teach",
   },
+  { href: "/team", label: "Het Team" },
   {
     href: "/voor-scholen",
-    label: "Scholen",
+    label: "Voor scholen",
   },
   {
     href: "/voor-professionals",
-    label: "Professionals",
+    label: "Voor professionals",
   },
 ];
 
@@ -34,6 +35,8 @@ const Header = (props: { transparent?: boolean; superSized?: boolean }) => {
                 ? "/images/co-teach-informatica_logo_wit.png"
                 : "/images/co-teach-informatica_logo.png"
             }
+            width="194.717px"
+            height="80px"
             srcSet={
               props.transparent
                 ? "/images/co-teach-informatica_logo_wit.svg"

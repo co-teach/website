@@ -14,8 +14,11 @@ const Home = () => {
       </Head>
       <Header />
       <main className={classes.Over}>
-        <section>
-          <SignatureHeader title="Over Co-Teach Informatica" subtitle="" />
+        <article className="restrictedWidth">
+          <SignatureHeader
+            title="Co-Teach Informatica"
+            subtitle="in vijf vragen"
+          />
 
           <h2>Wat?</h2>
           <p>
@@ -134,7 +137,7 @@ const Home = () => {
             </strong>
             .
           </p>
-        </section>
+        </article>
       </main>
       <Footer />
     </>

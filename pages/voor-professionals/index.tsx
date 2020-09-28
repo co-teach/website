@@ -15,7 +15,7 @@ const Index = (props: {}) => (
     <Header />
 
     <main className={classes.main}>
-      <article>
+      <article className="restrictedWidth">
         <section className="columns">
           <SignatureHeader
             title="Draag bij aan meer informatica op scholen"
