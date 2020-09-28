@@ -137,7 +137,7 @@ const Index = (props: {}) => (
             Ben jij een leerling die informatica wil kunnen volgen, een
             schoolbestuurder die het vak wil aanbieden, of een informatica
             leraar die het bedrijfsleven het klaslokaal in wil halen? Vul dan
-            onderstaand formulier in.
+            onderstaand formulier in en we nemen contact je op.
           </p>
           <iframe
             className={classes.Survey}
