@@ -61,8 +61,8 @@ const Index = (props: {}) => (
               zelfgekozen informaticaproject”
             </blockquote>
             <p>
-              Met een inspanning van zo'n veertig uren op school per jaar lever
-              je als IT-expert zo een onmisbare bijdrage aan het
+              Met een inspanning van veertig uren op school per jaar lever je
+              als IT-expert zo een onmisbare bijdrage aan het
               informatica-onderwijs en de toekomst van jonge mensen. Je gaat dit
               doen met ondersteuning van een ervaren leraar in een ander vak.
               Co-teaching noemen we dat. Om je voor te bereiden, stomen
