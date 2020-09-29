@@ -14,10 +14,11 @@ const Banner = (props: {}) => (
         Middelbare scholen en leerlingen staan te popelen om aan de slag te gaan
         met informatica, maar de vraag naar docenten is al jaren groter dan het
         aanbod. Gelukkig zit Nederland bomvol enthousiaste IT professionals.
-        Binnen Co-Teach Informatica ontwikkelen zij projectonderwijs naar hun
-        expertise, samen met bevoegde leraren en vakdidactici. Co-Teaching
-        noemen we dat. Zo willen wij in 2023 minstens 3000 extra leerlingen
-        eindexamen informatica kunnen laten doen – <strong>doe jij mee?</strong>
+        Binnen Co-Teach Informatica ontwikkelen zij projectonderwijs dat
+        aansluit op hun expertise, samen met bevoegde leraren en vakdidactici.
+        Co-Teaching noemen we dat. Zo willen wij in 2023 minstens 3000 extra
+        leerlingen het vak informatica aan kunnen bieden –{" "}
+        <strong>doe jij mee?</strong>
       </p>
       <div className={classes.Downwards} aria-hidden>
         ﹀

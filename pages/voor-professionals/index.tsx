@@ -136,13 +136,13 @@ const Index = (props: {}) => (
             <p>
               Je zult daarin eerst een crash course (vak)pedagogische kennis en
               vaardigheden volgen. Vervolgens werk je een-op-een met een
-              regionale vakdidacticus die je helpt om het aanstaande
-              projectonderwijs vorm te geven. Zo zorgen we ervoor dat er goede
-              aansluiting is tussen jouw kennis en die van de leerlingen. Ook
-              zoek je samen naar de beste vormen: waar virtueel of fysiek, en
-              waar theorie of praktijk? Tot slot ga je ook nadenken over
-              examinering: wanneer weet je dat leerlingen de leerstof hebben
-              opgenomen?
+              regionale vakdidacticus (een expert in informatica-onderwijs) die
+              je helpt om het aanstaande projectonderwijs vorm te geven. Zo
+              zorgen we ervoor dat er goede aansluiting is tussen jouw kennis en
+              die van de leerlingen. Ook zoek je samen naar de beste vormen:
+              waar virtueel of fysiek, en waar theorie of praktijk? Tot slot ga
+              je ook nadenken over examinering: wanneer weet je dat leerlingen
+              de leerdoelen van je module hebben gehaald?
             </p>
 
             <h3>Co-Teaching</h3>
@@ -150,7 +150,7 @@ const Index = (props: {}) => (
               Met je project op zak ga je aan de slag op jouw school. Hier werk
               je samen met een co-teacher: een (anders-)bevoegde docent die je
               ondersteunt tijdens het projectonderwijs. Op afstand kijkt ook de
-              vakdidacticus mee naar de voortgang.
+              eerder-genoemde vakdidacticus mee naar de voortgang.
             </p>
 
             <p>

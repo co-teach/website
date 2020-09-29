@@ -35,15 +35,22 @@ const Home = () => {
             bovenbouw.
           </p>
 
+          <p>
+            Het project is ook bedoeld voor scholen die binnenkort geen
+            informaticaleraar meer hebben doordat deze met pensioen gaat,
+            evenals scholen die wel een een bevoegd docent hebben en graag
+            professionals de klas in zouden halen.
+          </p>
+
           <h2>Waarom?</h2>
           <p>
             Informatica kent erg grote tekorten. Het vak wordt daardoor steeds
             minder aangeboden op scholen terwijl steeds meer leerlingen het
-            willen volgen. Wij stellen scholen in staat om (weer) informatica
-            aan te bieden als er geen bevoegde leraar beschikbaar is. Het doel
-            is om in 2024 120 getrainde gastdocenten te hebben en minstens 3000
-            extra leerlingen van informatica onderwijs te hebben voorzien,
-            uitmondend in het eindexamen.
+            willen volgen. Wij stellen scholen in staat om (weer of nog steeds)
+            informatica aan te bieden als er geen bevoegde leraar beschikbaar
+            is. Het doel is om in het schooljaar 2023–2024 minstens 3000 extra
+            leerlingen van informatica onderwijs te voorzien, waarvan 500 dat
+            jaar ook het eindexamen zullen maken.
           </p>
 
           <p>
@@ -82,8 +89,8 @@ const Home = () => {
 
           <p>
             Het ontwikkelen en aanbieden van een online leerlijn voor de{" "}
-            <strong>informaticadomeinen uit het examenprogramma</strong> (naar
-            voorbeeld van{" "}
+            <strong>basisdomeinen uit het examenprogramma informatica’</strong>{" "}
+            (naar voorbeeld van{" "}
             <a
               href="https://www.ou.nl/web/wiskunde-d"
               target="_blank"
@@ -100,11 +107,10 @@ const Home = () => {
           </h3>
 
           <p>
-            Met de expertise van het SLO in hand, steunen we op landelijk en
-            regionaal niveau scholen in het{" "}
-            <strong>vormgeven van hun schoolexamens</strong> in de bovenbouw, en
-            maken het zo mogelijk dat leerlingen in informatica eindexamen
-            kunnen doen.
+            Het <strong>vormgeven van schoolexamens</strong> in de bovenbouw
+            zodat de leerlingen eindexamen in informatica kunnen doen. De
+            eindexamens worden ontworpen in samenwerking met vakdidactici van de
+            lerarenopleidingen informatica en experts van SLO.
           </p>
 
           <h2>Waar?</h2>
@@ -119,13 +125,12 @@ const Home = () => {
           <p>
             2020-2021 geldt als opstartjaar, waarin we met een kleine groep
             scholen per regio beginnen met het opzetten van projectonderwijs in
-            de derde klas (havo/vwo). Het doel is dat zoveel mogelijk leerlingen
-            kennismaken met het vak, om hen te motiverenvoor een gefundeerde
-            keuze voor het vak in de bovenbouw.
+            de derde klas (havo/vwo). Het doel is om zoveel mogelijk leerlingen
+            te laten kennismaken en te motiveren voor informatica zodat zij een
+            gefundeerde keuze voor het vak in de bovenbouw kunnen maken.
           </p>
           <p>
-            In de opvolgende jaren breiden we uit naar meer scholen en de
-            bovenbouw.{" "}
+            In de jaren daarna breiden we uit naar meer scholen en de bovenbouw.{" "}
             <strong>
               Aanmelden kan te allen tijde via de formulieren voor{" "}
               <Link href="/voor-scholen">

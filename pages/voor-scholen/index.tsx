@@ -109,25 +109,39 @@ const Index = (props: {}) => (
               deze sessie wordt het hele programma geïntroduceerd en is er
               ruimte om vragen te stellen.
             </p>
+            <p>
+              Per schooljaar kan een beperkt aantal extra scholen aanhaken. Zo
+              kunnen we het programma duurzaam opschalen.
+            </p>
           </details>
         </section>
 
         <section>
           <details>
             <summary>
-              <h2>Wat kan je verwachten als leerling?</h2>
+              <h2>Wat kan je doen als leerling?</h2>
             </summary>
+            <h3>Als jouw school het vak informatica nog niet aanbiedt</h3>
             <p>
-              Nadat je het aanmeldformulier ingevuld hebt zullen we gaan kijken
-              of we Co-Teach Informatica op jouw school mogelijk kunnen maken.
-              Partnerscholen kunnen van start gaan aan het begin van elk nieuw
-              schooljaar (met uitzondering van 2020-2021).
+              Ben jij een leerling en wil jij ook informatica als eindexamenvak
+              kunnen volgen op jouw school? Dan is Co-Teach Informatica voor
+              jou. Je kan dan het beste jouw afdelingsleider vragen of zij je
+              kunnen helpen in het onderzoeken of jouw school kan aanhaken. Je
+              kunt dan de{" "}
+              <a href="/docs/co-teach-informatica_flyer_scholen.pdf">
+                pdf-versie
+              </a>{" "}
+              van deze pagina gebruiken. De afdelingsleider (of een andere
+              schoolbestuurder) kan contact met ons maken door het
+              aanmeldformulier hieronder te gebruiken. Wel goed om te weten is
+              dat een beperkt aantal nieuwe scholen kan meedoen elk schooljaar.
             </p>
+            <h3>Als jouw school het vak informatica al wel aanbiedt</h3>
             <p>
-              We hebben een limiet op het aantal scholen waarmee we elk jaar
-              kunnen samenwerken. Als we van meer leerlingen horen via dit
-              formulier, is de kans groter dat we contact opnemen met jouw
-              school.
+              Dat is goed nieuws! Als je graag (meer) IT-professionals in jouw
+              klaslokaal zou willen zien, dan kan je jouw informaticaleraar
+              vragen om contact met ons op te nemen via het onderstaande
+              formulier.
             </p>
           </details>
         </section>
@@ -135,10 +149,10 @@ const Index = (props: {}) => (
         <section>
           <h2>Meld je aan</h2>
           <p>
-            Ben jij een leerling die informatica wil kunnen volgen, een
-            schoolbestuurder die het vak wil aanbieden, of een informatica
-            leraar die het bedrijfsleven het klaslokaal in wil halen? Vul dan
-            onderstaand formulier in en we nemen contact met je op.
+            Ben jij een schoolbestuurder die het vak wil aanbieden, of een
+            informatica leraar die het bedrijfsleven het klaslokaal in wil
+            halen? Vul dan onderstaand formulier in en we nemen contact met je
+            op.
           </p>
           <iframe
             className={classes.Survey}

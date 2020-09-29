@@ -16,10 +16,12 @@ const Paths = (props: {}) => (
           <span>Voor bedrijven en instanties met oog voor de toekomst</span>
         </h2>
         <ul>
-          <li>Enthousiasmeer leerlingen om in IT te werken</li>
+          <li>Enthousiasmeer leerlingen om in de IT te werken</li>
           <li>Gebruik je expertise om authentieke uitdagingen te ontwerpen</li>
           <li>Bouw bekwaamheden op in lesgeven en communicatie</li>
-          <li>Lever een maatschappelijke bijdrage in digitale geletterdheid</li>
+          <li>
+            Lever een maatschappelijke bijdrage aan digitale geletterdheid
+          </li>
         </ul>
         <p>
           Als gastdocent krijg je een <em>crash course</em>, doorlopende
@@ -45,11 +47,15 @@ const Paths = (props: {}) => (
         </h2>
         <ul>
           <li>
-            Volg informatica, van de eerste kennismaking tot het eindexamen
-            (havo en vwo)
+            Bied informatica aan, van eerste kennismaking tot eindexamen
+            (havo/vwo)
           </li>
-          <li>Leer van professionals en bouw je netwerk op</li>
-          <li>Werk aan projecten die nu spelen in het werkveld</li>
+          <li>
+            Breng de laatste vernieuwingen in het werkveld naar het klaslokaal
+          </li>
+          <li>
+            Geef leerlingen de kans hun professionele network op te bouwen
+          </li>
         </ul>
         <p>
           Door het aanbieden van zowel een leerlijn als projectonderwijs geeft
@@ -57,7 +63,7 @@ const Paths = (props: {}) => (
           dit belangrijke vak vorm te kunnen geven.{" "}
           <Link href="/voor-scholen">
             <a>
-              Meer informatie voor leerlingen, leraren en schoolbestuurders.
+              Meer informatie voor schoolbestuurders, leraren en leerlingen.
             </a>
           </Link>
         </p>
