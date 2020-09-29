@@ -202,7 +202,7 @@ const Index = (props: {}) => (
           <p>
             Ben jij een IT-professional en wil jij ook gastdocent worden in
             Co-Teach Informatica? Of wil je gewoon meer informatie ontvangen?
-            Vul dan onderstaand formulier in en we nemen contact je op.
+            Vul dan onderstaand formulier in en we nemen contact met je op.
           </p>
           <iframe
             className={classes.Survey}
