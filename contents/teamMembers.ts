@@ -7,7 +7,7 @@ export const teamMembers: { [id: string]: PersonModel } = {
     organisation: "Universiteit Utrecht",
     roles: ["Projectleider Utrecht", "Landelijk Projectleider"],
     email: "co-teach@uu.nl",
-    personalPage: "https://www.linkedin.com/in/desagaz/",
+    personalPage: "https://www.uu.nl/medewerkers/IOTroost",
   },
   ingrid: {
     firstName: "Ingrid",
@@ -38,7 +38,7 @@ export const teamMembers: { [id: string]: PersonModel } = {
     organisation: "Vrije Universiteit Amsterdam",
     roles: ["Vakdidacticus Amsterdam"],
     personalPage:
-      "https://www.universiteitleiden.nl/en/staffmembers/felienne-hermans",
+      "https://www.universiteitleiden.nl/medewerkers/felienne-hermans",
   },
   rhea: {
     firstName: "Rhea",
