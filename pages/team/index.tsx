@@ -29,7 +29,7 @@ const Index = (props: {}) => {
   return (
     <>
       <Head>
-        <title>Over Co-Teach Informatica</title>
+        <title>Het Team achter Co-Teach Informatica</title>
       </Head>
       <Header navData={menuStructure} />
       <main className={classes.Team}>
