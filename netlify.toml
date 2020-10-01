@@ -1,0 +1,17 @@
+[[redirects]]
+from = "https://coteach.nl"
+to = "https://www.co-teach.nl"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.coteach.nl"
+to = "https://www.co-teach.nl"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://co-teach.nl"
+to = "https://www.co-teach.nl"
+status = 301
+force = true
