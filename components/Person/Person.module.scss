@@ -1,0 +1,75 @@
+.Person {
+  border-radius: var(--coteach-border-radius);
+  display: flex;
+  position: relative;
+
+  div[property="name"] {
+    font-size: 1.4em;
+    font-weight: 500;
+    line-height: 1em;
+    margin-bottom: 3px;
+  }
+
+  div[property="affiliation"] {
+    font-size: 0.6em;
+    font-weight: 700;
+    margin-bottom: -0.5em;
+    text-transform: uppercase;
+  }
+
+  div[property="jobTitle"] {
+    margin-top: 10px;
+    margin-left: -3px;
+  }
+
+  div[property="jobTitle"] span {
+    width: max-content;
+
+    font-size: 0.7em;
+    font-weight: 700;
+    background-color: rgba(var(--coteach-purple-rgb), 1);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin: 4px 2px;
+    display: block;
+  }
+
+  a[property="email"],
+  a[property="mainEntityOfPage"] {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+
+    svg {
+      font-size: 0.8em;
+    }
+    font-weight: 600;
+    font-size: 0.8em;
+
+    display: block;
+
+    transition: color 200ms ease;
+  }
+  a[property="email"]:hover,
+  a[property="email"]:focus,
+  a[property="mainEntityOfPage"]:hover,
+  a[property="mainEntityOfPage"]:focus {
+    color: rgba(0, 0, 0, 1);
+  }
+}
+
+.image {
+  width: 9em;
+  max-width: 33%;
+
+  img {
+    border-radius: 100%;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border: rgba(0, 0, 0, 0.6) 1px solid;
+  }
+}
+
+.data {
+  margin-left: 15px;
+  width: 250px;
+}

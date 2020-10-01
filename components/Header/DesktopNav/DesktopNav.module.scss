@@ -1,0 +1,72 @@
+#DesktopNav {
+  position: relative;
+
+  a {
+    color: var(--coteach-purple);
+  }
+  a:hover,
+  a:focus {
+    // color: var(--coteach-pink);
+    border-bottom: 2px solid var(--coteach-pink);
+  }
+  :global a.active {
+    color: var(--coteach-pink);
+  }
+  :global a.active:hover,
+  :global a.active:focus {
+    border-bottom: none;
+  }
+
+  align-self: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 20px;
+
+  ul {
+    height: 100%;
+
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+    text-transform: uppercase;
+    line-height: 1.4em;
+    break-inside: avoid;
+
+    margin: 0 10px 0 0;
+
+    li {
+      margin-right: 15px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  #DesktopNav {
+    display: none;
+  }
+}
+
+#DesktopNav.transparentBackground {
+  ul {
+    a:hover,
+    a:focus {
+      color: var(--coteach-purple);
+      border-bottom: 2px solid var(--coteach-light) !important;
+    }
+  }
+
+  a {
+    color: white !important;
+  }
+}
+
+#DesktopNav.superSized {
+  align-self: auto;
+  top: calc(var(--coteach-header-height) / 3);
+}

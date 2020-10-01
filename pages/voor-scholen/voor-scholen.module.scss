@@ -1,0 +1,53 @@
+.BodyText {
+  position: relative;
+  margin-top: 20px;
+  columns: 2;
+
+  :first-child {
+    margin-top: 0;
+  }
+}
+
+.Lede {
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.pdfDownload {
+  text-align: right;
+  font-style: italic;
+  margin: 10px;
+  font-size: 0.8em;
+
+  a {
+    text-decoration: none;
+    color: rgba(var(--coteach-pink-rgb), 0.5);
+  }
+
+  span {
+    font-weight: 800;
+    font-style: normal;
+  }
+}
+
+.main {
+  h2 {
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+.Survey {
+  width: 100%;
+  border: none;
+  height: 700px;
+}
+
+@media (max-width: 1000px) {
+  .BodyText {
+    columns: 1;
+  }
+}

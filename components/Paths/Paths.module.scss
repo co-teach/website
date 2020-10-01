@@ -1,0 +1,112 @@
+#Paths {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+  font-size: 1.2em;
+}
+
+#Professionals,
+#Schools {
+  color: var(--coteach-dark);
+  max-width: 70ch;
+  transition: transform 0.6s ease-out;
+
+  img {
+    display: block;
+    max-height: 200px;
+    margin: auto;
+    transition: transform 0.6s ease-out;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  h2,
+  p {
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 2em;
+    font-weight: 600;
+    span {
+      letter-spacing: 0;
+      display: block;
+      font-size: 0.5em;
+    }
+  }
+
+  p a {
+    display: block;
+    background-color: var(--coteach-purple);
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 15px 0 5px 0;
+    max-width: 75%;
+    border-radius: 5px;
+
+    transition: background-color 400ms ease;
+
+    text-decoration: none;
+  }
+  p a:hover {
+    background-color: var(--coteach-pink);
+  }
+}
+
+#Professionals:hover {
+  img {
+    transform: scale(1.05) translateY(-5px);
+  }
+}
+#Schools:hover {
+  img {
+    transform: scale(1.05) translateY(-5px);
+  }
+}
+
+.content {
+  margin-top: 0;
+  background: rgba(var(--coteach-purple-rgb), 0.1);
+  padding: 20px 20px;
+}
+
+#Professionals .content {
+  border-radius: 0 var(--coteach-border-radius) var(--coteach-border-radius) 0;
+}
+
+#Schools {
+  justify-self: right;
+}
+#Schools .content {
+  border-radius: var(--coteach-border-radius) 0 0 var(--coteach-border-radius);
+}
+
+@media (max-width: 1000px) {
+  #Paths {
+    grid-template:
+      "empty1 prof prof prof prof prof"
+      "scho scho scho scho scho empty2";
+    grid-gap: 40px;
+  }
+  #Professionals {
+    grid-area: prof;
+    justify-self: right;
+
+    .content {
+      border-radius: var(--coteach-border-radius) 0 0
+        var(--coteach-border-radius);
+    }
+  }
+  #Schools {
+    grid-area: scho;
+    justify-self: left;
+
+    .content {
+      border-radius: 0 var(--coteach-border-radius) var(--coteach-border-radius)
+        0;
+    }
+  }
+}

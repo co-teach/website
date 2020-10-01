@@ -1,0 +1,35 @@
+.Header {
+  position: relative;
+  display: flex;
+  height: var(--coteach-header-height);
+  background-color: var(--coteach-light);
+
+  a {
+    font-weight: 600;
+  }
+}
+
+.Logo {
+  align-self: center;
+  height: calc(var(--coteach-header-height) - 10px);
+
+  img {
+    height: inherit;
+  }
+}
+
+.TransparentHeader {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+
+  background-color: transparent;
+}
+
+.Header.SupersizedHeader {
+  height: var(--coteach-supersized-header-height);
+
+  .Logo {
+    height: calc(var(--coteach-supersized-header-height) - 10px);
+  }
+}

@@ -1,0 +1,32 @@
+.ImageDivider {
+  position: relative;
+  height: 80px;
+
+  background-color: var(--coteach-purple);
+
+  overflow: hidden;
+}
+
+.ImageDivider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-image: url("/images/co-teach-informatica_mark_wit.svg");
+  background-repeat: repeat;
+  background-size: 20px;
+  z-index: 2;
+
+  transform: translateY(-50%) translateX(80%) rotate(45deg);
+  overflow: hidden;
+  height: 3200px;
+}
+
+.ImageDivider.marginTop {
+  margin-top: 30px;
+}
+.ImageDivider.marginBottom {
+  margin-bottom: 30px;
+}

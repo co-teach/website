@@ -1,0 +1,36 @@
+.Footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: left;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  font-size: 0.7em;
+  font-weight: 600;
+  font-style: italic;
+
+  a {
+    display: block;
+    color: white;
+    padding-bottom: 2px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Footer {
+    > div {
+      max-width: 170px;
+      font-size: 1.1em;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .Footer {
+    > div {
+      max-width: 150px;
+      font-size: 1.1em;
+    }
+  }
+}

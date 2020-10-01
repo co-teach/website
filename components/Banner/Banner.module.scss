@@ -1,0 +1,147 @@
+.Banner {
+  position: relative;
+
+  background-color: var(--coteach-purple);
+  min-height: calc(80vh - var(--coteach-header-height));
+  margin: 0;
+  color: white;
+
+  clip-path: polygon(
+    100% 68%,
+    98% 71%,
+    96% 73.5%,
+    91% 79%,
+    88% 81.5%,
+    85% 84%,
+    81% 86.5%,
+    78% 88%,
+    70% 92%,
+    62% 95%,
+    50% 98%,
+    40% 99.5%,
+    35% 100%,
+    0% 100%,
+    0% 0%,
+    100% 0%
+  );
+}
+
+.Content {
+  padding-top: 40vh;
+  padding-bottom: 10vh;
+  margin-right: 20px;
+  position: relative;
+  z-index: 2;
+
+  h1 {
+    letter-spacing: -0.025em;
+    line-height: 1.35;
+    color: white;
+  }
+
+  p {
+    font-size: 1.5em;
+    max-width: 70ch;
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+}
+
+.Background {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  max-height: 450px;
+  background-image: url("/images/coworking_bg.jpg");
+  mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
+
+  background-position: 50% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.SignatureHeader {
+  position: relative;
+  font-weight: 500;
+  font-size: 3em;
+  margin-left: 30px;
+  margin-right: 10px;
+
+  margin-bottom: 0;
+
+  white-space: pre-wrap;
+
+  span:first-child {
+    background-color: var(--coteach-pink);
+    padding-right: 0.25em;
+    padding-bottom: 0.1em;
+    font-weight: 600;
+  }
+}
+
+.SignatureHeader::before {
+  content: "";
+  background-color: var(--coteach-pink);
+  padding: 0 0 0 30px;
+  position: absolute;
+
+  left: -30px;
+  height: 1.465em;
+  margin-top: -0.005em;
+}
+
+.Downwards {
+  color: var(--coteach-white);
+  text-align: center;
+  font-weight: 800;
+  pointer-events: none;
+  user-select: none;
+  font-size: 2em;
+  margin-bottom: -1.5em;
+}
+
+@media (min-height: 1000px) {
+  .Banner {
+    min-height: 0;
+  }
+  .Content {
+    padding-top: 500px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .Background {
+    max-height: 1000px;
+    background-position: 50% 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Downwards {
+    text-align: left;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 506px) {
+  .Content {
+    h1 {
+      letter-spacing: -0.04em;
+      line-height: 1.6;
+      color: white;
+    }
+  }
+
+  .SignatureHeader::before {
+    left: -30px;
+    height: 1.45em;
+    margin-top: 0.12em;
+  }
+}

@@ -1,0 +1,13 @@
+.Team {
+  h2 {
+    margin-top: 20px;
+  }
+}
+
+ul.persons {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 20px 0;
+  margin: 40px auto auto;
+}
