@@ -8,6 +8,8 @@ import classes from "./team.module.scss";
 import { teamMembers } from "../../contents/teamMembers";
 import { PersonModel } from "../../models/PersonModel";
 import { menuStructure } from "../../contents/menuStructure";
+import PartnerLink from "../../components/PartnerLink/PartnerLink";
+import { partners } from "../../contents/partners";
 
 const Index = (props: {}) => {
   const projectGroup: PersonModel[] = [
@@ -34,6 +36,17 @@ const Index = (props: {}) => {
         <article className={"restrictedWidth"}>
           <SignatureHeader title="Het team" subtitle="stelt zich graag voor" />
           <section className={"restrictedWidth"}>
+            <p style={{ marginTop: "20px" }}>
+              Co-Teach informatica wordt uitgevoerd door{" "}
+              <PartnerLink partner={partners.uu} /> (als penvoerder),{" "}
+              <PartnerLink partner={partners.ut} /> en{" "}
+              <PartnerLink partner={partners.vu} />. Dit in hechte samenwerking
+              met de <PartnerLink partner={partners.vsnu} />,{" "}
+              <PartnerLink partner={partners.voRaad} />,{" "}
+              <PartnerLink partner={partners.nldigital} />,{" "}
+              <PartnerLink partner={partners.slo} /> en{" "}
+              <PartnerLink partner={partners.ieni} />.
+            </p>
             <h2>De projectgroep</h2>
             <p>
               Onderstaande leden geven vorm aan de inhoud en uitvoering van

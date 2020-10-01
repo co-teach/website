@@ -6,10 +6,22 @@ import Paths from "../components/Paths/Paths";
 import Partners from "../components/Partners/Partners";
 import Footer from "../components/Footer/Footer";
 import { menuStructure } from "../contents/menuStructure";
-import { projectPartners } from "../contents/projectPartners";
-import { supportingPartners } from "../contents/supportingPartners";
+import { partners } from "../contents/partners";
+import { Partner } from "../models/Partner";
 
 const Home = () => {
+  const projectPartners: Partner[] = [
+    partners.vsnu,
+    partners.voRaad,
+    partners.nldigital,
+    partners.slo,
+    partners.ieni,
+    partners.uu,
+    partners.ut,
+    partners.vu,
+  ];
+  const supportingPartners: Partner[] = [partners.ocw, partners.ezk];
+
   return (
     <>
       <Head>
