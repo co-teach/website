@@ -25,6 +25,13 @@ const Index = (props: {}) => {
     teamMembers.aad,
     teamMembers.vera,
   ];
+  const steeringGroup: PersonModel[] = [
+    teamMembers.hein,
+    teamMembers.gerard,
+    teamMembers.pieter,
+    teamMembers.inge,
+    teamMembers.michiel,
+  ];
 
   return (
     <>
@@ -55,6 +62,19 @@ const Index = (props: {}) => {
 
             <ul className={classes.persons}>
               {projectGroup.map((person) => (
+                <li key={`${person.firstName}-${person.lastName}`}>
+                  <Person person={person} />
+                </li>
+              ))}
+            </ul>
+            <h2>De Stuurgroep</h2>
+            <p>
+              Onderstaande leden borgen de visie en missie van het project,
+              evenals de betrokkenheid van partners.
+            </p>
+
+            <ul className={classes.persons}>
+              {steeringGroup.map((person) => (
                 <li key={`${person.firstName}-${person.lastName}`}>
                   <Person person={person} />
                 </li>

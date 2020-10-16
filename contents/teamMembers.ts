@@ -82,4 +82,41 @@ export const teamMembers: { [id: string]: PersonModel } = {
     roles: ["Landelijk Secretaresse"],
     personalPage: "https://www.uu.nl/medewerkers/VGBCortenraede",
   },
+  pieter: {
+    firstName: "Pieter",
+    lastName: "Duisenberg",
+    organisation: "VSNU",
+    roles: ["Stuurgroeplid"],
+    personalPage: "https://vsnu.nl/nl_NL/vsnu-team-detail.html/medewerker/185",
+  },
+  hein: {
+    firstName: "Hein",
+    lastName: "van Asseldonk",
+    organisation: "VO-raad",
+    roles: ["Stuurgroeplid"],
+    personalPage: "https://nl.linkedin.com/in/hein-van-asseldonk-0960538",
+  },
+  michiel: {
+    firstName: "Michiel",
+    lastName: "van Vlimmeren",
+    organisation: "NLdigital",
+    roles: ["Stuurgroeplid"],
+    personalPage:
+      "https://www.salesforce.com/nl/blog/authors/Michiel-van-Vlimmeren",
+  },
+  gerard: {
+    firstName: "Gerard",
+    lastName: "Barkema",
+    organisation: "Universiteit Utrecht",
+    roles: ["Stuurgroeplid"],
+    personalPage: "https://www.uu.nl/medewerkers/GTBarkema",
+  },
+  inge: {
+    firstName: "Inge",
+    lastName: "Sterenborg",
+    organisation: "CSG Het Noordik",
+    roles: ["Stuurgroeplid"],
+    personalPage:
+      "https://nl.linkedin.com/in/inge-sterenborg-van-der-schaaf-400a5842",
+  },
 };
