@@ -1,4 +1,4 @@
-#Partners {
+.Partners {
   background-color: white;
 
   h2 {
@@ -41,7 +41,7 @@
 }
 
 @media (max-width: 1000px) {
-  #Partners {
+  .Partners {
     ul li {
       width: 150px;
     }
