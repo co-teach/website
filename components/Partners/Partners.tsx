@@ -3,7 +3,7 @@ import classes from "./Partners.module.scss";
 import { Partner } from "../../models/Partner";
 
 const Partners = (props: { partners: Partner[]; headingText: string }) => (
-  <section id={classes.Partners}>
+  <section className={classes.Partners}>
     <h2>{props.headingText}</h2>
     <ul>
       {props.partners.map((partner: Partner) => {
