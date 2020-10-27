@@ -25,7 +25,7 @@ const Home = () => {
           <p>
             Co-Teach Informatica is een pilotproject waarin scholen het{" "}
             <strong>eindexamenvak informatica kunnen aanbieden</strong> door een
-            combinatie van projectonderwijs door IT professionals en een online
+            combinatie van projectonderwijs door IT-professionals en een online
             leerlijn –{" "}
             <strong>
               ook wanneer een school (nog) geen informaticaleraar in dienst
@@ -38,7 +38,7 @@ const Home = () => {
           <p>
             Het project is ook bedoeld voor scholen die binnenkort geen
             informaticaleraar meer hebben doordat deze met pensioen gaat,
-            evenals scholen die wel een een bevoegd docent hebben en graag
+            evenals scholen die wel een bevoegd docent hebben en graag
             professionals de klas in zouden halen.
           </p>
 
