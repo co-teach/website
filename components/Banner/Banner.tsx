@@ -11,8 +11,8 @@ const Banner = (props: {}) => (
         <span> dat doen we samen.</span>
       </h1>
       <p>
-        Middelbare scholen en leerlingen staan te popelen om aan de slag te gaan
-        met informatica, maar de vraag naar docenten is al jaren groter dan het
+        Vo-scholen en -leerlingen staan te popelen om aan de slag te gaan met
+        informatica, maar de vraag naar docenten is al jaren groter dan het
         aanbod. Gelukkig zit Nederland bomvol enthousiaste IT professionals.
         Binnen Co-Teach Informatica ontwikkelen zij projectonderwijs dat
         aansluit op hun expertise, samen met bevoegde leraren en vakdidactici.

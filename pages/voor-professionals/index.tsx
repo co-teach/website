@@ -41,8 +41,8 @@ const Index = (props: {}) => (
           </div>
 
           <p className={classes.Lede}>
-            Middelbare scholen en leerlingen staan te popelen om aan de slag te
-            gaan met informatica, maar er zijn te weinig leerkrachten. Met jouw
+            Vo-scholen en -leerlingen staan te popelen om aan de slag te gaan
+            met informatica, maar er zijn te weinig leerkrachten. Met jouw
             professionele kennis kan je helpen hier verandering in te brengen.
             Doe mee en draag je kennis over!
           </p>
@@ -52,9 +52,9 @@ const Index = (props: {}) => (
               We zoeken IT-professionals die op scholen met leerlingen aan
               projecten gaan werken. Scholen vullen dit aan met informaticales
               via een online leerlijn. Een creatieve oplossing om uiteindelijk
-              meer leerlingen hun middelbare school te laten afsluiten met
-              informatica op hun lijst, zelfs al is er nog geen bevoegd
-              informaticaleraar voor handen is.
+              meer leerlingen hun schooltijd te laten afsluiten met informatica
+              op hun lijst, zelfs al is er nog geen bevoegd informaticaleraar
+              voor handen is.
             </p>
             <blockquote>
               “Uiteindelijk begeleid je als gastdocent scholieren in een
