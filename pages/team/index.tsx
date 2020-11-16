@@ -17,6 +17,7 @@ const Index = (props: {}) => {
     teamMembers.ingrid,
     teamMembers.martijn,
     teamMembers.berenice,
+    teamMembers.rachel,
     teamMembers.felienne,
     teamMembers.rhea,
     teamMembers.fleur,

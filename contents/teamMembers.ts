@@ -32,6 +32,13 @@ export const teamMembers: { [id: string]: PersonModel } = {
     roles: ["Landelijk Projectmanager"],
     personalPage: "https://www.uu.nl/medewerkers/BIMichels",
   },
+  rachel: {
+    firstName: "Rachel",
+    lastName: "Baan",
+    organisation: "Universiteit Utrecht",
+    roles: ["Vakdidacticus Utrecht"],
+    personalPage: "https://www.linkedin.com/in/rachelbaan/",
+  },
   felienne: {
     firstName: "Felienne",
     lastName: "Hermans",
