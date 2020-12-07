@@ -120,18 +120,13 @@ const Index = (props: {}) => (
               </Link>
               ).
             </p>
-            <p>
-              In het schooljaar van 2020-2021 zetten we drie gastdocenttrajecten
-              per regio op (negen in totaal); dit schalen we op in de opvolgende
-              jaren.
-            </p>
 
             <h3>Het trainings- en ontwikkelingstraject</h3>
             <p>
-              Wanneer we een goede match voor je gevonden hebben, leggen we
-              contact met je over ons voorstel. Nadat jij en je werkgever (waar
-              van toepassing) akkoord zijn gegaan met de voorwaarden, begint het
-              voortraject.
+              Wanneer we een goede match voor je gevonden hebben, nemen we
+              contact met je op over ons voorstel. Nadat jij en je werkgever
+              (waar van toepassing) akkoord zijn gegaan met de voorwaarden,
+              begint het voortraject.
             </p>
             <p>
               Je zult daarin eerst een crash course (vak)pedagogische kennis en
@@ -154,8 +149,8 @@ const Index = (props: {}) => (
             </p>
 
             <p>
-              Afhankelijk van de wensen van de school werk je met één of meer
-              klassen binnen de 40 studielasturen.
+              Afhankelijk van de wensen van de school en je eigen wensen werk je
+              met één of meer klassen binnen de 40 studielasturen.
             </p>
 
             <h3>Afronding</h3>
@@ -203,6 +198,16 @@ const Index = (props: {}) => (
             Ben jij een IT-professional en wil jij ook gastdocent worden in
             Co-Teach Informatica? Of wil je gewoon meer informatie ontvangen?
             Vul dan onderstaand formulier in en we nemen contact met je op.
+          </p>
+          <p className={classes.warning}>
+            <strong>⚠ Let op: 2020-2021 is het opstartjaar.</strong> Tijdens het
+            voorjaar van 2021 zullen we (ten minste) drie gastdocenttrajecten
+            per regio opzetten in derde klassen - dus negen in totaal. Dit
+            schalen we op in de opvolgende jaren, waarin we ook de bovenbouw
+            zullen betrekken. In latere jaren hopen we tevens meer regio's te
+            gaan betrekken. Het kan dus even duren voordat je echt aan de slag
+            kan, maar een vroege aanmelding helpt ons om interesse te peilen en
+            om de schaal van vooropleidingen goed in te schatten.
           </p>
           <iframe
             className={classes.Survey}
