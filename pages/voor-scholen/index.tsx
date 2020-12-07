@@ -26,6 +26,7 @@ const Index = (props: {}) => (
             aria-hidden
             width="1231"
             height="836"
+            alt={""}
           />
 
           <div className={classes.pdfDownload}>
