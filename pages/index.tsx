@@ -8,6 +8,7 @@ import Footer from "../components/Footer/Footer";
 import { menuStructure } from "../contents/menuStructure";
 import { partners } from "../contents/partners";
 import { Partner } from "../models/Partner";
+import Video from "../components/Video/Video";
 
 const Home = () => {
   const projectPartners: Partner[] = [
@@ -30,6 +31,10 @@ const Home = () => {
       <Header navData={menuStructure} transparent superSized />
       <main className="home">
         <Banner />
+        <Video
+          url={"https://youtu.be/0kinIPijIWg"}
+          headingText={"Een introductie"}
+        />
         <Paths />
         <Partners
           partners={projectPartners}
