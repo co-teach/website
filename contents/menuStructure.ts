@@ -5,7 +5,10 @@ export const menuStructure: NavItem[] = [
     href: "/over",
     label: "Over Co-Teach",
   },
-  { href: "/team", label: "Het Team" },
+  {
+    href: "/het-vak-informatica",
+    label: "Het vak informatica",
+  },
   {
     href: "/voor-scholen",
     label: "Voor scholen",
@@ -14,4 +17,5 @@ export const menuStructure: NavItem[] = [
     href: "/voor-professionals",
     label: "Voor professionals",
   },
+  { href: "/team", label: "Het Team" },
 ];
