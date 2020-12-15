@@ -94,8 +94,10 @@ const Index = (props: {}) => (
             <p>
               Als gastdocent geef je vorm aan <strong>40 studielasturen</strong>
               : 40 klokuren waarin leerlingen binnen en buiten het klaslokaal
-              aan de slag gaan met jouw project. Om dit mogelijk te maken vragen
-              we je werkgever om deze uren vrij te maken. Gelukkig hebben veel
+              met jouw project aan de slag gaan. Afhankelijk van jouw project,
+              zullen zo’n 25 uur daarvan ‘contacturen’ op school zijn onder jouw
+              leiding en begeleiding. Om dit mogelijk te maken vragen we je
+              werkgever om deze uren vrij te maken. Gelukkig hebben veel
               bedrijven en organisaties al regelingen om een maatschappelijke
               bijdrage te kunnen leveren voor 40 (of meer) uur. En uiteraard
               verwelkomt Co-Teach ook zzp'ers. Let op dat het hele traject,
