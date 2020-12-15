@@ -52,7 +52,7 @@ const Index = (props: {}) => (
               te laten gaan, introduceren we Co-Teach Informatica. In dit unieke
               pilotproject krijgen scholen de kans informatica aan te bieden
               door een combinatie van projectonderwijs door IT-professionals en
-              een solide online leerlijn, ontwikkelt door en begeleidt vanuit
+              een solide online leerlijn, ontwikkeld door en begeleid vanuit
               universitaire lerarenopleidingen.
             </p>
             <ul>
