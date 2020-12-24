@@ -111,10 +111,8 @@
   /* to stop flickering of text in safari */
 
   left: -100000px;
-  transition-duration: 400ms, 0ms;
-  transition-property: transform, left;
-  transition-delay: 0ms, 400ms;
-  transition-timing-function: cubic-bezier(0.77, 0.2, 0.05, 1), linear;
+  transition: transform 400ms cubic-bezier(0.77, 0.2, 0.05, 1) 0ms,
+    left 0ms linear 400ms;
 
   form-origin: 0% 0%;
   transform: translate(100%, 0);
