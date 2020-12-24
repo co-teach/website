@@ -1,6 +1,9 @@
 .ImageDivider {
   position: relative;
   height: 80px;
+  @media (max-width: 1000px) {
+    height: 110px;
+  }
 
   background-color: var(--coteach-purple);
 

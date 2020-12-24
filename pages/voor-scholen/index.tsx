@@ -157,6 +157,7 @@ const Index = (props: {}) => (
           </p>
           <iframe
             title="Aanmeldingsformulier"
+            loading="lazy"
             className={classes.Survey}
             src="https://survey.uu.nl/jfe/form/SV_eY9tyqz6pnMNw2x"
           />

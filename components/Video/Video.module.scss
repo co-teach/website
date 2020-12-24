@@ -18,10 +18,46 @@
     text-transform: uppercase;
     color: var(--coteach-light);
     background-color: var(--coteach-purple);
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    z-index: 100000;
   }
 
-  iframe {
+  iframe,
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 0px 72px 0 rgba(225, 216, 237, 1);
     border-radius: var(--coteach-border-radius);
+  }
+
+  a {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    .playButton {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+    }
+    .playButton div {
+      border-radius: 50%;
+      width: 5vmax;
+      height: 5vmax;
+      font-size: 3vmax;
+      text-align: center;
+      text-indent: 0.5vmax;
+      background-color: var(--coteach-purple);
+      color: white;
+    }
+  }
+  a:hover .playButton div,
+  a:focus .playButton div {
+    background-color: var(--coteach-pink);
   }
 }

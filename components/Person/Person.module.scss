@@ -2,6 +2,11 @@
   border-radius: var(--coteach-border-radius);
   display: flex;
   position: relative;
+  font-size: 1.2em;
+
+  @media (max-width: 599px) {
+    font-size: 1.35em;
+  }
 
   div[property="name"] {
     font-size: 1.4em;
