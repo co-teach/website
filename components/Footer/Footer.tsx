@@ -6,21 +6,23 @@ import classes from "./Footer.module.scss";
 import Link from "next/link";
 
 const Footer = (props: {}) => (
-  <Divider marginTop>
-    <div className={classes.Footer}>
-      <div>
-        <a href="https://github.com/co-teach/website">
-          <FaGithub /> Deze site is open source - stel dus je eigen aanpassingen
-          voor!
-        </a>
-        <Link href="/privacyverklaring">
-          <a>
-            <AiFillSafetyCertificate /> Lees privacyverklaring
+  <footer>
+    <Divider marginTop>
+      <div className={classes.Footer}>
+        <div>
+          <a href="https://github.com/co-teach/website">
+            <FaGithub /> Deze site is open source - stel dus je eigen
+            aanpassingen voor!
           </a>
-        </Link>
+          <Link href="/privacyverklaring">
+            <a>
+              <AiFillSafetyCertificate /> Lees privacyverklaring
+            </a>
+          </Link>
+        </div>
       </div>
-    </div>
-  </Divider>
+    </Divider>
+  </footer>
 );
 
 export default Footer;
