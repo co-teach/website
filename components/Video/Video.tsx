@@ -15,6 +15,7 @@ const Video = (props: { url: string; headingText?: string }) => {
     <div className={classes.Video}>
       {props.headingText && <h2>{props.headingText}</h2>}
       <iframe
+        title="YouTube video"
         width="100%"
         height="100%"
         src={`https://www.youtube-nocookie.com/embed/${youtubeId}`}

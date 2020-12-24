@@ -213,6 +213,7 @@ const Index = (props: {}) => (
             om de schaal van vooropleidingen goed in te schatten.
           </p>
           <iframe
+            title="Aanmeldingsformulier"
             className={classes.Survey}
             src="https://survey.uu.nl/jfe/form/SV_eY9tyqz6pnMNw2x"
           />
