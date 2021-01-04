@@ -3,10 +3,6 @@
 In the spirit of Co-Teach, we are making our website's source code openly
 available.
 
-⚠ **The website is currently in its soft launch period** ⚠ This means that while
-the website is publicly accessible, it is not yet promoted through national
-channels. We very much welcome your feedback as one of our first visitors.
-
 ## Contributing
 
 The website is statically generated using [Next.js](https://nextjs.org/) and
