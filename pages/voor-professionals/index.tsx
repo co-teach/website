@@ -202,16 +202,6 @@ const Index = (props: {}) => (
             Co-Teach Informatica? Of wil je gewoon meer informatie ontvangen?
             Vul dan onderstaand formulier in en we nemen contact met je op.
           </p>
-          <p className={classes.warning}>
-            <strong>⚠ Let op: 2020-2021 is het opstartjaar.</strong> Tijdens het
-            voorjaar van 2021 zullen we (ten minste) drie gastdocenttrajecten
-            per regio opzetten in derde klassen - dus negen in totaal. Dit
-            schalen we op in de opvolgende jaren, waarin we ook de bovenbouw
-            zullen betrekken. In latere jaren hopen we tevens meer regio's te
-            gaan betrekken. Het kan dus even duren voordat je echt aan de slag
-            kan, maar een vroege aanmelding helpt ons om interesse te peilen en
-            om de schaal van vooropleidingen goed in te schatten.
-          </p>
           <iframe
             title="Aanmeldingsformulier"
             loading="lazy"
