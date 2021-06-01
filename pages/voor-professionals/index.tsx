@@ -117,50 +117,6 @@ const Index = (props: {}) => (
 
         <hr />
 
-        <h2>Doe mee in 2021-2022</h2>
-
-        <p>
-          Voor de eerste gastdocenttrajecten in de vierde klas zijn we op zoek
-          naar IT-experts die invulling kunnen geven aan de volgende
-          thema&#39;s:
-        </p>
-        <ul>
-          <li>Usability (tweede helft 2021);</li>
-          <li>User Experience (tweede helft 2021);</li>
-          <li>
-            Maatschappelijke en individuele invloed van informatica (tweede
-            helft 2021);
-          </li>
-          <li>Databases (eerste helft 2022);</li>
-          <li>Physical Computing (eerste helft 2022).</li>
-        </ul>
-        <p>
-          In de derde klassen willen we een breed inkijkje geven in informatica.
-          Schrijf je dus vooral in, ook als je geen directe affiniteit hebt met
-          bovenstaande topics. Je kan{" "}
-          <a href="https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/">
-            hier
-          </a>{" "}
-          alle keuzedomeinen vinden die gedurende de hele bovenbouw de revue
-          kunnen passeren.
-        </p>
-        <p>
-          De eerstvolgende crash course, van vier dagdelen, vindt plaats op de
-          volgende data:
-        </p>
-        <ul>
-          <li>Vrijdag 10 september (13:00-17:00);</li>
-          <li>Vrijdag 17 september (13:00-17:00);</li>
-          <li>Vrijdag 24 september (13:00-17:00);</li>
-          <li>Vrijdag 29 oktober (13:00-17:00).</li>
-        </ul>
-        <p>
-          Schrijf je hieronder in om kennis met ons te maken en verder te kijken
-          of Co-Teach Informatica iets voor jou is.
-        </p>
-
-        <hr />
-
         <section>
           <details>
             <summary>
@@ -270,6 +226,50 @@ const Index = (props: {}) => (
             </p>
           </details>
         </section>
+
+        <hr />
+
+        <h2>Doe mee in 2021-2022</h2>
+
+        <p>
+          Voor de eerste gastdocenttrajecten in de vierde klas zijn we op zoek
+          naar IT-experts die invulling kunnen geven aan de volgende
+          thema&#39;s:
+        </p>
+        <ul>
+          <li>Usability (tweede helft 2021);</li>
+          <li>User Experience (tweede helft 2021);</li>
+          <li>
+            Maatschappelijke en individuele invloed van informatica (tweede
+            helft 2021);
+          </li>
+          <li>Databases (eerste helft 2022);</li>
+          <li>Physical Computing (eerste helft 2022).</li>
+        </ul>
+        <p>
+          In de derde klassen willen we een breed inkijkje geven in informatica.
+          Schrijf je dus vooral in, ook als je geen directe affiniteit hebt met
+          bovenstaande topics. Je kan{" "}
+          <a href="https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/">
+            hier
+          </a>{" "}
+          alle keuzedomeinen vinden die gedurende de hele bovenbouw de revue
+          kunnen passeren.
+        </p>
+        <p>
+          De eerstvolgende crash course, van vier dagdelen, vindt plaats op de
+          volgende data:
+        </p>
+        <ul>
+          <li>Vrijdag 10 september (13:00-17:00);</li>
+          <li>Vrijdag 17 september (13:00-17:00);</li>
+          <li>Vrijdag 24 september (13:00-17:00);</li>
+          <li>Vrijdag 29 oktober (13:00-17:00).</li>
+        </ul>
+        <p>
+          Schrijf je hieronder in om kennis met ons te maken en verder te kijken
+          of Co-Teach Informatica iets voor jou is.
+        </p>
 
         <hr />
 
