@@ -103,12 +103,11 @@ const Index = (props: {}) => (
               <h2>Wat kan je verwachten als school of leraar?</h2>
             </summary>
             <p>
-              Gedurende het opstartjaar 2020-2021 raden we geïnteresseerde
-              scholen aan om eerst één van de regionale info-sessies bij te
-              wonen. Vul het onderstaande formulier in om een uitnodiging te
-              ontvangen voor de eerstvolgende sessie in jullie regio. Tijdens
-              deze sessie wordt het hele programma geïntroduceerd en is er
-              ruimte om vragen te stellen.
+              We raden geïnteresseerde scholen aan om eerst één van de regionale
+              info-sessies bij te wonen. Vul het onderstaande formulier in om
+              een uitnodiging te ontvangen voor de eerstvolgende sessie in
+              jullie regio. Tijdens deze sessie wordt het hele programma
+              geïntroduceerd en is er ruimte om vragen te stellen.
             </p>
             <p>
               Per schooljaar kan een beperkt aantal extra scholen aanhaken. Zo
