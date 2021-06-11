@@ -6,6 +6,7 @@ import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import Footer from "../../components/Footer/Footer";
 import Link from "next/link";
 import { menuStructure } from "../../contents/menuStructure";
+import Video from "../../components/Video/Video";
 
 const Index = (props: {}) => (
   <>
@@ -114,6 +115,15 @@ const Index = (props: {}) => (
             alt={"Ervaringen van Hanneke den Ouden"}
           />
         </a>
+
+        <hr />
+
+        <section>
+          <Video
+            url={"https://youtu.be/8GdUGOkFUwc"}
+            headingText={"Kijk de infosessie terug"}
+          />
+        </section>
 
         <hr />
 

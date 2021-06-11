@@ -9,14 +9,24 @@ const youtubeParser = (url: string): string | null => {
 };
 
 // Inspired by https://adactio.com/journal/16594
-const Video = (props: { url: string; headingText?: string }) => {
+const Video = (props: {
+  url: string;
+  headingText?: string;
+  className?: string;
+}) => {
   const youtubeId = youtubeParser(props.url);
 
   const [isActivated, setIsActivated] = useState(false);
 
   return (
-    <div className={classes.Video}>
-      {props.headingText && <h2>{props.headingText}</h2>}
+    <div
+      className={`${classes.Video} ${props.className ? props.className : ""}`}
+    >
+      {props.headingText && (
+        <div className={classes.header}>
+          <h2>{props.headingText}</h2>
+        </div>
+      )}
       {isActivated ? (
         <iframe
           title="Video"
