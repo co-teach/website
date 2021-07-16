@@ -39,13 +39,12 @@ export const teamMembers: { [id: string]: PersonModel } = {
     roles: ["Vakdidacticus Utrecht"],
     personalPage: "https://www.linkedin.com/in/rachelbaan/",
   },
-  felienne: {
-    firstName: "Felienne",
-    lastName: "Hermans",
+  yuen: {
+    firstName: "Yuen",
+    lastName: "Ng",
     organisation: "Vrije Universiteit Amsterdam",
     roles: ["Vakdidacticus Amsterdam"],
-    personalPage:
-      "https://www.universiteitleiden.nl/medewerkers/felienne-hermans",
+    personalPage: "https://www.linkedin.com/in/yuenkeongng/",
   },
   rhea: {
     firstName: "Rhea",
@@ -82,12 +81,12 @@ export const teamMembers: { [id: string]: PersonModel } = {
     roles: ["Lid namens i&i"],
     personalPage: "https://www.linkedin.com/in/avddrift/",
   },
-  vera: {
-    firstName: "Vera",
-    lastName: "Cortenraede",
+  mariozee: {
+    firstName: "Mariozee",
+    lastName: "Wintermans",
     organisation: "Universiteit Utrecht",
     roles: ["Landelijk Secretaresse"],
-    personalPage: "https://www.uu.nl/medewerkers/VGBCortenraede",
+    personalPage: "https://www.uu.nl/staff/MJWintermans",
   },
   pieter: {
     firstName: "Pieter",

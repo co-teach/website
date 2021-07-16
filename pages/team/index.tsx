@@ -18,13 +18,13 @@ const Index = (props: {}) => {
     teamMembers.martijn,
     teamMembers.berenice,
     teamMembers.rachel,
-    teamMembers.felienne,
+    teamMembers.yuen,
     teamMembers.rhea,
     teamMembers.fleur,
     teamMembers.jelmer,
     teamMembers.jos,
     teamMembers.aad,
-    teamMembers.vera,
+    teamMembers.mariozee,
   ];
   const steeringGroup: PersonModel[] = [
     teamMembers.hein,
