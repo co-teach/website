@@ -1,5 +1,5 @@
 import matter from "gray-matter";
-import remark from "remark";
+import {remark} from "remark";
 import html from "remark-html";
 import { ParsedMarkdown } from "../models/ParsedMarkdown";
 
