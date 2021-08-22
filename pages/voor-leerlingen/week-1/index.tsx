@@ -137,14 +137,14 @@ const Index = (props: {}) => (
 					</p>
 					<ol>
 						<li>Wat is de bedoeling van het systeem?<br/>
-						In hoeverre kan het systeem het leven van een gebruiker ‘verbeteren’?</li><br/>
+						In hoeverre kan het systeem het leven van een gebruiker ‘verbeteren’?<br/><br/></li>
 						<li>Hoe ziet het systeem er uit?
 							<ul>
 								<li>Maak een schets van het systeem.</li>
 								<li>Benoem alle onderdelen (devices) en de ‘taak’/functie van elk device (sensoren en actuatoren).</li>
 								<li>Beschrijf hoe de onderdelen samenwerken.</li>
 							</ul>
-						</li><br/>
+						<br/><br/></li>
 						<li>In hoeverre gaat het bij je systeem om ubiquitous computing, ambient intelligence en internet of things? Beargumenteer je antwoord.</li>
 					</ol>
 					
