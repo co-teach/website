@@ -3,7 +3,7 @@ import classes from "./LeerlingMenu.module.scss";
 import { FaInfoCircle, FaMailBulk } from "react-icons/fa";
 
 const LeerlingMenu = (props: {
-	weeknr?: int;
+	weeknr?: number;
 	
 }) => {
   return (
