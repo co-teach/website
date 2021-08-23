@@ -21,7 +21,8 @@ const VideoPlaceholder = (props: {
 					width="1280px"
 					height="720px"
 					loading="lazy"
-					src={"/images/voor-leerlingen/video niet beschikbaar.png"}
+					src="/images/voor-leerlingen/video niet beschikbaar.png"
+					alt="Deze video komt binnenkort"
 				/>
 			</div>
     </div>
