@@ -22,7 +22,7 @@ const Index = (props: {}) => (
       <article className="restrictedWidth">
         <section className="columns">
 					<SignatureHeader
-            title="Module F: Informatica en Ik"
+            title="Domein F: Informatica en Ik"
 						subtitle="Week 3"
           />
 		  

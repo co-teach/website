@@ -22,7 +22,7 @@ const Index = (props: {}) => (
       <article className="restrictedWidth">
         <section className="columns">
 					<SignatureHeader
-            title="Module F: Informatica en Ik"
+            title="Domein F: Informatica en Ik"
 						subtitle="Week 1"
           />
 		  
@@ -57,7 +57,7 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Je hoeft ze niet in te leveren.</p>
+					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Dit is een peer feedback opdracht. Stuur je antwoorden naar een medeleerling.</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854729" target="_blank">Aan de slag 2</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854733" target="_blank">Aan de slag 3</a></li>
@@ -86,7 +86,7 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Je hoeft ze niet in te leveren.</p>
+					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Dit is een peer feedback opdracht. Stuur je antwoorden naar een medeleerling.</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854739" target="_blank">Aan de slag 5</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854743" target="_blank">Aan de slag 6</a></li>
@@ -113,7 +113,7 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdracht hier onder vinden. Maak deze opdracht in tweetallen. Je hoeft het niet in te leveren.</p>
+					<p>Nu kan je de opdracht hier onder vinden. Maak deze opdracht in tweetallen. Dit is een peer feedback opdracht. Stuur je antwoorden naar een medeleerling.</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854747" target="_blank">Aan de slag 7</a></li>
 					</ul>
@@ -144,7 +144,7 @@ const Index = (props: {}) => (
 								<li>Benoem alle onderdelen (devices) en de ‘taak’/functie van elk device (sensoren en actuatoren).</li>
 								<li>Beschrijf hoe de onderdelen samenwerken.</li>
 							</ul>
-						<br/><br/></li>
+						<br/></li>
 						<li>In hoeverre gaat het bij je systeem om ubiquitous computing, ambient intelligence en internet of things? Beargumenteer je antwoord.</li>
 					</ol>
 					

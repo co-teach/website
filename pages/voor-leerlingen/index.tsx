@@ -69,7 +69,9 @@ const Index = (props: {}) => (
 								aria-hidden
 								alt={""}
 							/>
-							<p>Als je dit niet doet, kan het zijn dat je opdracht niet goed verwerkt wordt.<br/><br/></p>
+							<p>Als je dit niet doet, kan het zijn dat je opdracht niet goed verwerkt wordt.<br/></p>
+							
+							<p>Het kan ook zijn dat je voor een opdracht feedback kan krijgen van een mede-leerling. Dit heet een peer feedback opdracht. Van je leraar krijg je informatie over hoe dat werkt.</p><br/>
 							
 							<h3>Waar kan ik vragen stellen?</h3>
 							<p>
