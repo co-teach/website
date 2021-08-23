@@ -153,7 +153,7 @@ const Index = (props: {}) => (
 						Lever je antwoorden voor deze opdracht in bij het vaksteunpunt. Van je leraar krijg je het email adres waar je het naar toe kan sturen.
 					</p>
 					<p>
-						Let op! Stuur je antwoorden als een bijlage (word document) en zorg er voor dat het onderwerp er zo uit ziet:<br/><b>[de opdrachtnaam] - [je volledige naam] - [je school naam]</b><br/><br/>Bijvoorbeeld als Alan Turing van het Enigma College deze opdracht inlevert, dan ziet het er zo uit:
+						Let op! Stuur je antwoorden als een bijlage (word document) en zorg er voor dat het onderwerp er zo uit ziet:<br/><b>[de opdrachtnaam] - [eerste volledige naam], [tweede volledige naam] - [je school naam]</b><br/><br/>Bijvoorbeeld als Alan Turing en Ada Lovelace van het Enigma College deze opdracht inleveren, dan ziet het er zo uit:
 					</p>
 					<img
 						src={"/images/voor-leerlingen/email_voorbeeld.png"}

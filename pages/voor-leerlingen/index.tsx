@@ -60,16 +60,16 @@ const Index = (props: {}) => (
 								Als er onder een opdracht staat dat je hem in moet leveren, dan moet je de opdracht via mail naar het vaksteunpunt sturen. Van je leraar krijg je een email adres waar je de antwoorden op de opdrachten naar toe kan sturen.
 							</p>
 							<p>
-								Let op! Stuur je antwoorden als een bijlage (word document) en zorg er voor dat het onderwerp er zo uit ziet:<br/><b>[de opdrachtnaam] - [je volledige naam] - [je school naam]</b><br/><br/>Bijvoorbeeld als Alan Turing van het Enigma College de eerste opdracht inlevert, dan ziet het er zo uit:
-							</p>
-							<img
-								src={"/images/voor-leerlingen/email_voorbeeld.png"}
-								width="1219"
-								height="834"
-								aria-hidden
-								alt={""}
-							/>
-							<p>Als je dit niet doet, kan het zijn dat je opdracht niet goed verwerkt wordt.<br/></p>
+						Let op! Stuur je antwoorden als een bijlage (word document) en zorg er voor dat het onderwerp er zo uit ziet:<br/><b>[de opdrachtnaam] - [eerste volledige naam], [tweede volledige naam] - [je school naam]</b><br/><br/>Bijvoorbeeld als Alan Turing en Ada Lovelace van het Enigma College deze opdracht inleveren, dan ziet het er zo uit:
+					</p>
+					<img
+						src={"/images/voor-leerlingen/email_voorbeeld.png"}
+						width="1219"
+						height="834"
+						aria-hidden
+						alt={""}
+					/>
+					<p>Als je dit niet doet, kan het zijn dat je opdracht niet goed verwerkt wordt.<br/><br/></p>
 							
 							<p>Het kan ook zijn dat je voor een opdracht feedback kan krijgen van een mede-leerling. Dit heet een peer feedback opdracht. Van je leraar krijg je informatie over hoe dat werkt.</p><br/>
 							
