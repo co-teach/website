@@ -35,6 +35,95 @@ const Index = (props: {}) => (
 						/>
 					</section>
 					
+					<h2>Lesstof</h2>
+					
+					<p>
+						We beginnen met een intro over informatica in de samenleving. Om er in te komen, kan je beginnen met het lezen op deze pagina:
+					</p>
+					<ul>
+						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854716" target="_blank">Vooraf</a></li>
+					</ul>
+					
+					<h2>Opdrachten</h2>
+					
+					<p>
+						Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Deze opdrachten zijn peer feedback opdrachten. Dat betekent dat je de oplossingen bij een groepje (tweetal) medeleerlingen inlevert en die er feedback op geven. Je docent vertelt je hoe je dat inleveren en reageren praktisch gaat doen (bijv. via mail of een schrift).
+					</p>
+					<ul>
+						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854718" target="_blank">Aan de slag 1</a></li>
+					</ul>
+					<p>
+						Ga feedback geven op de oplossingen die je van je medeleerlingen hebt gekregen: Hoe tevreden ben je met de oplossingen? Wat is goed en wat moet anders?
+					</p>
+					
+					<details>
+            <summary>
+              <h2>Bijlagen</h2>
+            </summary>
+            <h3>Als jouw school het vak informatica nog niet aanbiedt</h3>
+            <p>
+              Voor deze module maken we gebruik van een aantal apps voor de smartphone:
+							<ul>
+								<li>Within VR</li>
+								<li>IKEA Place</li>
+								<li>Halo AR</li>
+							</ul>
+              Deze kunnen van de App Store (iOS) of Google Play Store (Android) op de smartphone gezet worden.
+            </p>
+          </details>
+					
+					<details>
+            <summary>
+              <h2>Leerdoelen</h2>
+            </summary>
+            <h3>Deze leerdoelen gaan we in deze module behandelen:</h3>
+            <p className={classes.nestedlist}>
+							<ol>
+								<li>Ubiquitous computing, ambient intelligence, en internet of things
+								<ol>
+									<li>Je kan de begrippen <i>ubiquitous (pervacive) computing</i> en <i>ambient intelligence</i> uitleggen en het verschil ertussen benoemen.</li>
+									<li>Je kan voorbeelden van apparaten noemen die geschikt zijn voor ubiquitous computing.</li>
+									<li>Je kan de drie basiselementen noemen voor ambient intelligence.</li>
+									<li>Je kan uitleggen wat het <i>internet of things</i>, <i>smart objects</i> en <i>smart en connected devices</i> zijn en wat het verschil tussen deze drie is.</li>
+									<li>Je kan uitleggen hoe het internet of things het internet verandert.</li>
+								</ol></li>
+								
+								<li>Embedded systems, AR en VR, en toepassingen
+								<ol>
+									<li>Je kan het begrip <i>embedded system</i> uitleggen en een aantal voorbeelden en kenmerken ervan opnoemen.</li>
+									<li>Je kan uitleggen wat een <i>protocol</i> is en waar het voor dient.</li>
+									<li>Je kan het begrip <i>domotica</i> uitleggen en de vijf niveaus van woningautomatisering benoemen.</li>
+									<li>Je kan tenminste 3 voorbeelden van <i>wearables</i> geven en tenminste 2 voordelen noemen van het gebruik van wearables in de gezondheidszorg.</li>
+									<li>Je kan het verschil uitleggen tussen <i>VR</i> en <i>AR</i> en tenminste 1 voorbeeld geven van VR en 1 van AR.</li>
+									<li>Je kan uitleggen wat <i>human</i> en <i>ambient awareness</i> zijn en wat het verschil ertussen is.</li>
+									<li>Je kan van <i>human awareness</i> en van <i>ambient awareness</i> telkens minimaal één voorbeeld geven bij thuisgebruik.</li>
+								</ol></li>
+								
+								<li>Usability
+								<ol>
+									<li>Je kan uitleggen wat <i>usability</i> en <i>user experience</i> van een product of app betekenen. </li>
+									<li>Je kan de 10 heuristieken van Nielsen voor gebruiksvriendelijk ontwerp toelichten. </li>
+									<li>Je kan de usability van een digitaal artefact beoordelen aan de hand van de 10 heuristieken van Nielsen.</li>
+								</ol></li>
+								
+								<li>Maatschappelijke aspecten, privacy, en security
+								<ol>
+									<li>Je kan tenminste 2 positieve en 2 negatieve effecten van social media noemen. </li>
+									<li>Je kan aangeven hoe je privacy in gevaar kan komen door de rol van social media, het bedrijfsleven of de overheid. </li>
+									<li>Je kan een korte beschrijving geven van de AVG en kan aangeven waar de afkorting voor staat.</li>
+									<li>Je kan 3 vormen van bedreigingen voor je data noemen. </li>
+									<li>Je kan voor elke vorm van bedreiging minimaal 2 voorbeelden geven en voor elke bedreiging een juiste manier van beveiliging. </li>
+								</ol></li>
+								
+								<li>Eindopdracht
+								<ol>
+									<li>Je kan een onderbouwd advies formuleren voor automatisering in een voorgegeven context: gezondheidszorg, domotica of voertuigen in het verkeer. </li>
+									<li>Je kan een zelf opgesteld automatiseringsadvies op een begrijpelijke manier presenteren. </li>
+								</ol></li>
+							</ol>
+            </p>
+          </details>
+					
         </section>
 
 				<hr/>
@@ -57,12 +146,15 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Dit is een peer feedback opdracht. Stuur je antwoorden naar een medeleerling.</p>
+					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Deze opdrachten zijn peer feedback opdrachten. Dat betekent dat je de oplossingen bij een groepje (tweetal) medeleerlingen inlevert en die er feedback op geven. Je docent vertelt je hoe je dat inleveren en reageren praktisch gaat doen (bijv. via mail of een schrift).</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854729" target="_blank">Aan de slag 2</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854733" target="_blank">Aan de slag 3</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854735" target="_blank">Aan de slag 4</a></li>
 					</ul>
+					<p>
+						Ga feedback geven op de oplossingen die je van je medeleerlingen hebt gekregen: Hoe tevreden ben je met de oplossingen? Wat is goed en wat moet anders?
+					</p>
 					
 				</section>
 
@@ -86,11 +178,14 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Dit is een peer feedback opdracht. Stuur je antwoorden naar een medeleerling.</p>
+					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Deze opdrachten zijn peer feedback opdrachten. Dat betekent dat je de oplossingen bij een groepje (tweetal) medeleerlingen inlevert en die er feedback op geven. Je docent vertelt je hoe je dat inleveren en reageren praktisch gaat doen (bijv. via mail of een schrift).</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854739" target="_blank">Aan de slag 5</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854743" target="_blank">Aan de slag 6</a></li>
 					</ul>
+					<p>
+						Ga feedback geven op de oplossingen die je van je medeleerlingen hebt gekregen: Hoe tevreden ben je met de oplossingen? Wat is goed en wat moet anders?
+					</p>
 				</section>
 
 				<hr/>
@@ -113,10 +208,13 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdracht hier onder vinden. Maak deze opdracht in tweetallen. Dit is een peer feedback opdracht. Stuur je antwoorden naar een medeleerling.</p>
+					<p>Nu kan je de opdracht hier onder vinden. Maak deze opdracht in tweetallen. Deze opdracht is een peer feedback opdracht. Dat betekent dat je de oplossing bij een groepje (tweetal) medeleerlingen inlevert en die er feedback op geven. Je docent vertelt je hoe je dat inleveren en reageren praktisch gaat doen (bijv. via mail of een schrift).</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854747" target="_blank">Aan de slag 7</a></li>
 					</ul>
+					<p>
+						Ga feedback geven op de oplossing die je van je medeleerlingen hebt gekregen: Hoe tevreden ben je met de oplossing? Wat is goed en wat moet anders?
+					</p>
 				</section>
 				
 				<hr/>
@@ -130,7 +228,7 @@ const Index = (props: {}) => (
 					<p>Bij deze opdracht werk je in tweetallen</p>
 					<h3>Beschrijving</h3>
 					<p>
-						Hoe zou informatica jou leven fijner kunnen maken? Bedenk een mooie toepassing voor je dagelijkse leven die je graag zou willen gebruiken. Probeer iets nieuws te verzinnen dat je leven echt verrijkt of makkelijk maakt. Beschrijf vervolgens hoe die toepassing gerealiseerd zou kunnen worden door een systeem met een aantal smart en connected devices (deze hoeven nog niet in het echt te bestaan). Ga uit van een systeem met circa 5 devices. 
+						Hoe zou informatica jouw leven fijner kunnen maken? Bedenk een mooie toepassing voor je dagelijkse leven die je graag zou willen gebruiken. Probeer iets nieuws te verzinnen dat je leven echt verrijkt of makkelijk maakt. Beschrijf vervolgens hoe die toepassing gerealiseerd zou kunnen worden door een systeem met een aantal smart en connected devices (deze hoeven nog niet in het echt te bestaan). Ga uit van een systeem met circa 5 devices. 
 					</p>
 					<p>
 						Geef antwoord op onderstaande vragen:

@@ -54,12 +54,15 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Dit is een peer feedback opdracht. Stuur je antwoorden naar een medeleerling.</p>
+					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Dit zijn peer feedback opdrachten. Stuur je antwoorden naar een medeleerling.</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854754" target="_blank">Aan de slag 8</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854758" target="_blank">Aan de slag 9</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854762" target="_blank">Aan de slag 10</a></li>
 					</ul>
+					<p>
+						Geef feedback op de oplossingen van je medeleerlingen.
+					</p>
 					
 				</section>
 
@@ -83,13 +86,16 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Dit is een peer feedback opdracht. Stuur je antwoorden naar een medeleerling.</p>
+					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Dit zijn peer feedback opdrachten. Stuur je antwoorden naar een medeleerling.</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854791" target="_blank">Aan de slag 17</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854795" target="_blank">Aan de slag 18</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854797" target="_blank">Aan de slag 19</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854799" target="_blank">Aan de slag 20</a></li>
 					</ul>
+					<p>
+						Geef feedback op de oplossingen van je medeleerlingen.
+					</p>
 				</section>
 
 				<hr/>
@@ -114,11 +120,14 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten alleen. Dit is een peer feedback opdracht. Stuur je antwoorden naar een medeleerling.</p>
+					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten alleen. Dit zijn peer feedback opdrachten. Stuur je antwoorden naar een medeleerling.</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854803" target="_blank">Aan de slag 21</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854807" target="_blank">Aan de slag 22</a></li>
 					</ul>
+					<p>
+						Geef feedback op de oplossingen van je medeleerlingen.
+					</p>
 				</section>
 				
 				<hr/>
