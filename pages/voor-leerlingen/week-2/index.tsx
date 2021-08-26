@@ -33,12 +33,14 @@ const Index = (props: {}) => (
 				
 				<section>
 					<section>
-						<VideoPlaceholder
+						<Video
+							url={"https://youtu.be/eWEGpaCmbhI"}
 							headingText={"Embedded systems"}
 						/>
 					</section>
 					<section>
-						<VideoPlaceholder
+						<Video
+							url={"https://youtu.be/p8Vcwf1-hoI"}
 						/>
 					</section>
 					
@@ -65,7 +67,8 @@ const Index = (props: {}) => (
 
         <section>
 					<section>
-						<VideoPlaceholder
+						<Video
+							url={"https://youtu.be/7iUjOwA6JPM"}
 							headingText={"Wearables"}
 						/>
 					</section>
@@ -93,7 +96,8 @@ const Index = (props: {}) => (
 
         <section>
 					<section>
-						<VideoPlaceholder
+						<Video
+						url={"https://youtu.be/RQQjfG7DXGg"}
 							headingText={"VR vs AR"}
 						/>
 					</section>
