@@ -29,6 +29,24 @@ const Index = (props: {}) => (
 		  
 					<LeerlingMenu weeknr={2}/>
 					
+					<details>
+            <summary>
+              <h2>Leerdoelen week 2</h2>
+            </summary>
+            <h3>Deze leerdoelen gaan we in deze week behandelen:</h3>
+            <p className={classes.nestedlist}>
+							<ol>
+								<li>Je kan het begrip <i>embedded system</i> uitleggen en een aantal voorbeelden en kenmerken ervan opnoemen.</li>
+								<li>Je kan uitleggen wat een <i>protocol</i> is en waar het voor dient.</li>
+								<li>Je kan het begrip <i>domotica</i> uitleggen en de vijf niveaus van woningautomatisering benoemen.</li>
+								<li>Je kan tenminste 3 voorbeelden van <i>wearables</i> geven en tenminste 2 voordelen noemen van het gebruik van wearables in de gezondheidszorg.</li>
+								<li>Je kan het verschil uitleggen tussen <i>VR</i> en <i>AR</i> en tenminste 1 voorbeeld geven van VR en 1 van AR.</li>
+								<li>Je kan uitleggen wat <i>human</i> en <i>ambient awareness</i> zijn en wat het verschil ertussen is.</li>
+								<li>Je kan van <i>human awareness</i> en van <i>ambient awareness</i> telkens minimaal één voorbeeld geven bij thuisgebruik.</li>
+							</ol>
+            </p>
+          </details>
+					
         </section>
 				
 				<section>
