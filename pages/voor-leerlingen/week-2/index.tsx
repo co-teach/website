@@ -58,7 +58,7 @@ const Index = (props: {}) => (
 					</section>
 					<section>
 						<Video
-							url={"https://youtu.be/p8Vcwf1-hoI"}
+							url={"https://youtu.be/NeTbRRC0KyQ"}
 						/>
 					</section>
 					
