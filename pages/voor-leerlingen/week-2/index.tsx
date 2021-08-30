@@ -165,10 +165,10 @@ const Index = (props: {}) => (
 						Eerst ga je de VR applicatie Within VR uitproberen. Vervolgens ga je één van de AR applicaties IKEA Place (IKEA meubels in je huis plaatsen), Halo AR (zelfgekozen objecten in AR plaatsen) of Google/Google Lens (objecten in de ruimte herkennen) kiezen en uitproberen. Volg daarvoor de volgende stappen: 
 					</p>
 					<h4>Stap 1:</h4>
-					<ol>
+					<ul>
 						<li>VR applicatie Within VR uitproberen: maak opdracht <a href="https://maken.wikiwijs.nl/157979#!page-5854809" target="_blank">23</a>.<br/><br/></li>
 						<li>Mogelijkheden van AR: Bekijk het filmpje bij opdracht <a href="https://maken.wikiwijs.nl/157979#!page-5854823" target="_blank">23</a>.<br/><br/></li>
-					</ol>
+					</ul>
 					<h4>Stap 2:</h4>
 					<p>
 						Kies uit de opdrachten 25 t/m 27 één van de apps uit die je graag nader wilt verkennen. Installeer vervolgens de gekozen app en probeer deze uit. 
@@ -185,7 +185,7 @@ const Index = (props: {}) => (
 								<li>Wat had je anders verwacht dan het uiteindelijk werkte? Wat viel tegen?</li>
 							</ul>
 						<br/></li>
-						<li>Trek een conclusie: Zou je deze app wel/niet aanbevelen aan je vrienden of familieleden en waarom wel/niet?</li>
+						<li>Trek een conclusie: Zou je deze app wel/niet aanbevelen aan je vrienden of familieleden en waarom wel/niet?<br/><br/></li>
 						<li>Vergelijk nu VR en AR:
 							<ul>	
 								<li>Wat zijn de overeenkomsten tussen virtual reality en augmented reality?</li>
