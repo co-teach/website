@@ -32,7 +32,7 @@ const Index = (props: {}) => (
             <summary>
               <h2>Leerdoelen week 4</h2>
             </summary>
-            <h3>Deze leerdoelen gaan we in deze week behandelen:</h3>
+            <h3>Hieronder vind je de leerdoelen van de vierde week.</h3>
             <p className={classes.nestedlist}>
 							<ol>
 								<li>Je kan tenminste 2 positieve en 2 negatieve effecten van social media noemen. </li>

@@ -33,7 +33,7 @@ const Index = (props: {}) => (
             <summary>
               <h2>Leerdoelen week 2</h2>
             </summary>
-            <h3>Deze leerdoelen gaan we in deze week behandelen:</h3>
+            <h3>Hieronder vind je de leerdoelen van de tweede week.</h3>
             <p className={classes.nestedlist}>
 							<ol>
 								<li>Je kan het begrip <i>embedded system</i> uitleggen en een aantal voorbeelden en kenmerken ervan opnoemen.</li>
@@ -64,10 +64,11 @@ const Index = (props: {}) => (
 					
 					<h2>Lesstof</h2>
 					
-					<p>Nu je deze video over embedded systems hebt gezien, kan je beginnen met het lezen van de lesstof op deze paginas:</p>
+					<p>Nu je deze video's over embedded systems en protocollen hebt gezien, kan je beginnen met het lezen van de lesstof op deze paginas:</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854752" target="_blank">Embedded Systems - 1</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854756" target="_blank">Embedded systems - 2</a></li>
+						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854760" target="_blank">Domotica: een smart home</a></li>
 					</ul>
 					
 					<h2>Opdrachten</h2>
@@ -159,34 +160,48 @@ const Index = (props: {}) => (
 					<p>Bij deze opdracht werk je alleen</p>
 					<h3>Beschrijving</h3>
 					<p>
-						Je gaat voor deze opdracht een VR of een AR applicatie uitproberen.
-						<br/>
-						Bekijk de opdrachten <a href='https://maken.wikiwijs.nl/157979#!page-5854809'>23</a>, <a href='https://maken.wikiwijs.nl/157979#!page-5854815'>25</a> of <a href='https://maken.wikiwijs.nl/157979#!page-5854817'>26</a> uit de lesmethode en kies er een van de apps uit die je graag nader wilt verkennen.
-						<br/>
-						Installeer de gekozen app en probeer deze uit. 
+						Je gaat voor deze opdracht een VR (Within VR) en een AR applicatie uitproberen.
+						<br/><br/>
+						Eerst ga je de VR applicatie Within VR uitproberen. Vervolgens ga je één van de AR applicaties IKEA Place (IKEA meubels in je huis plaatsen), Halo AR (zelfgekozen objecten in AR plaatsen) of Google/Google Lens (objecten in de ruimte herkennen) kiezen en uitproberen. Volg daarvoor de volgende stappen: 
 					</p>
+					<h4>Stap 1:</h4>
+					<ol>
+						<li>VR applicatie Within VR uitproberen: maak opdracht <a href="https://maken.wikiwijs.nl/157979#!page-5854809" target="_blank">23</a>.<br/><br/></li>
+						<li>Mogelijkheden van AR: Bekijk het filmpje bij opdracht <a href="https://maken.wikiwijs.nl/157979#!page-5854823" target="_blank">23</a>.<br/><br/></li>
+					</ol>
+					<h4>Stap 2:</h4>
 					<p>
+						Kies uit de opdrachten 25 t/m 27 één van de apps uit die je graag nader wilt verkennen. Installeer vervolgens de gekozen app en probeer deze uit. 
+						<br/><br/>
 						Geef antwoord op onderstaande vragen:
 					</p>
 					<ol>
 						<li>Beschrijf waarvoor de app is bedoeld: Wat kun je ermee doen?<br/><br/></li>
-						<li>Beschrijf nu wat je hebt uitgeprobeerd: Wat heb je bekeken, welke taken heb je uitgevoerd?<br/><br/></li>
+						<li>Beschrijf nu wat je hebt uitgeprobeerd: Wat heb je bekeken, welke taken heb je uitgevoerd? (Ga uit van 3 taken die je hebt uitgeprobeerd.)<br/><br/></li>
 						<li>Beschrijf nu je ervaring:
 							<ul>
 								<li>In hoeverre lukte het om te doen wat je wilde doen, en op een soepele manier? </li>
-								<li>Wat voegde de AR of VR functionaliteit toe ten opzichte van standaard applicaties?</li>
+								<li>In hoeverre voegde de AR functionaliteit iets essentieels toe ten opzichte van standaard applicaties?</li>
 								<li>Wat had je anders verwacht dan het uiteindelijk werkte? Wat viel tegen?</li>
 							</ul>
 						<br/></li>
 						<li>Trek een conclusie: Zou je deze app wel/niet aanbevelen aan je vrienden of familieleden en waarom wel/niet?</li>
+						<li>Vergelijk nu VR en AR:
+							<ul>	
+								<li>Wat zijn de overeenkomsten tussen virtual reality en augmented reality?</li>
+								<li>Wat zijn de verschillen tussen virtual reality en augmented reality?</li>
+								<li>Waarvoor zou jij een VR headset gebruiken? Beschrijf een voorbeeldsituatie.</li>
+								<li>Waarvoor zou jij een AR headset gebruiken? Beschrijf een voorbeeldsituatie.</li>
+							</ul>
+						</li>
 					</ol>
 					
 					<h3>Inleveren</h3>
 					<p>
-						Lever je antwoorden voor deze opdracht in bij het vaksteunpunt. Van je leraar krijg je het email adres waar je het naar toe kan sturen.
+						Lever je antwoorden op de vragen 1 t/m 5 (ca. 2 A4's) in bij het vaksteunpunt. Van je leraar krijg je het email adres waar je het naar toe kan sturen.
 					</p>
 					<p>
-						Let op! Stuur je antwoorden als een bijlage (word document) en zorg er voor dat het onderwerp er zo uit ziet:<br/><b>[de opdrachtnaam] - [je volledige naam] - [je school naam]</b>
+						Let op! Stuur je antwoorden als een bijlage van een mail (word document) en zorg er voor dat de naam van het document en het onderwerp van de mail er zo uit zien:<br/><b>[de opdrachtnaam] - [je volledige naam] - [je school naam]</b>
 					</p>
 					<p>Als je dit niet doet, kan het zijn dat je opdracht niet goed verwerkt wordt.<br/><br/></p>
 					

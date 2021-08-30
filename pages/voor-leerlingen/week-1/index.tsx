@@ -38,7 +38,7 @@ const Index = (props: {}) => (
 					<h2>Lesstof</h2>
 					
 					<p>
-						We beginnen met een intro over informatica in de samenleving. Om er in te komen, kan je beginnen met het lezen op deze pagina:
+						We beginnen met een intro over informatica in de samenleving. Om er in te komen, kan je beginnen met het lezen van deze pagina:
 					</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854716" target="_blank">Vooraf</a></li>
@@ -47,7 +47,7 @@ const Index = (props: {}) => (
 					<h2>Opdrachten</h2>
 					
 					<p>
-						Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Deze opdrachten zijn peer feedback opdrachten. Dat betekent dat je de oplossingen bij een groepje (tweetal) medeleerlingen inlevert en die er feedback op geven. Je docent vertelt je hoe je dat inleveren en reageren praktisch gaat doen (bijv. via mail of een schrift).
+						Nu kan je de eerste opdracht hier onder vinden. Maak deze opdracht in tweetallen. Deze opdracht is een peer feedback opdrachten. Dat betekent dat je de oplossingen bij een groepje (tweetal) medeleerlingen inlevert en die er feedback op geven. Je docent vertelt je hoe je dat inleveren en reageren praktisch gaat doen (bijv. via mail of een schrift).
 					</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854718" target="_blank">Aan de slag 1</a></li>
@@ -60,7 +60,7 @@ const Index = (props: {}) => (
             <summary>
               <h2>Leerdoelen week 1</h2>
             </summary>
-            <h3>Deze leerdoelen gaan we in deze week behandelen:</h3>
+            <h3>Hieronder vind je de leerdoelen van de eerste week.</h3>
             <p className={classes.nestedlist}>
 							<ol>
 								<li>Je kan de begrippen <i>ubiquitous (pervacive) computing</i> en <i>ambient intelligence</i> uitleggen en het verschil ertussen benoemen.</li>
@@ -94,7 +94,7 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Deze opdrachten zijn peer feedback opdrachten. Dat betekent dat je de oplossingen bij een groepje (tweetal) medeleerlingen inlevert en die er feedback op geven. Je docent vertelt je hoe je dat inleveren en reageren praktisch gaat doen (bijv. via mail of een schrift).</p>
+					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Dit zijn peer feedback opdrachten. Stuur je antwoorden weer naar een medeleerling.</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854729" target="_blank">Aan de slag 2</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854733" target="_blank">Aan de slag 3</a></li>
@@ -126,7 +126,7 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Deze opdrachten zijn peer feedback opdrachten. Dat betekent dat je de oplossingen bij een groepje (tweetal) medeleerlingen inlevert en die er feedback op geven. Je docent vertelt je hoe je dat inleveren en reageren praktisch gaat doen (bijv. via mail of een schrift).</p>
+					<p>Nu kan je de opdrachten hier onder vinden. Maak deze opdrachten in tweetallen. Dit zijn peer feedback opdrachten. Stuur je antwoorden weer naar een medeleerling.</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854739" target="_blank">Aan de slag 5</a></li>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854743" target="_blank">Aan de slag 6</a></li>
@@ -156,7 +156,7 @@ const Index = (props: {}) => (
 					
 					<h2>Opdrachten</h2>
 					
-					<p>Nu kan je de opdracht hier onder vinden. Maak deze opdracht in tweetallen. Deze opdracht is een peer feedback opdracht. Dat betekent dat je de oplossing bij een groepje (tweetal) medeleerlingen inlevert en die er feedback op geven. Je docent vertelt je hoe je dat inleveren en reageren praktisch gaat doen (bijv. via mail of een schrift).</p>
+					<p>Nu kan je de opdracht hier onder vinden. Maak deze opdracht in tweetallen. Dit is een peer feedback opdracht. Stuur je antwoorden weer naar een medeleerling.</p>
 					<ul>
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854747" target="_blank">Aan de slag 7</a></li>
 					</ul>
@@ -199,10 +199,10 @@ const Index = (props: {}) => (
 						Lever je antwoorden voor deze opdracht in bij het vaksteunpunt. Van je leraar krijg je het email adres waar je het naar toe kan sturen.
 					</p>
 					<p>
-						Let op! Stuur je antwoorden als een bijlage (word document) en zorg er voor dat het onderwerp er zo uit ziet:<br/><b>[de opdrachtnaam] - [eerste volledige naam], [tweede volledige naam] - [je school naam]</b><br/><br/>Bijvoorbeeld als Alan Turing en Ada Lovelace van het Enigma College deze opdracht inleveren, dan ziet het er zo uit:
+						Let op! Stuur je antwoorden als een bijlage van een mail (word document) en zorg er voor dat de naam van het document en het onderwerp van de mail er zo uit zien:<br/><b>[de opdrachtnaam] - [eerste volledige naam], [tweede volledige naam] - [je school naam]</b><br/><br/>Bijvoorbeeld als Alan Turing en Ada Lovelace van het Enigma College deze opdracht inleveren, dan ziet het er zo uit:
 					</p>
 					<img
-						src={"/images/voor-leerlingen/email_voorbeeld.png"}
+						src={"/images/voor-leerlingen/email_voorbeeld_nieuw.png"}
 						width="1219"
 						height="834"
 						aria-hidden

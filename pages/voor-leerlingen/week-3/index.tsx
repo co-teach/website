@@ -32,7 +32,7 @@ const Index = (props: {}) => (
             <summary>
               <h2>Leerdoelen week 3</h2>
             </summary>
-            <h3>Deze leerdoelen gaan we in deze week behandelen:</h3>
+            <h3>Hieronder vind je de leerdoelen van de derde week.</h3>
             <p className={classes.nestedlist}>
 							<ol>
 								<li>Je kan uitleggen wat <i>usability</i> en <i>user experience</i> van een product of app betekenen. </li>
