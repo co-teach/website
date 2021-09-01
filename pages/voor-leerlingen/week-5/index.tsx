@@ -28,6 +28,19 @@ const Index = (props: {}) => (
 		  
 					<LeerlingMenu weeknr={5}/>
 					
+					<details>
+            <summary>
+              <h2>Leerdoelen week 5</h2>
+            </summary>
+            <h3>Hieronder vind je de leerdoelen van de vijfde week.</h3>
+            <p className={classes.nestedlist}>
+							<ol>
+									<li>Je kan een onderbouwd advies formuleren voor automatisering in een voorgegeven context: gezondheidszorg, domotica of voertuigen in het verkeer. </li>
+									<li>Je kan een zelf opgesteld automatiseringsadvies op een begrijpelijke manier presenteren. </li>
+							</ol>
+            </p>
+          </details>
+					
           <h3>Deze week is nog niet beschikbaar.</h3>
 					
         </section>
