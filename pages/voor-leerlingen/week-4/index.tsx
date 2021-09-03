@@ -7,6 +7,7 @@ import Footer from "../../../components/Footer/Footer";
 import Link from "next/link";
 import { menuStructure } from "../../../contents/menuStructure";
 import Video from "../../../components/Video/Video";
+import VideoPlaceholder from "../../../components/VideoPlaceholder/VideoPlaceholder";
 import LeerlingMenu from "../../../components/LeerlingMenu/LeerlingMenu";
 
 const Index = (props: {}) => (
