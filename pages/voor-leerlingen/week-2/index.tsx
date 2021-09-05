@@ -29,23 +29,19 @@ const Index = (props: {}) => (
 		  
 					<LeerlingMenu weeknr={2}/>
 					
-					<details>
-            <summary>
-              <h2>Leerdoelen week 2</h2>
-            </summary>
-            <h3>Hieronder vind je de leerdoelen van de tweede week.</h3>
-            <p className={classes.nestedlist}>
-							<ol>
-								<li>Je kan het begrip <i>embedded system</i> uitleggen en een aantal voorbeelden en kenmerken ervan opnoemen.</li>
-								<li>Je kan uitleggen wat een <i>protocol</i> is en waar het voor dient.</li>
-								<li>Je kan het begrip <i>domotica</i> uitleggen en de vijf niveaus van woningautomatisering benoemen.</li>
-								<li>Je kan tenminste 3 voorbeelden van <i>wearables</i> geven en tenminste 2 voordelen noemen van het gebruik van wearables in de gezondheidszorg.</li>
-								<li>Je kan het verschil uitleggen tussen <i>VR</i> en <i>AR</i> en tenminste 1 voorbeeld geven van VR en 1 van AR.</li>
-								<li>Je kan uitleggen wat <i>human</i> en <i>ambient awareness</i> zijn en wat het verschil ertussen is.</li>
-								<li>Je kan van <i>human awareness</i> en van <i>ambient awareness</i> telkens minimaal één voorbeeld geven bij thuisgebruik.</li>
-							</ol>
-            </p>
-          </details>
+					<h2>Leerdoelen week 2</h2>
+					<h3>Hieronder vind je de leerdoelen van de tweede week.</h3>
+					<p>
+						<ol>
+							<li>Je kan het begrip <i>embedded system</i> uitleggen en een aantal voorbeelden en kenmerken ervan opnoemen.</li>
+							<li>Je kan uitleggen wat een <i>protocol</i> is en waar het voor dient.</li>
+							<li>Je kan het begrip <i>domotica</i> uitleggen en de vijf niveaus van woningautomatisering benoemen.</li>
+							<li>Je kan tenminste 3 voorbeelden van <i>wearables</i> geven en tenminste 2 voordelen noemen van het gebruik van wearables in de gezondheidszorg.</li>
+							<li>Je kan het verschil uitleggen tussen <i>VR</i> en <i>AR</i> en tenminste 1 voorbeeld geven van VR en 1 van AR.</li>
+							<li>Je kan uitleggen wat <i>human</i> en <i>ambient awareness</i> zijn en wat het verschil ertussen is.</li>
+							<li>Je kan van <i>human awareness</i> en van <i>ambient awareness</i> telkens minimaal één voorbeeld geven bij thuisgebruik.</li>
+						</ol>
+					</p>
 					
         </section>
 				
@@ -145,7 +141,7 @@ const Index = (props: {}) => (
 						<li><a href="https://maken.wikiwijs.nl/157979#!page-5854807" target="_blank">Aan de slag 22</a></li>
 					</ul>
 					<p>
-						Geef feedback op de oplossingen van je medeleerlingen.
+						Geef feedback op de oplossingen van je medeleerling.
 					</p>
 				</section>
 				
@@ -157,16 +153,16 @@ const Index = (props: {}) => (
 					</div>
 					
 					<h2>VR of AR ervaren</h2>
-					<p>Bij deze opdracht werk je alleen</p>
+					<p>Bij deze opdracht werk je alleen.</p>
 					<h3>Beschrijving</h3>
 					<p>
-						Je gaat voor deze opdracht een VR (Within VR) en een AR applicatie uitproberen.
+						Je gaat voor deze opdracht een VR (<i>Within VR</i>) en een AR applicatie uitproberen.
 						<br/><br/>
-						Eerst ga je de VR applicatie Within VR uitproberen. Vervolgens ga je één van de AR applicaties IKEA Place (IKEA meubels in je huis plaatsen), Halo AR (zelfgekozen objecten in AR plaatsen) of Google/Google Lens (objecten in de ruimte herkennen) kiezen en uitproberen. Volg daarvoor de volgende stappen: 
+						Eerst ga je de VR applicatie <i>Within VR</i> uitproberen. Vervolgens ga je één van de AR applicaties <i>IKEA Place</i> (IKEA meubels in je huis plaatsen), <i>Halo AR</i> (zelfgekozen objecten in AR plaatsen) of <i>Google/Google Lens</i> (objecten in de ruimte herkennen) kiezen en uitproberen. Volg daarvoor de volgende stappen: 
 					</p>
 					<h4>Stap 1:</h4>
 					<ul>
-						<li>VR applicatie Within VR uitproberen: maak opdracht <a href="https://maken.wikiwijs.nl/157979#!page-5854809" target="_blank">23</a>.<br/><br/></li>
+						<li>VR applicatie <i>Within VR</i> uitproberen: maak opdracht <a href="https://maken.wikiwijs.nl/157979#!page-5854809" target="_blank">23</a>.<br/><br/></li>
 						<li>Mogelijkheden van AR: Bekijk het filmpje bij opdracht <a href="https://maken.wikiwijs.nl/157979#!page-5854823" target="_blank">23</a>.<br/><br/></li>
 					</ul>
 					<h4>Stap 2:</h4>

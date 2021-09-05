@@ -56,21 +56,17 @@ const Index = (props: {}) => (
 						Ga feedback geven op de oplossingen die je van je medeleerlingen hebt gekregen: Hoe tevreden ben je met de oplossingen? Wat is goed en wat moet anders?
 					</p>
 					
-					<details>
-            <summary>
-              <h2>Leerdoelen week 1</h2>
-            </summary>
-            <h3>Hieronder vind je de leerdoelen van de eerste week.</h3>
-            <p className={classes.nestedlist}>
-							<ol>
-								<li>Je kan de begrippen <i>ubiquitous (pervacive) computing</i> en <i>ambient intelligence</i> uitleggen en het verschil ertussen benoemen.</li>
-								<li>Je kan voorbeelden van apparaten noemen die geschikt zijn voor ubiquitous computing.</li>
-								<li>Je kan de drie basiselementen noemen voor ambient intelligence.</li>
-								<li>Je kan uitleggen wat het <i>internet of things</i>, <i>smart objects</i> en <i>smart en connected devices</i> zijn en wat het verschil tussen deze drie is.</li>
-								<li>Je kan uitleggen hoe het internet of things het internet verandert.</li>
-							</ol>
-            </p>
-          </details>
+					<h2>Leerdoelen week 1</h2>
+					<h3>Hieronder vind je de leerdoelen van de eerste week.</h3>
+					<p>
+						<ol>
+							<li>Je kan de begrippen <i>ubiquitous (pervacive) computing</i> en <i>ambient intelligence</i> uitleggen en het verschil ertussen benoemen.</li>
+							<li>Je kan voorbeelden van apparaten noemen die geschikt zijn voor ubiquitous computing.</li>
+							<li>Je kan de drie basiselementen noemen voor ambient intelligence.</li>
+							<li>Je kan uitleggen wat het <i>internet of things</i>, <i>smart objects</i> en <i>smart en connected devices</i> zijn en wat het verschil tussen deze drie is.</li>
+							<li>Je kan uitleggen hoe het internet of things het internet verandert.</li>
+						</ol>
+					</p>
 					
         </section>
 
@@ -173,7 +169,7 @@ const Index = (props: {}) => (
 					</div>
 					
 					<h2>Een mooie toepassing</h2>
-					<p>Bij deze opdracht werk je in tweetallen</p>
+					<p>Bij deze opdracht werk je in tweetallen.</p>
 					<h3>Beschrijving</h3>
 					<p>
 						Hoe zou informatica jouw leven fijner kunnen maken? Bedenk een mooie toepassing voor je dagelijkse leven die je graag zou willen gebruiken. Probeer iets nieuws te verzinnen dat je leven echt verrijkt of makkelijk maakt. Beschrijf vervolgens hoe die toepassing gerealiseerd zou kunnen worden door een systeem met een aantal smart en connected devices (deze hoeven nog niet in het echt te bestaan). Ga uit van een systeem met circa 5 devices. 

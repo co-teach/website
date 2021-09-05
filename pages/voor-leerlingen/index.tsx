@@ -63,7 +63,7 @@ const Index = (props: {}) => (
 						Let op! Stuur je antwoorden als een bijlage (word document) en zorg er voor dat het onderwerp er zo uit ziet:<br/><b>[de opdrachtnaam] - [eerste volledige naam], [tweede volledige naam] - [je school naam]</b><br/><br/>Bijvoorbeeld als Alan Turing en Ada Lovelace van het Enigma College deze opdracht inleveren, dan ziet het er zo uit:
 					</p>
 					<img
-						src={"/images/voor-leerlingen/email_voorbeeld.png"}
+						src={"/images/voor-leerlingen/email_voorbeeld_nieuw.png"}
 						width="1219"
 						height="834"
 						aria-hidden

@@ -29,21 +29,17 @@ const Index = (props: {}) => (
 		  
 					<LeerlingMenu weeknr={4}/>
 					
-					<details>
-            <summary>
-              <h2>Leerdoelen week 4</h2>
-            </summary>
-            <h3>Hieronder vind je de leerdoelen van de vierde week.</h3>
-            <p className={classes.nestedlist}>
-							<ol>
-								<li>Je kan tenminste 2 positieve en 2 negatieve effecten van social media noemen. </li>
-								<li>Je kan aangeven hoe je privacy in gevaar kan komen door de rol van social media, het bedrijfsleven of de overheid. </li>
-								<li>Je kan een korte beschrijving geven van de AVG en kan aangeven waar de afkorting voor staat.</li>
-								<li>Je kan 3 vormen van bedreigingen voor je data noemen. </li>
-								<li>Je kan voor elke vorm van bedreiging minimaal 2 voorbeelden geven en voor elke bedreiging een juiste manier van beveiliging. </li>
-							</ol>
-            </p>
-          </details>
+					<h2>Leerdoelen week 4</h2>
+					<h3>Hieronder vind je de leerdoelen van de vierde week.</h3>
+					<p>
+						<ol>
+							<li>Je kan tenminste 2 positieve en 2 negatieve effecten van social media noemen. </li>
+							<li>Je kan aangeven hoe je privacy in gevaar kan komen door de rol van social media, het bedrijfsleven of de overheid. </li>
+							<li>Je kan een korte beschrijving geven van de AVG en kan aangeven waar de afkorting voor staat.</li>
+							<li>Je kan 3 vormen van bedreigingen voor je data noemen. </li>
+							<li>Je kan voor elke vorm van bedreiging minimaal 2 voorbeelden geven en voor elke bedreiging een juiste manier van beveiliging. </li>
+						</ol>
+					</p>
 					
           <h3>Deze week is nog niet beschikbaar.</h3>
 					

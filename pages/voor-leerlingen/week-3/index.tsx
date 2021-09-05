@@ -29,19 +29,15 @@ const Index = (props: {}) => (
 		  
 					<LeerlingMenu weeknr={3}/>
 					
-					<details>
-            <summary>
-              <h2>Leerdoelen week 3</h2>
-            </summary>
-            <h3>Hieronder vind je de leerdoelen van de derde week.</h3>
-            <p className={classes.nestedlist}>
-							<ol>
-								<li>Je kan uitleggen wat <i>usability</i> en <i>user experience</i> van een product of app betekenen. </li>
-								<li>Je kan de 10 heuristieken van Nielsen voor gebruiksvriendelijk ontwerp toelichten. </li>
-								<li>Je kan de usability van een digitaal artefact beoordelen aan de hand van de 10 heuristieken van Nielsen.</li>
-							</ol>
-            </p>
-          </details>
+					<h2>Leerdoelen week 3</h2>
+					<h3>Hieronder vind je de leerdoelen van de derde week.</h3>
+					<p>
+						<ol>
+							<li>Je kan uitleggen wat <i>usability</i> en <i>user experience</i> van een product of app betekenen. </li>
+							<li>Je kan de 10 heuristieken van Nielsen voor gebruiksvriendelijk ontwerp toelichten. </li>
+							<li>Je kan de usability van een digitaal artefact beoordelen aan de hand van de 10 heuristieken van Nielsen.</li>
+						</ol>
+					</p>
 					
         </section>
 				
@@ -86,7 +82,7 @@ const Index = (props: {}) => (
 					</div>
 					
 					<h2>Usability</h2>
-					<p>Bij deze opdracht werk je in tweetallen</p>
+					<p>Bij deze opdracht werk je in tweetallen.</p>
 					<h3>Beschrijving</h3>
 					<p>
 						In deze opdracht ga je een website beoordelen op usability.
