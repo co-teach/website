@@ -181,7 +181,7 @@ const Index = (props: {}) => (
 						Lever je antwoorden op de vragen in bij het vaksteunpunt. Van je leraar krijg je het email adres waar je het naar toe kan sturen.
 					</p>
 					<p>
-						Let op! Stuur je antwoorden als een bijlage van een mail (word document) en zorg er voor dat de naam van het document en het onderwerp van de mail er zo uit zien:<br/><b>[de opdrachtnaam] - [je volledige naam] - [je school naam]</b>
+						Let op! Stuur je antwoorden als een bijlage van een mail (word document) en zorg er voor dat de naam van het document en het onderwerp van de mail er zo uit zien:<br/><b>[de opdrachtnaam] - [eerste volledige naam], [tweede volledige naam] - [je school naam]</b>
 					</p>
 					<p>Als je dit niet doet, kan het zijn dat je opdracht niet goed verwerkt wordt.<br/><br/></p>
 					
