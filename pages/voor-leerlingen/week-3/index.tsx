@@ -31,13 +31,11 @@ const Index = (props: {}) => (
 					
 					<h2>Leerdoelen week 3</h2>
 					<h3>Hieronder vind je de leerdoelen van de derde week.</h3>
-					<p>
-						<ol>
-							<li>Je kan uitleggen wat <i>usability</i> en <i>user experience</i> van een product of app betekenen. </li>
-							<li>Je kan de 10 heuristieken van Nielsen voor gebruiksvriendelijk ontwerp toelichten. </li>
-							<li>Je kan de usability van een digitaal artefact beoordelen aan de hand van de 10 heuristieken van Nielsen.</li>
-						</ol>
-					</p>
+					<ol>
+						<li>Je kan uitleggen wat <i>usability</i> en <i>user experience</i> van een product of app betekenen. </li>
+						<li>Je kan de 10 heuristieken van Nielsen voor gebruiksvriendelijk ontwerp toelichten. </li>
+						<li>Je kan de usability van een digitaal artefact beoordelen aan de hand van de 10 heuristieken van Nielsen.</li>
+					</ol>
 					
         </section>
 				
@@ -78,17 +76,105 @@ const Index = (props: {}) => (
 				
 				<section>
 					<div className={classes.header}>
+						<h2>Usability</h2>
+					</div>
+					
+					<h2>Lesstof</h2>
+					
+					<p>Als voorbereiding op de mijlpaalopdracht kan je de lesstof over usability hier lezen:</p>
+					<ul>
+						<li><a href="/docs/voor-leerlingen/Domein F - Informatica en ik - Heuristieken van Nielsen.pdf" target="_blank">De 10 Heuristieken van Nielsen</a></li>
+					</ul>
+					
+				</section>
+
+				<hr/>
+				
+				<section>
+					<div className={classes.header}>
 						<h2>Mijlpaalopdracht 3</h2>
 					</div>
 					
 					<h2>Usability</h2>
 					<p>Bij deze opdracht werk je in tweetallen.</p>
 					<h3>Beschrijving</h3>
-					<p>
-						In deze opdracht ga je een website beoordelen op usability.
-						Je kan de opdrachten <a href="/docs/voor-leerlingen/Domein F - Informatica en ik - Mijlpaalopdracht 3.docx" download>hier</a> downloaden.
-					</p>
+					<ol>
+						<li>
+							<p>
+								In deze opdracht ga je de gebruikersvriendelijkheid van een website beoordelen. Daarvoor ga je een website bekijken en een aantal taken uitvoeren.
+							</p>
+							<p>
+								Website: <a href="https://felyx.com/nl/nl" target="_blank">https://felyx.com/nl/nl</a>
+							</p>
+							<p>
+								Taken:
+							</p>
+							<ul>
+								<li>Zoek uit wat de kosten zijn van het huren van een scooter van Felyx om Rotterdam te verkennen voor 1 uur. Kan je op de website een tabel vinden hoeveel de kosten zijn per uur, per 2 uur, per 3 uur?</li>
+								<li>Zoek uit hoe het project werkt.</li>
+								<li>Zoek uit of je een helm moet dragen in Rotterdam.</li>
+								<li>Waar kan je je scooter terugbrengen?<br/>
+									Kan je gemakkelijk een kaart vinden met de ophaalpunten?</li>
+								<li>Zoek uit hoe je de scooter kan ontgrendelen en starten.</li>
+							</ul>
+						</li>
+						<li>
+							<p>
+								Geef aan de hand van de heuristieken van Nielsen een beoordeling van de bruikbaarheid van de website.
+							</p>
+							<ol type="a">
+								<li>Neem het onderstaande schema over en vul in.</li>
+								<li>Geef bij elke heuristiek aan waarom je deze beoordeling gegeven hebt.</li>
+							</ol>
+						</li>
+					</ol>
 					
+					<table className={classes.tg}>
+						<thead>
+							<tr>
+								<th><b>Heuristiek</b></th>
+								<th><b className={classes.vert}>Onvoldoende</b></th>
+								<th><b className={classes.vert}>Redelijk</b></th>
+								<th><b className={classes.vert}>Voldoende</b></th>
+								<th><b className={classes.vert}>Goed</b></th>
+								<th><b className={classes.vert}>Uitstekend</b></th>
+								<th><b>Leg uit waarom. Maak daarbij gebruik van de uitgevoerde taken (deelvraag 1)</b><br/></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Visibility<br/></td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr>
+								<td>Mapping</td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr>
+								<td>Freedom</td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr>
+								<td>Consistency</td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr>
+								<td>Error prevention</td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr>
+								<td>Recognition</td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr>
+								<td>Flexibility</td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr>
+								<td>Minimalism</td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr>
+								<td>Error recovery</td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+							<tr>
+								<td>Help</td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+						</tbody>
+					</table>
+					<br/>
 					
 					<h3>Inleveren</h3>
 					<p>
