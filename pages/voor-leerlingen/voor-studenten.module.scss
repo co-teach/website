@@ -82,18 +82,37 @@
 	margin-bottom: 30px;
 }
 
-.nestedlist {
-	ol {
-	counter-reset: item;
-	
-	li {
-		display: block;
-	}
-
-	li:before {
-		content: counters(item, ".") ". ";
-		counter-increment: item;
-		color: var(--coteach-pink)
-	}
-	}
+.tg{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.tg td{
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+.tg th{
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+	min-width: 40px;
+}
+.tg .tg-1wig{
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top
+}
+.tg .tg-0lax{
+	text-align: left;
+	vertical-align: top
+}
+.vert{
+	writing-mode: vertical-lr
 }
