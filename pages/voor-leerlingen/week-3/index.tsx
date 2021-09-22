@@ -81,7 +81,7 @@ const Index = (props: {}) => (
 					
 					<h2>Lesstof</h2>
 					
-					<p>Als voorbereiding op de mijlpaalopdracht kan je de lesstof over usability hier lezen:</p>
+					<p>Werk nu ter voorbereiding op de volgende mijlpaalopdracht de lesstof over usability door:</p>
 					<ul>
 						<li><a href="/docs/voor-leerlingen/Domein F - Informatica en ik - Heuristieken van Nielsen.pdf" target="_blank">De 10 Heuristieken van Nielsen</a></li>
 					</ul>
