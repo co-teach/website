@@ -116,3 +116,8 @@
 .vert{
 	writing-mode: vertical-lr
 }
+
+.ttop tr *{
+	vertical-align: top;
+	padding: 3px 10px;
+}
