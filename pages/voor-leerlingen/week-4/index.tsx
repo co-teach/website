@@ -43,7 +43,8 @@ const Index = (props: {}) => (
 				
 				<section>
 					<section>
-						<VideoPlaceholder
+						<Video
+							url={"https://youtu.be/r2rOOX9s_x4"}
 							headingText={"Sociale Media"}
 						/>
 					</section>
@@ -75,7 +76,8 @@ const Index = (props: {}) => (
 				
 				<section>
 					<section>
-						<VideoPlaceholder
+						<Video
+							url={"https://youtu.be/audXrKc9kUQ"}
 							headingText={"Privacy"}
 						/>
 					</section>
