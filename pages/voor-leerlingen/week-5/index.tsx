@@ -89,7 +89,7 @@ const Index = (props: {}) => (
 						<li>Presentatie voor de klas over jouw advies.</li>
 					</ol>
 					
-					<h4><i>Scriftelijk advies</i></h4>
+					<h4><i>Schriftelijk advies</i></h4>
 					<p>
 						Gebruik <a href="/docs/voor-leerlingen/Domein F - Informatica en Ik - Eindopdracht - SJABLOON.docx">dit word sjabloon</a> en verwerk de volgende onderdelen in je advies:
 					</p>
