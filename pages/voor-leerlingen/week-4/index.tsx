@@ -109,7 +109,8 @@ const Index = (props: {}) => (
 				
 				<section>
 					<section>
-						<VideoPlaceholder
+						<Video
+							url={"https://youtu.be/h_1wv-5VAgE"}
 							headingText={"Beveiliging"}
 						/>
 					</section>
