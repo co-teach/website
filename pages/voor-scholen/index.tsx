@@ -98,6 +98,24 @@ const Index = (props: {}) => (
         <hr />
 
         <section>
+          <h2>Hoe ziet het programma eruit?</h2>
+          <p>De domeinen worden in de volgende volgorde behandeld:</p>
+          <img src={"/images/co-teach-informatica_programma.png"} />
+          <p>
+            * Domein A gaat om informatica vaardigheden die in verschillende
+            modules worden afgedekt.
+          </p>
+          <p>
+            ** In gastdocenttraject 4 en 5 is er keuze uit dezelfde modules. Het
+            is belangrijk dat bij het inplannen van de gastdocenten op ee
+            nschool rekening gehouden wordt met ee ngebalanceerde verdeling over
+            de modules
+          </p>
+        </section>
+
+        <hr />
+
+        <section>
           <details>
             <summary>
               <h2>Wat kan je verwachten als school of leraar?</h2>
