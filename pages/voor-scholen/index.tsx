@@ -100,7 +100,7 @@ const Index = (props: {}) => (
         <section>
           <h2>Hoe ziet het programma eruit?</h2>
           <p>De domeinen worden in de volgende volgorde behandeld:</p>
-          <img src={"/images/co-teach-informatica_programma.png"} />
+          <img src={"/images/co-teach-informatica_programma.png"} alt={"Co-teach informatica programma"}/>
           <p>
             * Domein A gaat om informatica vaardigheden die in verschillende
             modules worden afgedekt.
