@@ -147,11 +147,11 @@ const Index = (props: {}) => (
 						<h2>Mijlpaalopdracht 4</h2>
 					</div>
 					
-					<h2>Toets Maatschappelijke Aspecten</h2>
+					<h2>Toets Informatica en Ik</h2>
 					<p>Bij deze opdracht werk je individueel.</p>
 					<h3>Beschrijving</h3>
 					<p>
-						Jullie docent op school gaat jullie de toets uitdelen of mailen. De docent laat je ook weten hoe je de antwoorden moet opschrijven (op papier of in een digitaal document).
+						Deze mijlpaalopdracht is een kennistoets over wat je tot nog toe hebt geleerd. Jullie docent op school gaat jullie de toets uitdelen of mailen. De docent laat je ook weten hoe je de antwoorden moet opschrijven (op papier of in een digitaal document).
 
 						Let op: de toets wordt beoordeeld met een cijfer dat meetelt voor je eindcijfer.
 					</p>
