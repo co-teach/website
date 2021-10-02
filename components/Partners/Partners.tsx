@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Partners.module.scss";
-import { Partner } from "../../models/Partner";
+import type { Partner } from "../../models/Partner";
 
 const Partners = (props: { partners: Partner[]; headingText: string }) => (
   <section className={classes.Partners}>

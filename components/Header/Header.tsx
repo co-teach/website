@@ -3,7 +3,7 @@ import Link from "next/link";
 import classes from "./Header.module.scss";
 import MobileNav from "./MobileNav/MobileNav";
 import DesktopNav from "./DesktopNav/DesktopNav";
-import { NavItem } from "../../models/NavItem";
+import type { NavItem } from "../../models/NavItem";
 
 const Header = (props: {
   navData: NavItem[];

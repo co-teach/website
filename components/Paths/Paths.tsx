@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Paths.module.scss";
 import Link from "next/link";
 
-const Paths = (props: {}) => (
+const Paths = () => (
   <section id={classes.Paths}>
     <div id={classes.Professionals}>
       <Link href="/voor-professionals">

@@ -1,4 +1,4 @@
-import { PersonModel } from "../models/PersonModel";
+import type { PersonModel } from "../models/PersonModel";
 
 export const teamMembers: { [id: string]: PersonModel } = {
   ivar: {

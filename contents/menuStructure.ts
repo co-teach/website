@@ -1,4 +1,4 @@
-import { NavItem } from "../models/NavItem";
+import type { NavItem } from "../models/NavItem";
 
 export const menuStructure: NavItem[] = [
   {

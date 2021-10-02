@@ -1,4 +1,4 @@
-import { Partner } from "../../models/Partner";
+import type { Partner } from "../../models/Partner";
 import React from "react";
 
 const PartnerLink = ({ partner }: { partner: Partner | null }) => {

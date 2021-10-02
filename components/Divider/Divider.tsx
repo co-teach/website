@@ -1,4 +1,5 @@
-import React, { ReactElement } from "react";
+import type { ReactElement } from "react";
+import React from "react";
 import classes from "./Divider.module.scss";
 
 const Divider = (props: {
@@ -6,7 +7,7 @@ const Divider = (props: {
   marginBottom?: boolean;
   children?: ReactElement;
 }) => {
-  let classNames = [classes.ImageDivider];
+  const classNames = [classes.ImageDivider];
 
   if (props.marginTop) {
     classNames.push(classes.marginTop);
