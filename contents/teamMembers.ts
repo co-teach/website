@@ -17,20 +17,20 @@ export const teamMembers: { [id: string]: PersonModel } = {
     email: "l.e.i.breymann@utwente.nl",
     personalPage: "https://personen.utwente.nl/l.e.i.breymann",
   },
-  martijn: {
-    firstName: "Martijn",
-    lastName: "Meeter",
+  martine: {
+    firstName: "Martine",
+    lastName: "Melein",
     organisation: "Vrije Universiteit Amsterdam",
     roles: ["Projectleider Amsterdam"],
-    email: "m.meeter@vu.nl",
-    personalPage: "https://research.vu.nl/en/persons/martijn-meeter",
+    email: "m.m.melein@vu.nl",
+    personalPage: "https://nl.linkedin.com/in/martinemelein/nl",
   },
-  berenice: {
-    firstName: "Berenice",
-    lastName: "Michels",
+  elvira: {
+    firstName: "Elvira",
+    lastName: "Folmer",
     organisation: "Universiteit Utrecht",
     roles: ["Landelijk Projectmanager"],
-    personalPage: "https://www.uu.nl/medewerkers/BIMichels",
+    personalPage: "https://www.uu.nl/medewerkers/EFolmer",
   },
   rachel: {
     firstName: "Rachel",
