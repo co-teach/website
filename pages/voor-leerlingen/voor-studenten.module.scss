@@ -47,6 +47,7 @@
     margin-top: 1em;
     margin-bottom: 0.25em;
   }
+
   p {
     margin-top: 0;
   }
@@ -58,9 +59,8 @@
   color: white;
 }
 
-
 .header {
-	h2 {
+  h2 {
     font-size: 2em;
     display: inline;
     margin-left: -10px;
@@ -75,49 +75,54 @@
     line-height: 1.65;
     white-space: pre-wrap;
   }
-	
-	display: block;
-	margin: auto;
-	width: fit-content;
-	margin-bottom: 30px;
+
+  display: block;
+  margin: auto;
+  width: fit-content;
+  margin-bottom: 30px;
 }
 
-.tg{
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-.tg td{
-	border-color: black;
-	border-style: solid;
-	border-width: 1px;
-	overflow: hidden;
-	padding: 10px 5px;
-	word-break: normal;
-}
-.tg th{
-	border-color: black;
-	border-style: solid;
-	border-width: 1px;
-	font-weight: normal;
-	overflow: hidden;
-	padding: 10px 5px;
-	word-break: normal;
-	min-width: 40px;
-}
-.tg .tg-1wig{
-	font-weight: bold;
-	text-align: left;
-	vertical-align: top
-}
-.tg .tg-0lax{
-	text-align: left;
-	vertical-align: top
-}
-.vert{
-	writing-mode: vertical-lr
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.ttop tr *{
-	vertical-align: top;
-	padding: 3px 10px;
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+  min-width: 40px;
+}
+
+.tg .tg-1wig {
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tg .tg-0lax {
+  text-align: left;
+  vertical-align: top;
+}
+
+.vert {
+  writing-mode: vertical-lr;
+}
+
+.ttop tr * {
+  vertical-align: top;
+  padding: 3px 10px;
 }

@@ -4,14 +4,17 @@
   a {
     color: var(--coteach-purple);
   }
+
   a:hover,
   a:focus {
     // color: var(--coteach-pink);
     border-bottom: 2px solid var(--coteach-pink);
   }
+
   :global a.active {
     color: var(--coteach-pink);
   }
+
   :global a.active:hover,
   :global a.active:focus {
     border-bottom: none;

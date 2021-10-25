@@ -20,6 +20,7 @@
     line-height: 1.65;
     white-space: pre-wrap;
   }
+
   .header {
     display: block;
     margin: auto;
@@ -51,6 +52,7 @@
       height: 100%;
       width: 100%;
     }
+
     .playButton div {
       border-radius: 50%;
       width: 5vmax;
@@ -62,6 +64,7 @@
       color: white;
     }
   }
+
   a:hover .playButton div,
   a:focus .playButton div {
     background-color: var(--coteach-pink);

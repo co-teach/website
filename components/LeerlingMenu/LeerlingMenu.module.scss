@@ -1,14 +1,15 @@
 .LeerlingMenu {
-	table {
-		width: 100%;
-	};
-	text-align: center;
-	width: 50%;
-	margin: 40px auto 40px auto;
-	border: 4px solid var(--coteach-purple);
-	border-radius: var(--coteach-border-radius);
-	font-weight: bold;
-	td {
-		color: var(--coteach-purple);
-	}
+  table {
+    width: 100%;
+  }
+  text-align: center;
+  width: 50%;
+  margin: 40px auto 40px auto;
+  border: 4px solid var(--coteach-purple);
+  border-radius: var(--coteach-border-radius);
+  font-weight: bold;
+
+  td {
+    color: var(--coteach-purple);
+  }
 }

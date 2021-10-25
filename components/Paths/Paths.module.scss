@@ -29,6 +29,7 @@
   h2 {
     font-size: 2em;
     font-weight: 600;
+
     span {
       letter-spacing: 0;
       display: block;
@@ -51,6 +52,7 @@
 
     text-decoration: none;
   }
+
   p a:hover {
     background-color: var(--coteach-pink);
   }
@@ -61,6 +63,7 @@
     transform: scale(1.05) translateY(-5px);
   }
 }
+
 #Schools:hover {
   img {
     transform: scale(1.05) translateY(-5px);
@@ -80,6 +83,7 @@
 #Schools {
   justify-self: right;
 }
+
 #Schools .content {
   border-radius: var(--coteach-border-radius) 0 0 var(--coteach-border-radius);
 }

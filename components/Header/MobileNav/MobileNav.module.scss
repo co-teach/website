@@ -130,6 +130,7 @@
 #menu li :global a.active {
   color: var(--coteach-pink) !important;
 }
+
 #menu li :global a.active:hover,
 #menu li :global a.active:focus {
   border-bottom: none;
@@ -144,6 +145,7 @@
   transition-delay: 0ms, 0ms;
   transform: translate(-50%);
 }
+
 #menu:focus-within {
   left: -36px;
 }

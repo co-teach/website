@@ -27,10 +27,11 @@ const Person = ({
     );
   });
 
-  const imageSrc = `/images/team/${firstName.toLowerCase()}-${lastName.toLowerCase()}.jpg`.replace(
-    / /g,
-    "-"
-  );
+  const imageSrc =
+    `/images/team/${firstName.toLowerCase()}-${lastName.toLowerCase()}.jpg`.replace(
+      / /g,
+      "-"
+    );
 
   return (
     <div className={classes.Person} vocab="https://schema.org/" typeof="Person">
