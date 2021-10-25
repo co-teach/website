@@ -1,7 +1,8 @@
-import React, { SyntheticEvent } from "react";
+import type { SyntheticEvent } from "react";
+import React from "react";
 import classes from "./Person.module.scss";
 import { FaInfoCircle, FaMailBulk } from "react-icons/fa";
-import { PersonModel } from "../../models/PersonModel";
+import type { PersonModel } from "../../models/PersonModel";
 
 const Person = ({
   person: { firstName, lastName, organisation, roles, email, personalPage },

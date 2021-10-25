@@ -1,4 +1,4 @@
-import { Partner } from "../models/Partner";
+import type { Partner } from "../models/Partner";
 
 export const partners: { [id: string]: Partner } = {
   vsnu: {

@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Banner.module.scss";
 
-const Banner = (props: {}) => (
+const Banner = () => (
   <section className={classes.Banner}>
     <div className={classes.Background} />
     <div className={classes.Content}>

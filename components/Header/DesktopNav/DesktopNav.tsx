@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { NavItem } from "../../../models/NavItem";
+import type { NavItem } from "../../../models/NavItem";
 import classes from "./DesktopNav.module.scss";
 import { useRouter } from "next/router";
 

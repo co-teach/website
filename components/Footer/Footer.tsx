@@ -5,7 +5,7 @@ import { AiFillSafetyCertificate } from "react-icons/ai";
 import classes from "./Footer.module.scss";
 import Link from "next/link";
 
-const Footer = (props: {}) => (
+const Footer = () => (
   <footer>
     <Divider marginTop>
       <div className={classes.Footer}>

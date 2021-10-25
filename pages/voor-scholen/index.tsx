@@ -6,7 +6,7 @@ import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import Footer from "../../components/Footer/Footer";
 import { menuStructure } from "../../contents/menuStructure";
 
-const Index = (props: {}) => (
+const Index = () => (
   <>
     <Head>
       <title>Co-Teach Informatica voor Leerlingen, Leraren en Scholen</title>

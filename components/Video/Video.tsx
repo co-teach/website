@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import classes from "./Video.module.scss";
 
 // Source: https://stackoverflow.com/a/8260383

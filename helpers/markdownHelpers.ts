@@ -1,7 +1,7 @@
 import matter from "gray-matter";
 import remark from "remark";
 import remarkHtml from "remark-html";
-import { ParsedMarkdown } from "../models/ParsedMarkdown";
+import type { ParsedMarkdown } from "../models/ParsedMarkdown";
 
 // Adopted from https://github.com/vercel/next-learn-starter/blob/master/demo/lib/posts.js
 export const parseMarkdownFileContents = async (
