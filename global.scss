@@ -43,6 +43,7 @@ body {
 
 * {
   box-sizing: border-box;
+
   ::selection {
     background-color: rgba(var(--coteach-pink-rgb), 0.2);
   }
@@ -61,30 +62,37 @@ h6 {
   color: var(--coteach-purple);
   font-weight: 500;
 }
+
 p {
   margin-top: 0;
 }
+
 h1 {
   margin-bottom: 0.5em;
   font-size: 2em;
 }
+
 h2 {
   margin-bottom: 0.2em;
   font-weight: 600;
 }
+
 mark {
   background-color: rgba(var(--coteach-pink-rgb), 0.3);
   padding: 1px 4px;
 }
+
 a {
   color: var(--coteach-pink);
   text-decoration-color: rgba(var(--coteach-pink-rgb), 0.25);
   transition: text-decoration-color 200ms ease-out;
 }
+
 a:hover,
 a:focus {
   text-decoration-color: rgba(var(--coteach-pink-rgb), 0.75);
 }
+
 blockquote {
   color: var(--coteach-pink);
   font-style: italic;
@@ -119,6 +127,7 @@ li {
   margin-left: 0.75em;
   margin-right: 0.75em;
 }
+
 li::marker {
   color: var(--coteach-pink);
   padding-left: 0;
@@ -141,6 +150,7 @@ main:not(.home) {
   max-width: var(--coteach-char-width);
   margin: auto;
 }
+
 .restrictedWidth.columns {
   margin: auto;
   max-width: var(--coteach-char-width);

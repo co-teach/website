@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import classes from "./FileDownload.module.scss";
-import { FaFilePdf, FaFile, FaCloudDownloadAlt } from "react-icons/fa";
+import { FaCloudDownloadAlt, FaFile, FaFilePdf } from "react-icons/fa";
 
 const FileDownload = (props: {
   url: string;

@@ -6,7 +6,7 @@ import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import Footer from "../../components/Footer/Footer";
 import { menuStructure } from "../../contents/menuStructure";
 
-const Index = (props: {}) => (
+const Index = () => (
   <>
     <Head>
       <title>Co-Teach Informatica voor Leerlingen, Leraren en Scholen</title>
@@ -100,7 +100,10 @@ const Index = (props: {}) => (
         <section>
           <h2>Hoe ziet het programma eruit?</h2>
           <p>De domeinen worden in de volgende volgorde behandeld:</p>
-          <img src={"/images/co-teach-informatica_programma.png"} alt={"Co-teach informatica programma"}/>
+          <img
+            src={"/images/co-teach-informatica_programma.png"}
+            alt={"Co-teach informatica programma"}
+          />
           <p>
             * Domein A gaat om informatica vaardigheden die in verschillende
             modules worden afgedekt.

@@ -5,7 +5,7 @@ import Divider from "../../components/Divider/Divider";
 import path from "path";
 import fs from "fs";
 import { parseMarkdownFileContents } from "../../helpers/markdownHelpers";
-import { ParsedMarkdown } from "../../models/ParsedMarkdown";
+import type { ParsedMarkdown } from "../../models/ParsedMarkdown";
 import Footer from "../../components/Footer/Footer";
 import classes from "./privacyverklaring.module.scss";
 import { menuStructure } from "../../contents/menuStructure";

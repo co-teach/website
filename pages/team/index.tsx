@@ -6,12 +6,12 @@ import React from "react";
 import Person from "../../components/Person/Person";
 import classes from "./team.module.scss";
 import { teamMembers } from "../../contents/teamMembers";
-import { PersonModel } from "../../models/PersonModel";
+import type { PersonModel } from "../../models/PersonModel";
 import { menuStructure } from "../../contents/menuStructure";
 import PartnerLink from "../../components/PartnerLink/PartnerLink";
 import { partners } from "../../contents/partners";
 
-const Index = (props: {}) => {
+const Index = () => {
   const projectGroup: PersonModel[] = [
     teamMembers.ivar,
     teamMembers.ingrid,

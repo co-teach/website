@@ -7,7 +7,7 @@ import Partners from "../components/Partners/Partners";
 import Footer from "../components/Footer/Footer";
 import { menuStructure } from "../contents/menuStructure";
 import { partners } from "../contents/partners";
-import { Partner } from "../models/Partner";
+import type { Partner } from "../models/Partner";
 import Video from "../components/Video/Video";
 
 const Home = () => {
