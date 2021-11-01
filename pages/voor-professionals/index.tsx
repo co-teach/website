@@ -239,46 +239,130 @@ const Index = () => (
 
         <hr />
 
-        <h2>Doe mee in 2021-2022</h2>
+        <h2>Aankomende trajecten</h2>
 
         <p>
-          Voor de eerste gastdocenttrajecten in de vierde klas zijn we op zoek
-          naar IT-experts die invulling kunnen geven aan de volgende
-          thema&#39;s:
-        </p>
-        <ul>
-          <li>Usability (tweede helft 2021);</li>
-          <li>User Experience (tweede helft 2021);</li>
-          <li>
-            Maatschappelijke en individuele invloed van informatica (tweede
-            helft 2021);
-          </li>
-          <li>Databases (eerste helft 2022);</li>
-          <li>Physical Computing (eerste helft 2022).</li>
-        </ul>
-        <p>
-          In de derde klassen willen we een breed inkijkje geven in informatica.
-          Schrijf je dus vooral in, ook als je geen directe affiniteit hebt met
-          bovenstaande topics. Je kan{" "}
+          Trajecten vinden plaats in de onder- en bovenbouw. In de derde klassen
+          willen we een breed inkijkje geven in informatica. In de bovenbouw
+          klassen zijn we op zoek naar IT-experts die invulling kunnen geven aan
+          één van de keuzedomeinen. Je kan{" "}
           <a href="https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/">
             hier
           </a>{" "}
           alle keuzedomeinen vinden die gedurende de hele bovenbouw de revue
-          kunnen passeren.
+          kunnen passeren. Uiteraard helpen we je met het kiezen van een gepast
+          traject en domein.
         </p>
+
+        <h3>Trajecten 2022-I</h3>
+        <p>De trajecten in het voorjaar van 2022 staan in het teken van:</p>
+        <ul>
+          <li>Brede kennismakingen (3 havo/vwo);</li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/databases/"
+              }
+            >
+              Databases
+            </a>{" "}
+            (4 havo/vwo);
+          </li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/physical-computing/"
+              }
+            >
+              Physical Computing
+            </a>{" "}
+            (4 havo/vwo).
+          </li>
+        </ul>
         <p>
-          De eerstvolgende crash course, van vier dagdelen, vindt plaats op de
-          volgende data:
+          De bijbehorende crash course wordt de volgende vier dagdelen gegeven:
         </p>
         <ul>
-          <li>Vrijdag 10 september (13:00-17:00);</li>
-          <li>Vrijdag 17 september (13:00-17:00);</li>
-          <li>Vrijdag 24 september (13:00-17:00);</li>
-          <li>Vrijdag 29 oktober (13:00-17:00).</li>
+          <li>Vrijdag 3 december (13:00-17:00, in Utrecht);</li>
+          <li>Vrijdag 10 december (13:00-17:00, online);</li>
+          <li>Vrijdag 17 december (13:00-17:00, online);</li>
+          <li>Vrijdag 21 januari (13:00-17:00, in Utrecht).</li>
+        </ul>
+        <h3>Trajecten 2022-II</h3>
+        <p>De trajecten in het najaar van 2022 staan in het teken van:</p>
+        <ul>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/usability/"
+              }
+            >
+              Usability
+            </a>{" "}
+            (4 havo/vwo);
+          </li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/user-experience/"
+              }
+            >
+              User Experience
+            </a>{" "}
+            (4 havo/vwo);
+          </li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/computerarchitectuur/"
+              }
+            >
+              Computerarchitectuur
+            </a>{" "}
+            (5 havo/vwo);
+          </li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/netwerken/"
+              }
+            >
+              Netwerken
+            </a>{" "}
+            (5 havo/vwo);
+          </li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/security/"
+              }
+            >
+              Security
+            </a>{" "}
+            (5 havo/vwo).
+          </li>
+        </ul>
+        <p>
+          De bijbehorende crash course wordt de volgende vier dagdelen gegeven:
+        </p>
+        <ul>
+          <li>Vrijdag 9 september (13:00-17:00, in Utrecht);</li>
+          <li>Vrijdag 16 september (13:00-17:00, online);</li>
+          <li>Vrijdag 23 september (13:00-17:00, online);</li>
+          <li>Vrijdag 21 oktober (13:00-17:00, in Utrecht).</li>
         </ul>
         <p>
           Schrijf je hieronder in om kennis met ons te maken en verder te kijken
-          of Co-Teach Informatica iets voor jou is.
+          of Co-Teach Informatica iets voor jou is. We kunnen je dan ook
+          informeren of je met je huidige achtergrond (een deel van) de crash
+          course kan overslaan met een portfolio.
         </p>
 
         <hr />
