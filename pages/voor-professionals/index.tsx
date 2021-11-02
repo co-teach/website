@@ -286,8 +286,8 @@ const Index = () => (
         </p>
         <ul>
           <li>Vrijdag 3 december (13:00-17:00, in Utrecht);</li>
-          <li>Vrijdag 10 december (13:00-17:00, online);</li>
-          <li>Vrijdag 17 december (13:00-17:00, online);</li>
+          <li>Vrijdag 10 december (14:00-17:00, online);</li>
+          <li>Vrijdag 17 december (14:00-17:00, online);</li>
           <li>Vrijdag 21 januari (13:00-17:00, in Utrecht).</li>
         </ul>
         <h3>Trajecten 2022-II</h3>
@@ -354,8 +354,8 @@ const Index = () => (
         </p>
         <ul>
           <li>Vrijdag 9 september (13:00-17:00, in Utrecht);</li>
-          <li>Vrijdag 16 september (13:00-17:00, online);</li>
-          <li>Vrijdag 23 september (13:00-17:00, online);</li>
+          <li>Vrijdag 16 september (14:00-17:00, online);</li>
+          <li>Vrijdag 23 september (14:00-17:00, online);</li>
           <li>Vrijdag 21 oktober (13:00-17:00, in Utrecht).</li>
         </ul>
         <p>
