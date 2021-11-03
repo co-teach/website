@@ -33,6 +33,11 @@ const Index = () => {
     teamMembers.inge,
     teamMembers.michiel,
   ];
+  const vspGroup: PersonModel[] = [
+    teamMembers.andor,
+    teamMembers.paulina,
+    teamMembers.thirza,
+  ];
 
   return (
     <>
@@ -63,6 +68,19 @@ const Index = () => {
 
             <ul className={classes.persons}>
               {projectGroup.map((person) => (
+                <li key={`${person.firstName}-${person.lastName}`}>
+                  <Person person={person} />
+                </li>
+              ))}
+            </ul>
+            <h2>De Vaksteunpunten</h2>
+            <p>
+              Onderstaande student-assistenten maken via de Co-Teach steunpunten
+              het verschil. Dit zowel door te helpen met het vormgeven van
+              lesmateriaal als begeleiding van leerlingen.
+            </p>
+            <ul className={classes.persons}>
+              {vspGroup.map((person) => (
                 <li key={`${person.firstName}-${person.lastName}`}>
                   <Person person={person} />
                 </li>

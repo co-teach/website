@@ -125,4 +125,25 @@ export const teamMembers: { [id: string]: PersonModel } = {
     personalPage:
       "https://nl.linkedin.com/in/inge-sterenborg-van-der-schaaf-400a5842",
   },
+  andor: {
+    firstName: "Andor",
+    lastName: "Michels",
+    organisation: "Universiteit Utrecht",
+    roles: ["Audiovisuele vormgever"],
+    personalPage: "https://nl.linkedin.com/in/andor-michels-059810123",
+  },
+  paulina: {
+    firstName: "Paulina",
+    lastName: "Moerland",
+    organisation: "Universiteit Utrecht",
+    roles: ["Vaksteunpunt Utrecht"],
+    personalPage: "https://nl.linkedin.com/in/paulina-moerland-2706b317a",
+  },
+  thirza: {
+    firstName: "Thirza",
+    lastName: "Hiwat",
+    organisation: "Universiteit Utrecht",
+    roles: ["Vaksteunpunt Utrecht"],
+    personalPage: "https://nl.linkedin.com/in/thirzahiwat",
+  },
 };
