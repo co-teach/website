@@ -146,4 +146,11 @@ export const teamMembers: { [id: string]: PersonModel } = {
     roles: ["Vaksteunpunt Utrecht"],
     personalPage: "https://nl.linkedin.com/in/thirzahiwat",
   },
+  denise: {
+    firstName: "Denise",
+    lastName: "den Hartog",
+    organisation: "Universiteit Twente",
+    roles: ["Vaksteunpunt Twente"],
+    personalPage: "https://www.linkedin.com/in/denise-den-hartog-0057621a8/",
+  },
 };
