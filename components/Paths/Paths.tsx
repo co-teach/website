@@ -43,7 +43,7 @@ const Paths = () => (
       </Link>
       <div className={classes.content}>
         <h2>
-          Scholen <span>Voor leerlingen die hun hart willen volgen</span>{" "}
+          Scholen <span>Voor leerlingen die digitaal bekwaam willen zijn</span>{" "}
         </h2>
         <ul>
           <li>
