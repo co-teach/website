@@ -27,11 +27,11 @@ const Index = () => {
     teamMembers.mariozee,
   ];
   const steeringGroup: PersonModel[] = [
-    teamMembers.hein,
-    teamMembers.gerard,
     teamMembers.pieter,
-    teamMembers.inge,
+    teamMembers.hein,
     teamMembers.michiel,
+    teamMembers.inge,
+    teamMembers.gerard,
   ];
   const vspGroup: PersonModel[] = [
     teamMembers.andor,
@@ -55,7 +55,7 @@ const Index = () => {
               <PartnerLink partner={partners.uu} /> (als penvoerder),{" "}
               <PartnerLink partner={partners.ut} /> en{" "}
               <PartnerLink partner={partners.vu} />. Dit in hechte samenwerking
-              met de <PartnerLink partner={partners.vsnu} />,{" "}
+              met de <PartnerLink partner={partners.unl} />,{" "}
               <PartnerLink partner={partners.voRaad} />,{" "}
               <PartnerLink partner={partners.nldigital} />,{" "}
               <PartnerLink partner={partners.slo} /> en{" "}

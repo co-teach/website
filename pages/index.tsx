@@ -12,7 +12,7 @@ import Video from "../components/Video/Video";
 
 const Home = () => {
   const projectPartners: Partner[] = [
-    partners.vsnu,
+    partners.unl,
     partners.voRaad,
     partners.nldigital,
     partners.slo,

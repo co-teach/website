@@ -49,9 +49,10 @@ export const teamMembers: { [id: string]: PersonModel } = {
   rhea: {
     firstName: "Rhea",
     lastName: "van der Dong",
-    organisation: "VSNU",
-    roles: ["Lid namens VSNU"],
-    personalPage: "https://www.vsnu.nl/vsnu-team-detail.html/medewerker/236",
+    organisation: "Universiteiten van Nederland",
+    roles: ["Lid namens UNL"],
+    personalPage:
+      "https://www.universiteitenvannederland.nl/nl_NL/vsnu-team-detail.html/medewerker/236",
   },
   fleur: {
     firstName: "Fleur",
@@ -91,9 +92,10 @@ export const teamMembers: { [id: string]: PersonModel } = {
   pieter: {
     firstName: "Pieter",
     lastName: "Duisenberg",
-    organisation: "VSNU",
-    roles: ["Stuurgroeplid"],
-    personalPage: "https://vsnu.nl/nl_NL/vsnu-team-detail.html/medewerker/185",
+    organisation: "Universiteiten van Nederland",
+    roles: ["Voorzitter"],
+    personalPage:
+      "https://www.universiteitenvannederland.nl/nl_NL/vsnu-team-detail.html/medewerker/185",
   },
   hein: {
     firstName: "Hein",

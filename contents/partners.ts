@@ -1,11 +1,11 @@
 import type { Partner } from "../models/Partner";
 
 export const partners: { [id: string]: Partner } = {
-  vsnu: {
-    name: "VSNU",
-    slug: "vsnu",
+  unl: {
+    name: "Universiteiten van Nederland",
+    slug: "unl",
     fileType: "png",
-    website: new URL("https://www.vsnu.nl/"),
+    website: new URL("https://www.universiteitenvannederland.nl/"),
   },
   voRaad: {
     name: "VO-raad",
