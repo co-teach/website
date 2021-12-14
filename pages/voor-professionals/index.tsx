@@ -254,42 +254,6 @@ const Index = () => (
           traject en domein.
         </p>
 
-        <h3>Trajecten 2022-I</h3>
-        <p>De trajecten in het voorjaar van 2022 staan in het teken van:</p>
-        <ul>
-          <li>Brede kennismakingen (3 havo/vwo);</li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/databases/"
-              }
-            >
-              Databases
-            </a>{" "}
-            (4 havo/vwo);
-          </li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/physical-computing/"
-              }
-            >
-              Physical Computing
-            </a>{" "}
-            (4 havo/vwo).
-          </li>
-        </ul>
-        <p>
-          De bijbehorende crash course wordt de volgende vier dagdelen gegeven:
-        </p>
-        <ul>
-          <li>Vrijdag 3 december (13:00-17:00, in Utrecht);</li>
-          <li>Vrijdag 10 december (14:00-17:00, online);</li>
-          <li>Vrijdag 17 december (14:00-17:00, online);</li>
-          <li>Vrijdag 21 januari (13:00-17:00, in Utrecht).</li>
-        </ul>
         <h3>Trajecten 2022-II</h3>
         <p>De trajecten in het najaar van 2022 staan in het teken van:</p>
         <ul>
@@ -358,6 +322,94 @@ const Index = () => (
           <li>Vrijdag 23 september (14:00-17:00, online);</li>
           <li>Vrijdag 21 oktober (13:00-17:00, in Utrecht).</li>
         </ul>
+
+        <h3>Trajecten 2023-I</h3>
+        <p>De trajecten in het voorjaar van 2022 staan in het teken van:</p>
+        <ul>
+          <li>Brede kennismakingen (3 havo/vwo);</li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/databases/"
+              }
+            >
+              Databases
+            </a>{" "}
+            (4 havo/vwo);
+          </li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/physical-computing/"
+              }
+            >
+              Physical Computing
+            </a>{" "}
+            (4 havo/vwo).
+          </li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/algoritmiek/"
+              }
+            >
+              Algoritmiek, berekenbaarheid en logica
+            </a>{" "}
+            (5 vwo);
+          </li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/cognitive-computing/"
+              }
+            >
+              Kunstmatige Intelligentie / Cognitive Computing
+            </a>{" "}
+            (5 vwo);
+          </li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/programmeerparadigma/"
+              }
+            >
+              Programmeerparadigma's
+            </a>{" "}
+            (5 vwo);
+          </li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/physical-computing/"
+              }
+            >
+              Physical Computing
+            </a>{" "}
+            (5 vwo);
+          </li>
+          <li>
+            Deep dives{" "}
+            <a
+              href={
+                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/computational/"
+              }
+            >
+              Computational Science
+            </a>{" "}
+            (5 vwo);
+          </li>
+        </ul>
+        <p>
+          De bijbehorende crash course wordt gegeven rond de jaarwisseling van
+          2022-2023. De exacte data worden hier bekend gemaakt.
+        </p>
+
         <p>
           Schrijf je hieronder in om kennis met ons te maken en verder te kijken
           of Co-Teach Informatica iets voor jou is. We kunnen je dan ook
