@@ -13,7 +13,7 @@ import { partners } from "../../contents/partners";
 
 const Index = () => {
   const projectGroup: PersonModel[] = [
-    teamMembers.ivar,
+    teamMembers.sia,
     teamMembers.ingrid,
     teamMembers.martine,
     teamMembers.elvira,
