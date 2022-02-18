@@ -7,7 +7,7 @@ export const teamMembers: { [id: string]: PersonModel } = {
     organisation: "Universiteit Utrecht",
     roles: ["Projectleider Utrecht", "Landelijk Projectleider"],
     email: "co-teach@uu.nl",
-    personalPage: "https://www.linkedin.com/in/siavankeijsteren/",
+    personalPage: "https://www.uu.nl/medewerkers/TJMvanKeijsteren",
   },
   ingrid: {
     firstName: "Ingrid",
