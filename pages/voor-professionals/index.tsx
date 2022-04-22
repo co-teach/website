@@ -419,12 +419,14 @@ const Index = () => (
 
         <hr />
 
+        
         <section>
-          <h2>Meld je aan</h2>
+          <h2>Laten we een keertje praten</h2>
           <p>
-            Ben jij een IT-professional en wil jij ook gastdocent worden in
-            Co-Teach Informatica? Of wil je gewoon meer informatie ontvangen?
-            Vul dan onderstaand formulier in en we nemen contact met je op.
+            Wil jij als IT-professional jou passie voor Informatica aan jonge
+            mensen overdragen? Heb je een vraag of wil je praten over de 
+            mogelijkheden? Vul dan onderstaand formulier in en we nemen 
+            contact met je op.
           </p>
           <iframe
             title="Aanmeldingsformulier"
@@ -433,6 +435,8 @@ const Index = () => (
             src="https://utrechtuniversity.qualtrics.com/jfe/form/SV_eY9tyqz6pnMNw2x"
           />
         </section>
+        
+                
       </article>
     </main>
     <Footer />
