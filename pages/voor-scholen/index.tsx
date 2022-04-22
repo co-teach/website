@@ -179,7 +179,7 @@ const Index = () => (
             title="Aanmeldingsformulier"
             loading="lazy"
             className={classes.Survey}
-            src="https://survey.uu.nl/jfe/form/SV_eY9tyqz6pnMNw2x"
+            src="https://utrechtuniversity.qualtrics.com/jfe/form/SV_eY9tyqz6pnMNw2x"
           />
         </section>
       </article>
