@@ -170,11 +170,11 @@ const Index = () => (
         <section>
           <h2>Laten we een keertje praten</h2>
           <p>
-            Wil je het vak informatica (her)introduceren op je school, 
-            dan biedt Co-Teach Informatica de middelen en ondersteuning 
-            om dit mogelijk te maken, ook als er nog geen bevoegde leraar 
-            informatica is. Heb je een vraag of wil je praten over de mogelijkheden? 
-            Neem dan contact op met co-teach@uu.nl.
+            Wil je het vak informatica (her)introduceren op je school, dan
+            biedt Co-Teach Informatica de middelen en ondersteuning om dit
+            mogelijk te maken, ook als er nog geen bevoegde leraar informatica
+            is. Heb je een vraag of wil je praten over de mogelijkheden? 
+            Vul dan onderstaand formulier in en we nemen contact met je op.
           </p>
           <iframe
             title="Aanmeldingsformulier"
