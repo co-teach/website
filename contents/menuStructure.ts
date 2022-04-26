@@ -18,8 +18,8 @@ export const menuStructure: NavItem[] = [
     label: "Voor professionals",
   },
   {
-    href: "/voor-leerlingen",
-    label: "Voor leerlingen",
+    href: "/symposium",
+    label: "Symposium",
   },
   { href: "/team", label: "Het team" },
 ];
