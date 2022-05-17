@@ -33,7 +33,7 @@ const Home = () => {
           </p>
 
           <h2>Wanneer?</h2>
-          <p>Maandag 27 juni 2022 | 15:30-20:00 | Utrecht |</p>
+          <p>Maandag 27 juni 2022 | 15:30-20:00 | Utrecht</p>
 
           <h2>Aanmelden symposium</h2>
           <p>
