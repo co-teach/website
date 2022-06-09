@@ -47,9 +47,8 @@ const Home = () => {
           <h2>Het Programma</h2>
           
           <p>
-          
-          15.00-15.30	Inloop. U kunt alvast kennismaken met de andere deelnemers
-          15.30-15.50	Opening door Pieter Duisenberg, voorzitter van Universiteiten van Nederland / 
+            15.00-15.30	Inloop. U kunt alvast kennismaken met de andere deelnemers
+            15.30-15.50	Opening door Pieter Duisenberg, voorzitter van Universiteiten van Nederland / 
                       Stuurgroep voorzitter Co-Teach Informatica 
           15.50-16.15	Scholen aan het woord: leerlingen, schooldocenten en gastdocenten wordt het podium 
                       geboden om hun eigen praktijkervaringen te vertellen.  
