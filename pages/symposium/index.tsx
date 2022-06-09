@@ -46,6 +46,8 @@ const Home = () => {
 
           <h2>Het Programma</h2>
           
+          <p>
+          
           15.00-15.30	Inloop. U kunt alvast kennismaken met de andere deelnemers
           15.30-15.50	Opening door Pieter Duisenberg, voorzitter van Universiteiten van Nederland / 
                       Stuurgroep voorzitter Co-Teach Informatica 
@@ -72,7 +74,7 @@ Er zijn twee rondes deelsessies met elk vier sessies, waarvan u er steeds bij é
           (C) Inhoud en opbouw Co-Teach Informatica programma en jaarplanning
           (D) Publiek private samenwerking (verdieping/doorontwikkeling/samenwerking)
 
-      
+              </p>  
           
           
           <h2>Aanmelden symposium</h2>
