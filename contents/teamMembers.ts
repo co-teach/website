@@ -5,7 +5,7 @@ export const teamMembers: { [id: string]: PersonModel } = {
     firstName: "Sia",
     lastName: "van Keijsteren",
     organisation: "Universiteit Utrecht",
-    roles: ["Projectleider Utrecht", "Landelijk Projectleider"],
+    roles: ["Landelijke Projectmanager"],
     email: "co-teach@uu.nl",
     personalPage: "https://www.uu.nl/medewerkers/TJMvanKeijsteren",
   },
@@ -16,21 +16,6 @@ export const teamMembers: { [id: string]: PersonModel } = {
     roles: ["Projectleider Twente", "Vakdidacticus Twente"],
     email: "l.e.i.breymann@utwente.nl",
     personalPage: "https://personen.utwente.nl/l.e.i.breymann",
-  },
-  martine: {
-    firstName: "Martine",
-    lastName: "Melein",
-    organisation: "Vrije Universiteit Amsterdam",
-    roles: ["Projectleider Amsterdam"],
-    email: "m.m.melein@vu.nl",
-    personalPage: "https://nl.linkedin.com/in/martinemelein/nl",
-  },
-  elvira: {
-    firstName: "Elvira",
-    lastName: "Folmer",
-    organisation: "Universiteit Utrecht",
-    roles: ["Landelijk Projectmanager"],
-    personalPage: "https://www.uu.nl/medewerkers/EFolmer",
   },
   rachel: {
     firstName: "Rachel",
@@ -122,7 +107,7 @@ export const teamMembers: { [id: string]: PersonModel } = {
   inge: {
     firstName: "Inge",
     lastName: "Sterenborg",
-    organisation: "CSG Het Noordik",
+    organisation: "Meerwegen scholengroep",
     roles: ["Stuurgroeplid"],
     personalPage:
       "https://nl.linkedin.com/in/inge-sterenborg-van-der-schaaf-400a5842",

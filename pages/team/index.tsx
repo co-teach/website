@@ -15,8 +15,6 @@ const Index = () => {
   const projectGroup: PersonModel[] = [
     teamMembers.sia,
     teamMembers.ingrid,
-    teamMembers.martine,
-    teamMembers.elvira,
     teamMembers.rachel,
     teamMembers.yuen,
     teamMembers.rhea,
