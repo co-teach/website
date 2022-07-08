@@ -92,7 +92,7 @@ const Home = () => {
             <strong>basisdomeinen uit het examenprogramma informatica’</strong>{" "}
             (naar voorbeeld van{" "}
             <a
-              href="https://www.ou.nl/web/wiskunde-d"
+              href="https://www.wiskundedonline.nl/"
               target="_blank"
               rel="noreferrer"
             >
