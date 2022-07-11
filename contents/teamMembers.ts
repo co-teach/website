@@ -67,13 +67,6 @@ export const teamMembers: { [id: string]: PersonModel } = {
     roles: ["Lid namens i&i"],
     personalPage: "https://www.linkedin.com/in/avddrift/",
   },
-  mariozee: {
-    firstName: "Mariozee",
-    lastName: "Wintermans",
-    organisation: "Universiteit Utrecht",
-    roles: ["Landelijk Secretaresse"],
-    personalPage: "https://www.uu.nl/staff/MJWintermans",
-  },
   pieter: {
     firstName: "Pieter",
     lastName: "Duisenberg",
@@ -81,13 +74,6 @@ export const teamMembers: { [id: string]: PersonModel } = {
     roles: ["Voorzitter"],
     personalPage:
       "https://www.universiteitenvannederland.nl/nl_NL/vsnu-team-detail.html/medewerker/185",
-  },
-  hein: {
-    firstName: "Hein",
-    lastName: "van Asseldonk",
-    organisation: "VO-raad",
-    roles: ["Stuurgroeplid"],
-    personalPage: "https://nl.linkedin.com/in/hein-van-asseldonk-0960538",
   },
   michiel: {
     firstName: "Michiel",
@@ -139,5 +125,19 @@ export const teamMembers: { [id: string]: PersonModel } = {
     organisation: "Universiteit Twente",
     roles: ["Vaksteunpunt Twente"],
     personalPage: "https://www.linkedin.com/in/denise-den-hartog-0057621a8/",
+  },
+  ingriddebonth: {
+    firstName: "Ingrid",
+    lastName: "de Bonth",
+    organisation: "VO-raad",
+    roles: ["Stuurgroeplid"],
+    personalPage: "https://www.linkedin.com/in/ingrid-de-bonth-7b05304",
+  },
+  heather: {
+    firstName: "Heather",
+    lastName: "Huijting",
+    organisation: "Universiteit Utrecht",
+    roles: ["Landelijk Secretaresse"],
+    personalPage: "https://www.linkedin.com/in/heather-huijting-2aa201166/ ",
   },
 };

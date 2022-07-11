@@ -22,11 +22,11 @@ const Index = () => {
     teamMembers.jelmer,
     teamMembers.jos,
     teamMembers.aad,
-    teamMembers.mariozee,
+    teamMembers.heather,
   ];
   const steeringGroup: PersonModel[] = [
     teamMembers.pieter,
-    teamMembers.hein,
+    teamMembers.ingriddebonth,
     teamMembers.michiel,
     teamMembers.inge,
     teamMembers.gerard,
