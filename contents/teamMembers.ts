@@ -43,7 +43,6 @@ export const teamMembers: { [id: string]: PersonModel } = {
     lastName: "Blume",
     organisation: "Universiteit Twente",
     roles: ["Evaluatie en effectmeting"],
-    personalPage: "",
   },
   koos: {
     firstName: "Koos",
