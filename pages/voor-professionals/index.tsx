@@ -242,175 +242,20 @@ const Index = () => (
           </a>{" "}
           alle keuzedomeinen vinden die gedurende de hele bovenbouw de revue
           kunnen passeren. Uiteraard helpen we je met het kiezen van een gepast
-          traject en domein.
+          traject en domein. De gastdocent cursus wordt in vier dagdelen
+          gegeven.
         </p>
 
         <ul>
           <li>
-            Vrijdag 4 november (13:00-17:00, De Uithof: BBG 115, Utrecht);
+            Vrijdag 4 november (13:00-17:00, Universiteit Utrecht, Uithof);
           </li>
           <li>Vrijdag 11 november (14:00-17:00, online: MS Teams);</li>
           <li>Vrijdag 18 november (14:00-17:00, online: MS Teams);</li>
           <li>
-            Vrijdag 16 december (13:00-17:00, De Uithof: BBG 061, Utrecht).
+            Vrijdag 16 december (13:00-17:00, Universiteit Utrecht, Uithof).
           </li>
         </ul>
-
-        <h3>Trajecten 2022-II</h3>
-        <p>De trajecten in het najaar van 2022 staan in het teken van:</p>
-        <ul>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/usability/"
-              }
-            >
-              Usability
-            </a>{" "}
-            (4 havo/vwo);
-          </li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/user-experience/"
-              }
-            >
-              User Experience
-            </a>{" "}
-            (4 havo/vwo);
-          </li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/computerarchitectuur/"
-              }
-            >
-              Computerarchitectuur
-            </a>{" "}
-            (5 havo/vwo);
-          </li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/netwerken/"
-              }
-            >
-              Netwerken
-            </a>{" "}
-            (5 havo/vwo);
-          </li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/security/"
-              }
-            >
-              Security
-            </a>{" "}
-            (5 havo/vwo).
-          </li>
-        </ul>
-        <p>
-          De bijbehorende crash course wordt de volgende vier dagdelen gegeven:
-        </p>
-        <ul>
-          <li>Vrijdag 9 september (13:00-17:00, in Utrecht);</li>
-          <li>Vrijdag 16 september (14:00-17:00, online);</li>
-          <li>Vrijdag 23 september (14:00-17:00, online);</li>
-          <li>Vrijdag 21 oktober (13:00-17:00, in Utrecht).</li>
-        </ul>
-
-        <h3>Trajecten 2023-I</h3>
-        <p>De trajecten in het voorjaar van 2023 staan in het teken van:</p>
-        <ul>
-          <li>Brede kennismakingen (3 havo/vwo);</li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/databases/"
-              }
-            >
-              Databases
-            </a>{" "}
-            (4 havo/vwo);
-          </li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/physical-computing/"
-              }
-            >
-              Physical Computing
-            </a>{" "}
-            (4 havo/vwo).
-          </li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/algoritmiek/"
-              }
-            >
-              Algoritmiek, berekenbaarheid en logica
-            </a>{" "}
-            (5 vwo);
-          </li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/cognitive-computing/"
-              }
-            >
-              Kunstmatige Intelligentie / Cognitive Computing
-            </a>{" "}
-            (5 vwo);
-          </li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/programmeerparadigma/"
-              }
-            >
-              Programmeerparadigma's
-            </a>{" "}
-            (5 vwo);
-          </li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/physical-computing/"
-              }
-            >
-              Physical Computing
-            </a>{" "}
-            (5 vwo);
-          </li>
-          <li>
-            Deep dives{" "}
-            <a
-              href={
-                "https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/computational/"
-              }
-            >
-              Computational Science
-            </a>{" "}
-            (5 vwo);
-          </li>
-        </ul>
-        <p>
-          De bijbehorende crash course wordt gegeven rond de jaarwisseling van
-          2022-2023. De exacte data worden hier bekend gemaakt.
-        </p>
 
         <p>
           Schrijf je hieronder in om kennis met ons te maken en verder te kijken
