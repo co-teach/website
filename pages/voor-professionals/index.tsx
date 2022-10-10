@@ -119,15 +119,6 @@ const Index = () => (
         <hr />
 
         <section>
-          <Video
-            url={"https://youtu.be/8GdUGOkFUwc"}
-            headingText={"Kijk de infosessie terug"}
-          />
-        </section>
-
-        <hr />
-
-        <section>
           <details>
             <summary>
               <h2>Wat kan je verwachten als gastdocent?</h2>
@@ -239,13 +230,13 @@ const Index = () => (
 
         <hr />
 
-        <h2>Aankomende trajecten</h2>
+        <h2>Aankomende gastdocenten cursus</h2>
 
         <p>
-          Trajecten vinden plaats in de onder- en bovenbouw. In de derde klassen
-          willen we een breed inkijkje geven in informatica. In de bovenbouw
-          klassen zijn we op zoek naar IT-experts die invulling kunnen geven aan
-          één van de keuzedomeinen. Je kan{" "}
+          Als gastdocent kan je gastles verzorgen in de onder- en bovenbouw. In
+          de derde klassen willen we een breed inkijkje geven in informatica. In
+          de bovenbouw klassen zijn we op zoek naar IT-experts die invulling
+          kunnen geven aan één van de keuzedomeinen. Je kan{" "}
           <a href="https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/">
             hier
           </a>{" "}
@@ -253,6 +244,17 @@ const Index = () => (
           kunnen passeren. Uiteraard helpen we je met het kiezen van een gepast
           traject en domein.
         </p>
+
+        <ul>
+          <li>
+            Vrijdag 4 november (13:00-17:00, De Uithof: BBG 115, Utrecht);
+          </li>
+          <li>Vrijdag 11 november (14:00-17:00, online: MS Teams);</li>
+          <li>Vrijdag 18 november (14:00-17:00, online: MS Teams);</li>
+          <li>
+            Vrijdag 16 december (13:00-17:00, De Uithof: BBG 061, Utrecht).
+          </li>
+        </ul>
 
         <h3>Trajecten 2022-II</h3>
         <p>De trajecten in het najaar van 2022 staan in het teken van:</p>
@@ -324,7 +326,7 @@ const Index = () => (
         </ul>
 
         <h3>Trajecten 2023-I</h3>
-        <p>De trajecten in het voorjaar van 2022 staan in het teken van:</p>
+        <p>De trajecten in het voorjaar van 2023 staan in het teken van:</p>
         <ul>
           <li>Brede kennismakingen (3 havo/vwo);</li>
           <li>
@@ -419,14 +421,13 @@ const Index = () => (
 
         <hr />
 
-        
         <section>
-          <h2>Laten we een keertje praten</h2>
+          <h2>Meld je nu aan</h2>
           <p>
             Wil jij als IT-professional jou passie voor Informatica aan jonge
-            mensen overdragen? Heb je een vraag of wil je praten over de 
-            mogelijkheden? Vul dan onderstaand formulier in en we nemen 
-            contact met je op.
+            mensen overdragen? Heb je een vraag of wil je praten over de
+            mogelijkheden? Vul dan onderstaand formulier in en we nemen contact
+            met je op.
           </p>
           <iframe
             title="Aanmeldingsformulier"
@@ -435,8 +436,6 @@ const Index = () => (
             src="https://utrechtuniversity.qualtrics.com/jfe/form/SV_eY9tyqz6pnMNw2x"
           />
         </section>
-        
-                
       </article>
     </main>
     <Footer />
