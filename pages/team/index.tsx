@@ -17,12 +17,15 @@ const Index = () => {
     teamMembers.rachel,
     teamMembers.ingrid,
     teamMembers.yuen,
+    teamMembers.ilona,
+    teamMembers.alie,
+    teamMembers.koos,
+    teamMembers.heather,
     teamMembers.rhea,
     teamMembers.fleur,
     teamMembers.jelmer,
     teamMembers.jos,
     teamMembers.aad,
-    teamMembers.heather,
   ];
   const steeringGroup: PersonModel[] = [
     teamMembers.pieter,
@@ -32,10 +35,11 @@ const Index = () => {
     teamMembers.gerard,
   ];
   const vspGroup: PersonModel[] = [
-    teamMembers.andor,
     teamMembers.paulina,
     teamMembers.thirza,
     teamMembers.denise,
+    teamMembers.karlijn,
+    teamMembers.andor,
   ];
 
   return (

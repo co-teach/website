@@ -4,5 +4,5 @@ export interface PersonModel {
   organisation: string;
   roles: string[];
   email?: string;
-  personalPage: string;
+  personalPage?: string;
 }

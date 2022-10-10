@@ -57,14 +57,16 @@ const Person = ({
         </div>
         <div property="affiliation">{organisation}</div>
         <div property="jobTitle">{rolesRender}</div>
-        <a
-          href={personalPage}
-          property="mainEntityOfPage"
-          target="_blank"
-          rel="noopener"
-        >
-          <FaInfoCircle /> meer over mij
-        </a>
+        {personalPage && (
+          <a
+            href={personalPage}
+            property="mainEntityOfPage"
+            target="_blank"
+            rel="noopener"
+          >
+            <FaInfoCircle /> meer over mij
+          </a>
+        )}
         {email && (
           <a href={`mailto:${email}`} property="email" rel="noopener">
             <FaMailBulk /> maak contact
