@@ -248,12 +248,12 @@ const Index = () => (
 
         <ul>
           <li>
-            Vrijdag 4 november (13:00-17:00, Universiteit Utrecht, Uithof);
+            Vrijdag 13 januari (13:00-17:00, Universiteit Utrecht, Uithof);
           </li>
-          <li>Vrijdag 11 november (14:00-17:00, online: MS Teams);</li>
-          <li>Vrijdag 18 november (14:00-17:00, online: MS Teams);</li>
+          <li>Vrijdag 20 januari (14:00-17:00, online: MS Teams);</li>
+          <li>Vrijdag 27 januari (14:00-17:00, online: MS Teams);</li>
           <li>
-            Vrijdag 16 december (13:00-17:00, Universiteit Utrecht, Uithof).
+            Vrijdag 17 februari (13:00-17:00, Universiteit Utrecht, Uithof).
           </li>
         </ul>
 
