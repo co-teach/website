@@ -110,13 +110,12 @@ export const teamMembers: { [id: string]: PersonModel } = {
     roles: ["Stuurgroeplid"],
     personalPage: "https://www.uu.nl/medewerkers/GTBarkema",
   },
-  inge: {
-    firstName: "Inge",
-    lastName: "Sterenborg",
-    organisation: "Meerwegen scholengroep",
-    roles: ["Stuurgroeplid"],
-    personalPage:
-      "https://nl.linkedin.com/in/inge-sterenborg-van-der-schaaf-400a5842",
+  diana: {
+    firstName: "Diana",
+    lastName: "Warmerdam",
+    organisation: "Universiteit Utrecht",
+    roles: ["Administratief medewerker"],
+    personalPage: "https://www.linkedin.com/in/diana-warmerdam-7565b619b/",
   },
   andor: {
     firstName: "Andor",
