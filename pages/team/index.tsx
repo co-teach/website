@@ -21,6 +21,7 @@ const Index = () => {
     teamMembers.alie,
     teamMembers.koos,
     teamMembers.heather,
+    teamMembers.diana,
     teamMembers.rhea,
     teamMembers.fleur,
     teamMembers.jelmer,
@@ -31,7 +32,6 @@ const Index = () => {
     teamMembers.pieter,
     teamMembers.ingriddebonth,
     teamMembers.michiel,
-    teamMembers.inge,
     teamMembers.gerard,
   ];
   const vspGroup: PersonModel[] = [
