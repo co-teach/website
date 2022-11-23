@@ -34,7 +34,7 @@ export const teamMembers: { [id: string]: PersonModel } = {
     firstName: "Ilona",
     lastName: "Friso-van den Bos",
     organisation: "Universiteit Twente",
-    roles: ["Relatiebeheer"],
+    roles: ["Accountmanager"],
     email: "i.friso-vandenbos@utwente.nl",
     personalPage: "https://www.linkedin.com/in/ilonafriso/",
   },
