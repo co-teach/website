@@ -11,10 +11,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Over Co-Teach Informatica</title>
+        <title>Webinar Co-Teach Informatica</title>
       </Head>
       <Header navData={menuStructure} />
-      <main className={classes.Over}>
+      <main className={classes.Webinar}>
         <article className="restrictedWidth">
           <SignatureHeader title="Webinar" subtitle="" />
 
