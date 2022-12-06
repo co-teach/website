@@ -35,7 +35,8 @@ const Home = () => {
 
           <p>
             Nieuwsgierig? U kunt nu deelnemen aan onze webinar
-            informatiebijeenkomsten op 19 december, 19 januari of 24 januari.
+            informatiebijeenkomsten op <br />
+            19 december, 19 januari of 24 januari.
           </p>
 
           <h2>Schrijf je nu in</h2>
