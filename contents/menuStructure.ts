@@ -10,6 +10,10 @@ export const menuStructure: NavItem[] = [
     label: "Het vak informatica",
   },
   {
+    href: "/webinar",
+    label: "Webinar",
+  },
+  {
     href: "/voor-scholen",
     label: "Voor scholen",
   },
