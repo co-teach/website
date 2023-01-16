@@ -66,12 +66,12 @@ export const teamMembers: { [id: string]: PersonModel } = {
     roles: ["Lid namens VO-raad"],
     personalPage: "https://nl.linkedin.com/in/fleur-veringa-8abb5a3b",
   },
-  jelmer: {
-    firstName: "Jelmer",
-    lastName: "Schreuder",
+  casper: {
+    firstName: "Casper",
+    lastName: "Copper",
     organisation: "NLdigital",
     roles: ["Lid namens NLdigital"],
-    personalPage: "https://www.linkedin.com/in/jschreuder/",
+    personalPage: "https://www.linkedin.com/in/caspercopper/",
   },
   jos: {
     firstName: "Jos",
