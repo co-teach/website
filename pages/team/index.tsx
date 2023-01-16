@@ -24,7 +24,7 @@ const Index = () => {
     teamMembers.diana,
     teamMembers.rhea,
     teamMembers.fleur,
-    teamMembers.jelmer,
+    teamMembers.casper,
     teamMembers.jos,
     teamMembers.aad,
   ];
