@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Over Co-Teach Informatica Informatica</title>
+        <title>Co-Teach Informatica Informatica</title>
       </Head>
       <Header navData={menuStructure} />
       <main className={classes.Over}>
