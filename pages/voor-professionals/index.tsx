@@ -22,7 +22,7 @@ const Index = () => (
         <section className="columns">
           <SignatureHeader
             title="Draag bij aan meer informatica op scholen"
-            subtitle="Co-teach Informatica."
+            subtitle="Breng de werkvloer naar de klas"
           />
 
           <img
@@ -43,36 +43,24 @@ const Index = () => (
           </div>
 
           <p className={classes.Lede}>
-            Vo-scholen en -leerlingen staan te popelen om aan de slag te gaan
-            met informatica, maar er zijn te weinig leerkrachten. Met jouw
-            professionele kennis kan je helpen hier verandering in te brengen.
-            Doe mee en draag je kennis over!
+            Als IT-professionals uit het bedrijfsleven is het geven van gastlessen 
+            aan leerlingen een ervaring van onschatbare waarde. Met jouw vakexpertise 
+            breng je inspiratie met praktijkvoorbeelden.       
+     
+            Doe mee en draag je kennis over!  
           </p>
 
           <div className={classes.BodyText}>
             <p>
-              We zoeken IT-professionals die op scholen met leerlingen aan
-              projecten gaan werken. Scholen vullen dit aan met informaticales
-              via een online leerlijn. Een creatieve oplossing om uiteindelijk
-              meer leerlingen hun schooltijd te laten afsluiten met informatica
-              op hun lijst, zelfs al is er nog geen bevoegd informaticaleraar
-              voor handen is.
+              We zoeken IT-professionals die gedurende 6 á 8 weken een gastlessenreeks op school
+              willen verzorgen. 
             </p>
             <blockquote>
-              “Uiteindelijk begeleid je als gastdocent scholieren in een
-              zelfgekozen informaticaproject”
+              “ALs gastdocent geef je les en begeleid leerlingen in een informaticaproject”
             </blockquote>
             <p>
-              Met een inspanning van veertig uren op school per jaar lever je
-              als IT-expert zo een onmisbare bijdrage aan het
-              informatica-onderwijs en de toekomst van jonge mensen. Je gaat dit
-              doen met ondersteuning van een ervaren leraar in een ander vak.
-              Co-teaching noemen we dat. Om je voor te bereiden, stomen
-              universitaire lerarenopleiders je klaar in een basiscursus
-              didactiek en pedagogiek. Uiteindelijk begeleid je als gastdocent
-              scholieren in een zelfgekozen informaticaproject, dat je
-              ontwikkeld hebt met input van andere gastdocenten, de
-              vakdidacticus informatica en je co-teach leraar.
+              Je gaat niet onvoorbereid de klas in. We bieden je een gastdocentencursus. 
+              Je geeft les onder begeleiding van een vakdidacticus informatica en de schooldocent.
             </p>
 
             <p>
@@ -124,17 +112,9 @@ const Index = () => (
               <h2>Wat kan je verwachten als gastdocent?</h2>
             </summary>
             <p>
-              Als gastdocent geef je vorm aan <strong>40 studielasturen</strong>
+              Als gastdocent geef je vorm aan circa <strong>40 studielasturen</strong>
               : 40 klokuren waarin leerlingen binnen en buiten het klaslokaal
-              met jouw project aan de slag gaan. Afhankelijk van jouw project,
-              zullen zo’n 25 uur daarvan ‘contacturen’ op school zijn onder jouw
-              leiding en begeleiding. Om dit mogelijk te maken vragen we je
-              werkgever om deze uren vrij te maken. Gelukkig hebben veel
-              bedrijven en organisaties al regelingen om een maatschappelijke
-              bijdrage te kunnen leveren voor 40 (of meer) uur. En uiteraard
-              verwelkomt Co-Teach ook zzp'ers. Let op dat het hele traject,
-              inclusief voorbereiding en afronding, waarschijnlijk ook wat van
-              je eigen tijd in beslag zal nemen.
+              met jouw project aan de slag gaan. 
             </p>
 
             <h3>De aanmelding</h3>
@@ -142,9 +122,7 @@ const Index = () => (
               Tijdens je aanmelding (zie hieronder) vragen we je om o.a. je
               expertise en eventuele projectideeën nader toe te lichten. Dit
               helpt ons om een groep leerlingen te vinden die voorbereid is om
-              in jouw wereld te duiken. Ook vragen we je alvast wat voor
-              tijdsinzet mogelijk is voor je: verspreid over meerdere weken of
-              juist intensief (bijv. een projectweek).
+              in jouw wereld te duiken. 
             </p>
             <p>
               Nadat je je aangemeld hebt wordt je opgenomen in de Co-Teach
@@ -164,12 +142,10 @@ const Index = () => (
               begint het voortraject.
             </p>
             <p>
-              Je zult daarin eerst een crash course (vak)pedagogische kennis en
-              vaardigheden volgen. Vervolgens werk je een-op-een met een
-              regionale vakdidacticus (een expert in informatica-onderwijs) die
-              je helpt om het aanstaande projectonderwijs vorm te geven. Zo
-              zorgen we ervoor dat er goede aansluiting is tussen jouw kennis en
-              die van de leerlingen. Ook zoek je samen naar de beste vormen:
+              Je zult daarin eerst een gastdocentencursus volgen. En ga je het 
+              projectonderwijs vormgeven. We zorgen ervoor dat er goede aansluiting 
+              is tussen jouw kennis en die van de leerlingen. Ook zoek je samen naar
+               de beste vormen:
               waar virtueel of fysiek, en waar theorie of praktijk? Tot slot ga
               je ook nadenken over examinering: wanneer weet je dat leerlingen
               de leerdoelen van je module hebben gehaald?
@@ -230,49 +206,27 @@ const Index = () => (
 
         <hr />
 
-        <h2>Aankomende gastdocenten cursus</h2>
+        <h2>Vakexpertise/h2>
 
         <p>
-          Als gastdocent kan je gastles verzorgen in de onder- en bovenbouw. In
-          de derde klassen willen we een breed inkijkje geven in informatica. In
-          de bovenbouw klassen zijn we op zoek naar IT-experts die invulling
+          In de bovenbouw klassen zijn we op zoek naar IT-experts die invulling
           kunnen geven aan één van de keuzedomeinen. Je kan{" "}
           <a href="https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/">
             hier
           </a>{" "}
           alle keuzedomeinen vinden die gedurende de hele bovenbouw de revue
           kunnen passeren. Uiteraard helpen we je met het kiezen van een gepast
-          traject en domein. De gastdocent cursus wordt in vier dagdelen
-          gegeven.
+          traject en domein. 
         </p>
 
-        <ul>
-          <li>
-            Vrijdag 13 januari (13:00-17:00, Universiteit Utrecht, Uithof);
-          </li>
-          <li>Vrijdag 20 januari (14:00-17:00, online: MS Teams);</li>
-          <li>Vrijdag 27 januari (14:00-17:00, online: MS Teams);</li>
-          <li>
-            Vrijdag 17 februari (13:00-17:00, Universiteit Utrecht, Uithof).
-          </li>
-        </ul>
-
-        <p>
-          Schrijf je hieronder in om kennis met ons te maken en verder te kijken
-          of Co-Teach Informatica iets voor jou is. We kunnen je dan ook
-          informeren of je met je huidige achtergrond (een deel van) de crash
-          course kan overslaan met een portfolio.
-        </p>
-
+        
         <hr />
 
         <section>
           <h2>Meld je nu aan</h2>
           <p>
-            Wil jij als IT-professional jou passie voor Informatica aan jonge
-            mensen overdragen? Heb je een vraag of wil je praten over de
-            mogelijkheden? Vul dan onderstaand formulier in en we nemen contact
-            met je op.
+            Schrijf je hieronder in om kennis met ons te maken en verder te kijken
+          of Co-Teach Informatica iets voor jou is. We nemen contact met je op.
           </p>
           <iframe
             title="Aanmeldingsformulier"
