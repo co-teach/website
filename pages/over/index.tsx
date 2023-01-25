@@ -74,15 +74,20 @@ const Home = () => {
             height="330"
           />
           <h3>
-            <span>1</span>Co-Teaching
+            <span>1</span>Keuzedomeinen – Projectonderwijs Gastdocent
           </h3>
           <p>
-            Het verzorgen van <strong>projectonderwijs</strong> door een tandem
-            van een inhoudsdeskundige gastdocent en een (anders-)bevoegde leraar
-            van de school in kwestie. Hiervoor werken we samen met experts uit
-            het bedrijfsleven en vanuit universiteiten en rijksinstanties. Een
-            regionale vakdidacticus verzorgt de begeleiding van het gehele
-            traject.
+            Onze <strong>gastdocenten</strong> zijn <strong>ICT-professionals uit het bedrijfsleven</strong>. 
+            Ze brengen de werkvloer naar de klas. Ze delen hun kennis, vertellen een persoonlijk verhaal en 
+            brengen inspiratie door praktijkvoorbeelden. Op inspirerende wijze leren leerlingen over nieuwe 
+            technologieën, trends en ontwikkelingen op het gebied van ICT. Leerlingen doen praktische ervaring
+            op door projectopdrachten uit te voeren. Het bezoek van een gastdocent aan school is een ervaring
+            van onschatbare waarde. 
+
+
+            
+            
+            
           </p>
 
           <h3>
