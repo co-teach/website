@@ -18,7 +18,7 @@ const Home = () => {
         <article className="restrictedWidth">
           <SignatureHeader
             title="Co-Teach Informatica"
-            subtitle="in vijf vragen"
+            subtitle=""
           />
 
           <h2>Wat?</h2>
