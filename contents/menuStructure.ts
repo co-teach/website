@@ -8,11 +8,7 @@ export const menuStructure: NavItem[] = [
   {
     href: "/het-vak-informatica",
     label: "Het vak informatica",
-  },
-  {
-    href: "/webinar",
-    label: "Webinar",
-  },
+  },  
   {
     href: "/voor-scholen",
     label: "Voor scholen",
@@ -22,4 +18,12 @@ export const menuStructure: NavItem[] = [
     label: "Voor professionals",
   },
   { href: "/team", label: "Het team" },
+  {
+    href: "/contact",
+    label: "contact",
+  },
+  
+  
+  
+  
 ];
