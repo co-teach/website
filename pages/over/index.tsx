@@ -55,16 +55,6 @@ const Home = () => {
             Co-Teach Informatica is een uitstekende keuze voor elke school die informatica aan haar curriculum wil toevoegen. 
           </p>
 
-          <p>
-            Een bijkomend voordeel is dat co-teaching het{" "}
-            <strong>
-              informatica-onderwijs dichter bij de dagelijkse praktijk brengt
-            </strong>
-            . Daarom werken we ook met scholen die <em>wel</em> een bevoegd
-            informaticaleraar hebben, of die deze in de loop van het project
-            aantrekken.
-          </p>
-
           <h2>Hoe?</h2>
           <img
             src="/images/co-teach_hoe.png"
@@ -82,31 +72,20 @@ const Home = () => {
             brengen inspiratie door praktijkvoorbeelden. Op inspirerende wijze leren leerlingen over nieuwe 
             technologieën, trends en ontwikkelingen op het gebied van ICT. Leerlingen doen praktische ervaring
             op door projectopdrachten uit te voeren. Het bezoek van een gastdocent aan school is een ervaring
-            van onschatbare waarde. 
-
-
-            
-            
-            
+            van onschatbare waarde.         
+                       
           </p>
 
           <h3>
-            <span>2</span>Online Leerlijn
+            <span>2</span>Kerndomeinen – Online Leerlijn
           </h3>
 
           <p>
-            Het ontwikkelen en aanbieden van een online leerlijn voor de{" "}
-            <strong>basisdomeinen uit het examenprogramma informatica’</strong>{" "}
-            (naar voorbeeld van{" "}
-            <a
-              href="https://www.wiskundedonline.nl/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Wiskunde D online
-            </a>
-            ). Leerlingbegeleiding op het online leerplatform gebeurt vanuit het
-            regionale vaksteunpunt.
+           Leerlingen kunnen onder begeleiding van de schooldocent, de leerlijn via het digitaal platform zelfstandig volgen. 
+           Op het platform worden de leerlingen <strong>stap voor stap door de lessen geleid met tekst, video en afbeeldingen</strong>. 
+           Vakdidactici Informatica van de universiteit hebben een leerroute ontwikkeld compleet met mijlpaalopdrachten en 
+           eindtoetsen. Het nakijken van het leerlingenwerk en het beantwoorden van vragen gebeurd door Co-Teach Informatica.
+                           
           </p>
 
           <h3>
@@ -114,42 +93,9 @@ const Home = () => {
           </h3>
 
           <p>
-            Het <strong>vormgeven van schoolexamens</strong> in de bovenbouw
-            zodat de leerlingen eindexamen in informatica kunnen doen. De
-            eindexamens worden ontworpen in samenwerking met vakdidactici van de
-            lerarenopleidingen informatica en experts van SLO.
-          </p>
-
-          <h2>Waar?</h2>
-          <p>
-            Het pilotproject start in{" "}
-            <strong>Amsterdam, Utrecht en Twente</strong>. Als het project
-            succesvol blijkt wordt Co-Teach Informatica ook uitgezet in andere
-            regio's.
-          </p>
-
-          <h2>Wanneer?</h2>
-          <p>
-            2020-2021 geldt als opstartjaar, waarin we met een kleine groep
-            scholen per regio beginnen met het opzetten van projectonderwijs in
-            de derde klas (havo/vwo). Het doel is om zoveel mogelijk leerlingen
-            te laten kennismaken en te motiveren voor informatica zodat zij een
-            gefundeerde keuze voor het vak in de bovenbouw kunnen maken.
-          </p>
-          <p>
-            In de jaren daarna breiden we uit naar meer scholen en de bovenbouw.{" "}
-            <strong>
-              Aanmelden kan te allen tijde via de formulieren voor{" "}
-              <Link href="/voor-scholen">
-                <a>scholen</a>
-              </Link>{" "}
-              en{" "}
-              <Link href="/voor-professionals">
-                <a>professionals</a>
-              </Link>
-            </strong>
-            .
-          </p>
+            
+                   
+          
         </article>
       </main>
       <Footer />
