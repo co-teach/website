@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Webinar Co-Teach Informatica</title>
+        <title>Co-Teach Informatica</title>
       </Head>
       <Header navData={menuStructure} />
       <main className={classes.Webinar}>
