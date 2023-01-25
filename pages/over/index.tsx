@@ -29,13 +29,22 @@ const Home = () => {
             biedt Co-Teach Informatica de oplossing voor scholen die binnenkort geen 
             informaticadocent hebben omdat deze met pensioen gaat. Alsook een oplossing 
             voor scholen die nog geen docent hebben en graag met informatica willen starten.
+            
+          </p>          
+        
 
+          <p>
             Nu de wereld steeds verder digitaliseert, zijn de kennis en vaardigheden die met dit 
             vak worden opgedaan van onschatbare waarde. Met Co-Teach Informatica kunnen vo-leerlingen
             de wereld van de informatica op een innovatieve manier ervaren, digitale kennis en vaardigheden 
             opdoen die voor iedereen belangrijk zijn, ongeacht vervolg studiekeuze. 
 
-            Het vak informatica kan als bovenbouwprogramma op de havo en het vwo worden aangeboden. Leerlingen 
+            
+          </p>
+
+          <h2>ovenbouwprogramma op de havo en het vwo</h2>
+          <p>
+            IHet vak informatica kan als bovenbouwprogramma op de havo en het vwo worden aangeboden. Leerlingen 
             krijgen ingeroosterd en klassikaal onderwijs van een anders bevoegde schooldocent. De docent heeft bij 
             voorkeur affiniteit met informatica en krijgt begeleiding van onze vakdidactici informatica. Leerlingen 
             hebben een online leeromgeving waarin elke les via ons stap-voor-stap systeem toegelicht wordt met lesmateriaal,
@@ -44,26 +53,6 @@ const Home = () => {
             praktische opdrachten die hen helpen hun theoretisch inzicht toe te passen in de echte wereld.
 
             Co-Teach Informatica is een uitstekende keuze voor elke school die informatica aan haar curriculum wil toevoegen. 
-                    
-          
-          </p>
-
-          <p>
-            Het project is ook bedoeld voor scholen die binnenkort geen
-            informaticaleraar meer hebben doordat deze met pensioen gaat,
-            evenals scholen die wel een bevoegd docent hebben en graag
-            professionals de klas in zouden halen.
-          </p>
-
-          <h2>Waarom?</h2>
-          <p>
-            Informatica kent erg grote tekorten. Het vak wordt daardoor steeds
-            minder aangeboden op scholen terwijl steeds meer leerlingen het
-            willen volgen. Wij stellen scholen in staat om (weer of nog steeds)
-            informatica aan te bieden als er geen bevoegde leraar beschikbaar
-            is. Het doel is om in het schooljaar 2023–2024 minstens 3000 extra
-            leerlingen van informatica onderwijs te voorzien, waarvan 500 dat
-            jaar ook het eindexamen zullen maken.
           </p>
 
           <p>
