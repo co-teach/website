@@ -3,7 +3,7 @@ import type { NavItem } from "../models/NavItem";
 export const menuStructure: NavItem[] = [
   {
     href: "/over",
-    label: "Over Co-Teach",
+    label: "Co-Teach Informatica",
   },
   {
     href: "/het-vak-informatica",
