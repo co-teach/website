@@ -42,7 +42,7 @@ const Home = () => {
             
           </p>
 
-          <h2>ovenbouwprogramma op de havo en het vwo</h2>
+          <h2>Bovenbouwprogramma op de havo en het vwo</h2>
           <p>
             Het vak informatica kan als bovenbouwprogramma op de havo en het vwo worden aangeboden. Leerlingen 
             krijgen ingeroosterd en klassikaal onderwijs van een anders bevoegde schooldocent. De docent heeft bij 
