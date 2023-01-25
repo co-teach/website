@@ -23,16 +23,29 @@ const Home = () => {
 
           <h2>Wat?</h2>
           <p>
-            Co-Teach Informatica is een pilotproject waarin scholen het{" "}
-            <strong>eindexamenvak informatica kunnen aanbieden</strong> door een
-            combinatie van projectonderwijs door IT-professionals en een online
-            leerlijn –{" "}
-            <strong>
-              ook wanneer een school (nog) geen informaticaleraar in dienst
-              heeft.
-            </strong>{" "}
-            Het project start op met havo/vwo leerlingen in klas 3 en de
-            bovenbouw.
+            We gunnen iedere leerling een vakdocent informatica voor de klas. 
+            Helaas is het tekort aan informaticadocenten nijpend. 
+            Terwijl in het land wordt doorgewerkt aan meer docenten voor de klas 
+            biedt Co-Teach Informatica de oplossing voor scholen die binnenkort geen 
+            informaticadocent hebben omdat deze met pensioen gaat. Alsook een oplossing 
+            voor scholen die nog geen docent hebben en graag met informatica willen starten.
+
+            Nu de wereld steeds verder digitaliseert, zijn de kennis en vaardigheden die met dit 
+            vak worden opgedaan van onschatbare waarde. Met Co-Teach Informatica kunnen vo-leerlingen
+            de wereld van de informatica op een innovatieve manier ervaren, digitale kennis en vaardigheden 
+            opdoen die voor iedereen belangrijk zijn, ongeacht vervolg studiekeuze. 
+
+            Het vak informatica kan als bovenbouwprogramma op de havo en het vwo worden aangeboden. Leerlingen 
+            krijgen ingeroosterd en klassikaal onderwijs van een anders bevoegde schooldocent. De docent heeft bij 
+            voorkeur affiniteit met informatica en krijgt begeleiding van onze vakdidactici informatica. Leerlingen 
+            hebben een online leeromgeving waarin elke les via ons stap-voor-stap systeem toegelicht wordt met lesmateriaal,
+            uitlegfilmpjes en opdrachten. Daarnaast is er de gastlessenreeks van ervaren IT-professionals uit het 
+            bedrijfsleven. Deze professionals brengen een schat aan expertise en kennis mee en bieden de leerlingen ook 
+            praktische opdrachten die hen helpen hun theoretisch inzicht toe te passen in de echte wereld.
+
+            Co-Teach Informatica is een uitstekende keuze voor elke school die informatica aan haar curriculum wil toevoegen. 
+                    
+          
           </p>
 
           <p>
