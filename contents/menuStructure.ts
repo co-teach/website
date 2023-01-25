@@ -19,7 +19,7 @@ export const menuStructure: NavItem[] = [
   },
   { href: "/team", label: "Het team" },
   {
-    href: "/contact",
+    href: "/webinar",
     label: "contact",
   },
   
