@@ -21,7 +21,7 @@ const Home = () => {
             subtitle=""
           />
 
-          <h2>Wat?</h2>
+          <h2>Informatica in de bovenbouw havo/vwo</h2>
           <p>
             We gunnen iedere leerling een vakdocent informatica voor de klas. 
             Helaas is het tekort aan informaticadocenten nijpend. 
