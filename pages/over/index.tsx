@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Over Co-Teach Informatica</title>
+        <title>Over Co-Teach Informatica Informatica</title>
       </Head>
       <Header navData={menuStructure} />
       <main className={classes.Over}>
@@ -44,7 +44,7 @@ const Home = () => {
 
           <h2>Bovenbouwprogramma op de havo en het vwo</h2>
           <p>
-            Het vak informatica kan als bovenbouwprogramma op de havo en het vwo worden aangeboden. Leerlingen 
+            Het vak informatica wordt als bovenbouwprogramma op de havo en het vwo aangeboden. Leerlingen 
             krijgen ingeroosterd en klassikaal onderwijs van een anders bevoegde schooldocent. De docent heeft bij 
             voorkeur affiniteit met informatica en krijgt begeleiding van onze vakdidactici informatica. Leerlingen 
             hebben een online leeromgeving waarin elke les via ons stap-voor-stap systeem toegelicht wordt met lesmateriaal,
