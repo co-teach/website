@@ -18,47 +18,34 @@ const Home = () => {
         <article className="restrictedWidth">
           <SignatureHeader title="Webinar" subtitle="" />
 
-          <h2>Schrijf je nu in voor het Co-Teach Informatica webinar</h2>
+          <h2>Laten we een keertje praten</h2>
           <p>
-            Kunt u door een gebrek aan docenten het vak informatica niet (meer)
-            aanbieden in uw HAVO/VWO klassen, of heeft u zorgen om het
-            voortbestaan van het vak? Maak dan kennis met Co-Teach Informatica.
-            In dit unieke pilotproject krijgen scholen de kans het vak
-            informatica aan te bieden door een combinatie van projectonderwijs
-            door IT-professionals en een solide online leerlijn, ontwikkeld door
-            en begeleid vanuit universitaire lerarenopleidingen. Wij hebben nu
-            ruimte om meer scholen te betrekken bij dit project. Deelname is
-            uitermate geschikt voor scholen waar het vak niet (meer) kan worden
-            aangeboden omdat er geen docent beschikbaar is, terwijl leerlingen
-            het vak wel willen volgen.
+          Heb je een vraag of wil je praten over de mogelijkheden? 
           </p>
-
-          <p>
-            Nieuwsgierig? U kunt nu deelnemen aan onze webinar
-            informatiebijeenkomsten op <br />
-            19 december, 19 januari of 24 januari.
+          
+         <p>
+         Neem gerust eens contact met ons op om de mogelijkheden te bespreken. 
+         Bel met onze accountmanager Liesbeth von Nordheim op 06-81183563 of stuur een bericht naar co-teach@uu.nl 
+         </p> 
+         
+          
+         <p> 
+         Meer informatie over werken als gastdocent in het onderwijs of persoonlijk advies? 
+         </p>
+         
+         <p>
+         Vul dan onderstaand formulier in en we nemen contact met je op.
           </p>
-
-          <h2>Schrijf je nu in</h2>
-          <p>
-            <ul>
-              <li>
-                <a href="https://teams.microsoft.com/registration/oFgn10akD06gqkv5WkoQ5w,6ESrmc946kyLd6a6BTpqsQ,8uCiOauJH0mVKfrBlvg97A,JuqWQvNF40a25BgS7u2jEQ,Ler-QlwX2k2z0NRUF74ddw,b6J2fmnc3EicRWPgvNnNgg?mode=read&tenantId=d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">
-                  Maandag 19 december, 15.00-15.45
-                </a>
-              </li>
-              <li>
-                <a href="https://teams.microsoft.com/registration/oFgn10akD06gqkv5WkoQ5w,6ESrmc946kyLd6a6BTpqsQ,8uCiOauJH0mVKfrBlvg97A,H6v1Ff_RkEuG4AKxkWJaOw,NDvl5nR-yEGRWU3h9Z6YYg,Aj4GlnkNT0WfXbIz4lRh-w?mode=read&tenantId=d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">
-                  Woensdag 19 januari, 16:00–16.45
-                </a>
-              </li>
-              <li>
-                <a href="https://teams.microsoft.com/registration/oFgn10akD06gqkv5WkoQ5w,6ESrmc946kyLd6a6BTpqsQ,8uCiOauJH0mVKfrBlvg97A,rJOpMpGSSE2GBcGpkp-ogQ,iF_aGAGXiUiHOhCN1JRVlQ,rzEgWXCZ0USi8HOp8d3YaA?mode=read&tenantId=d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">
-                  Dinsdag 24 januari, 16:00–16.45
-                </a>
-              </li>
-            </ul>
-          </p>
+          <iframe
+            title="Aanmeldingsformulier"
+            loading="lazy"
+            className={classes.Survey}
+            src="https://utrechtuniversity.qualtrics.com/jfe/form/SV_eY9tyqz6pnMNw2x"
+          />
+        </section> 
+          
+            
+                   
         </article>
       </main>
       <Footer />
