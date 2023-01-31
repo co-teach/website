@@ -3,16 +3,12 @@ import type { NavItem } from "../models/NavItem";
 export const menuStructure: NavItem[] = [
   {
     href: "/over",
-    label: "Over Co-Teach",
+    label: "Co-Teach Informatica",
   },
   {
     href: "/het-vak-informatica",
     label: "Het vak informatica",
-  },
-  {
-    href: "/webinar",
-    label: "Webinar",
-  },
+  },  
   {
     href: "/voor-scholen",
     label: "Voor scholen",
@@ -22,4 +18,12 @@ export const menuStructure: NavItem[] = [
     label: "Voor professionals",
   },
   { href: "/team", label: "Het team" },
+  {
+    href: "/webinar",
+    label: "contact",
+  },
+  
+  
+  
+  
 ];

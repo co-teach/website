@@ -17,10 +17,18 @@ const Index = () => (
       <article className="restrictedWidth">
         <section className="columns">
           <SignatureHeader
-            title="Het vak informatica in de bovenbouw"
-            subtitle="maak kennis."
+            title="Het vak informatica"
+            subtitle="In dit vak ben je een denker en een doener."
           />
 
+          <p>
+          Met zijn uiteenlopende onderwerpen biedt het vak informatica voor elk wat wils
+          en past wonderwel in elk profiel. De kennis en vaardigheden geven een voorsprong 
+          bij toekomstige studies en loopbaantrajecten, ongeacht of je verder wil met informatica.
+          </p>
+          
+          
+          
           <img
             src={"/images/decorative_3.jpg"}
             width="1552"
@@ -36,6 +44,7 @@ const Index = () => (
             gevolgen voor jou en voor de maatschappij als geheel. Logisch toch
             dat je wilt weten hoe alles werkt?
           </p>
+          
 
           <div className={classes.BodyText}>
             <p>

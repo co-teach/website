@@ -110,8 +110,8 @@ const Index = () => (
           </p>
           <p>
             ** In gastdocenttraject 4 en 5 is er keuze uit dezelfde modules. Het
-            is belangrijk dat bij het inplannen van de gastdocenten op ee
-            nschool rekening gehouden wordt met ee ngebalanceerde verdeling over
+            is belangrijk dat bij het inplannen van de gastdocenten op een
+            school rekening gehouden wordt met een gebalanceerde verdeling over
             de modules
           </p>
         </section>
