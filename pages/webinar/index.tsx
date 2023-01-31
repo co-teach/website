@@ -19,33 +19,26 @@ const Home = () => {
           <SignatureHeader title="Webinar" subtitle="" />
 
           <h2>Laten we een keertje praten</h2>
+          <p>Heb je een vraag of wil je praten over de mogelijkheden?</p>
+
           <p>
-          Heb je een vraag of wil je praten over de mogelijkheden? 
+            Neem gerust eens contact met ons op om de mogelijkheden te
+            bespreken. Bel met onze accountmanager Liesbeth von Nordheim op
+            06-81183563 of stuur een bericht naar co-teach@uu.nl
           </p>
-          
-         <p>
-         Neem gerust eens contact met ons op om de mogelijkheden te bespreken. 
-         Bel met onze accountmanager Liesbeth von Nordheim op 06-81183563 of stuur een bericht naar co-teach@uu.nl 
-         </p> 
-         
-          
-         <p> 
-         Meer informatie over werken als gastdocent in het onderwijs of persoonlijk advies? 
-         </p>
-         
-         <p>
-         Vul dan onderstaand formulier in en we nemen contact met je op.
+
+          <p>
+            Meer informatie over werken als gastdocent in het onderwijs of
+            persoonlijk advies?
           </p>
+
+          <p>Vul dan onderstaand formulier in en we nemen contact met je op.</p>
           <iframe
             title="Aanmeldingsformulier"
             loading="lazy"
             className={classes.Survey}
             src="https://utrechtuniversity.qualtrics.com/jfe/form/SV_eY9tyqz6pnMNw2x"
           />
-        </section> 
-          
-            
-                   
         </article>
       </main>
       <Footer />

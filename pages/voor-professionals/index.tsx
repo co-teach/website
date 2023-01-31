@@ -43,24 +43,25 @@ const Index = () => (
           </div>
 
           <p className={classes.Lede}>
-            Als IT-professionals uit het bedrijfsleven is het geven van gastlessen 
-            aan leerlingen een ervaring van onschatbare waarde. Met jouw vakexpertise 
-            breng je inspiratie met praktijkvoorbeelden.       
-     
-            Doe mee en draag je kennis over!  
+            Als IT-professionals uit het bedrijfsleven is het geven van
+            gastlessen aan leerlingen een ervaring van onschatbare waarde. Met
+            jouw vakexpertise breng je inspiratie met praktijkvoorbeelden. Doe
+            mee en draag je kennis over!
           </p>
 
           <div className={classes.BodyText}>
             <p>
-              We zoeken IT-professionals die gedurende 6 á 8 weken een gastlessenreeks op school
-              willen verzorgen. 
+              We zoeken IT-professionals die gedurende 6 á 8 weken een
+              gastlessenreeks op school willen verzorgen.
             </p>
             <blockquote>
-              “ALs gastdocent geef je les en begeleid leerlingen in een informaticaproject”
+              “ALs gastdocent geef je les en begeleid leerlingen in een
+              informaticaproject”
             </blockquote>
             <p>
-              Je gaat niet onvoorbereid de klas in. We bieden je een gastdocentencursus. 
-              Je geeft les onder begeleiding van een vakdidacticus informatica en de schooldocent.
+              Je gaat niet onvoorbereid de klas in. We bieden je een
+              gastdocentencursus. Je geeft les onder begeleiding van een
+              vakdidacticus informatica en de schooldocent.
             </p>
 
             <p>
@@ -112,9 +113,9 @@ const Index = () => (
               <h2>Wat kan je verwachten als gastdocent?</h2>
             </summary>
             <p>
-              Als gastdocent geef je vorm aan circa <strong>40 studielasturen</strong>
-              : 40 klokuren waarin leerlingen binnen en buiten het klaslokaal
-              met jouw project aan de slag gaan. 
+              Als gastdocent geef je vorm aan circa{" "}
+              <strong>40 studielasturen</strong>: 40 klokuren waarin leerlingen
+              binnen en buiten het klaslokaal met jouw project aan de slag gaan.
             </p>
 
             <h3>De aanmelding</h3>
@@ -122,7 +123,7 @@ const Index = () => (
               Tijdens je aanmelding (zie hieronder) vragen we je om o.a. je
               expertise en eventuele projectideeën nader toe te lichten. Dit
               helpt ons om een groep leerlingen te vinden die voorbereid is om
-              in jouw wereld te duiken. 
+              in jouw wereld te duiken.
             </p>
             <p>
               Nadat je je aangemeld hebt wordt je opgenomen in de Co-Teach
@@ -142,13 +143,13 @@ const Index = () => (
               begint het voortraject.
             </p>
             <p>
-              Je zult daarin eerst een gastdocentencursus volgen. En ga je het 
-              projectonderwijs vormgeven. We zorgen ervoor dat er goede aansluiting 
-              is tussen jouw kennis en die van de leerlingen. Ook zoek je samen naar
-               de beste vormen:
-              waar virtueel of fysiek, en waar theorie of praktijk? Tot slot ga
-              je ook nadenken over examinering: wanneer weet je dat leerlingen
-              de leerdoelen van je module hebben gehaald?
+              Je zult daarin eerst een gastdocentencursus volgen. En ga je het
+              projectonderwijs vormgeven. We zorgen ervoor dat er goede
+              aansluiting is tussen jouw kennis en die van de leerlingen. Ook
+              zoek je samen naar de beste vormen: waar virtueel of fysiek, en
+              waar theorie of praktijk? Tot slot ga je ook nadenken over
+              examinering: wanneer weet je dat leerlingen de leerdoelen van je
+              module hebben gehaald?
             </p>
 
             <h3>Co-Teaching</h3>
@@ -206,7 +207,7 @@ const Index = () => (
 
         <hr />
 
-        <h2>Vakexpertise/h2>
+        <h2>Vakexpertise</h2>
 
         <p>
           In de bovenbouw klassen zijn we op zoek naar IT-experts die invulling
@@ -216,17 +217,17 @@ const Index = () => (
           </a>{" "}
           alle keuzedomeinen vinden die gedurende de hele bovenbouw de revue
           kunnen passeren. Uiteraard helpen we je met het kiezen van een gepast
-          traject en domein. 
+          traject en domein.
         </p>
 
-        
         <hr />
 
         <section>
           <h2>Meld je nu aan</h2>
           <p>
-            Schrijf je hieronder in om kennis met ons te maken en verder te kijken
-          of Co-Teach Informatica iets voor jou is. We nemen contact met je op.
+            Schrijf je hieronder in om kennis met ons te maken en verder te
+            kijken of Co-Teach Informatica iets voor jou is. We nemen contact
+            met je op.
           </p>
           <iframe
             title="Aanmeldingsformulier"
