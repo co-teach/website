@@ -69,7 +69,7 @@ const Person = ({
         )}
         {email && (
           <a href={`mailto:${email}`} property="email" rel="noopener">
-            <FaMailBulk /> maak contact
+            <FaMailBulk /> contact
           </a>
         )}
       </div>

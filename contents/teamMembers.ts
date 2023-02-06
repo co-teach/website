@@ -164,6 +164,14 @@ export const teamMembers: { [id: string]: PersonModel } = {
     lastName: "Huijting",
     organisation: "Universiteit Utrecht",
     roles: ["Landelijk Secretaresse"],
-    personalPage: "https://www.linkedin.com/in/heather-huijting-2aa201166/ ",
+    personalPage: "https://www.linkedin.com/in/heather-huijting-2aa201166/",
+  },
+  liesbeth: {
+    firstName: "Liesbeth",
+    lastName: "Von Nordheim",
+    organisation: "Universiteit Utrecht",
+    roles: ["Accountmanager"],
+    email: "co-teach@uu.nl",
+    personalPage: "https://www.linkedin.com/in/liesbethvonnordheim/",
   },
 };
