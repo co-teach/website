@@ -171,6 +171,7 @@ export const teamMembers: { [id: string]: PersonModel } = {
     lastName: "Von Nordheim",
     organisation: "Universiteit Utrecht",
     roles: ["Accountmanager"],
+    email: "co-teach@uu.nl",
     personalPage: "https://www.linkedin.com/in/liesbethvonnordheim/",
   },
 };
