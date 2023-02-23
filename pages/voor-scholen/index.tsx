@@ -101,7 +101,7 @@ const Index = () => (
           <h2>Hoe ziet het programma eruit?</h2>
           <p>De domeinen worden in de volgende volgorde behandeld:</p>
           <img
-            src={"/images/co-teach-informatica_programma.png"}
+            src={"/images/CTI 3-jaren programma.png"}
             alt={"Co-teach informatica programma"}
           />
           <p>
