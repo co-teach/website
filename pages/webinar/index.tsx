@@ -16,7 +16,7 @@ const Home = () => {
       <Header navData={menuStructure} />
       <main className={classes.Webinar}>
         <article className="restrictedWidth">
-          <SignatureHeader title="Webinar" subtitle="" />
+          <SignatureHeader title="Contact" subtitle="" />
 
           <h2>Laten we een keertje praten</h2>
           <p>Heb je een vraag of wil je praten over de mogelijkheden?</p>
