@@ -14,7 +14,7 @@ const Home = () => {
         <title>Co-Teach Informatica</title>
       </Head>
       <Header navData={menuStructure} />
-      <main className={classes.Webinar}>
+      <main className={classes.Contact}>
         <article className="restrictedWidth">
           <SignatureHeader title="Contact" subtitle="" />
 
