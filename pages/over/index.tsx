@@ -57,7 +57,7 @@ const Home = () => {
 
           <h2>Hoe?</h2>
           <img
-            src="/images/co-teach_hoe.png"
+            src="/images/co-teach informatica programma.png"
             alt="Co-teaching en een online leerlijn maken het eindexamen mogelijk."
             style={{ margin: "20px 0px" }}
             width="1165"
