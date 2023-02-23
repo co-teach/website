@@ -7,8 +7,7 @@ const Banner = () => (
     <div className={classes.Content}>
       <h1 className={classes.SignatureHeader}>
         {/* WARNING: The current styling (spacing etc.) is tailored to this sentence. CSS requires an update if changed. */}
-        <span>Informatica op school</span>
-        <span> dat doen we samen.</span>
+        <span>Informatica aanbieden zonder vakdocent informatica</span>
       </h1>
       <p>
         We gunnen iedere leerling een vakdocent informatica voor de klas. 
