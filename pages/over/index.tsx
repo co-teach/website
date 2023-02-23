@@ -18,26 +18,6 @@ const Home = () => {
         <article className="restrictedWidth">
           <SignatureHeader title="Co-Teach Informatica" subtitle="" />
 
-          <h2>Informatica in de bovenbouw havo/vwo</h2>
-          <p>
-            We gunnen iedere leerling een vakdocent informatica voor de klas.
-            Helaas is het tekort aan informaticadocenten nijpend. Terwijl in het
-            land wordt doorgewerkt aan meer docenten voor de klas biedt Co-Teach
-            Informatica de oplossing voor scholen die binnenkort geen
-            informaticadocent hebben omdat deze met pensioen gaat. Alsook een
-            oplossing voor scholen die nog geen docent hebben en graag met
-            informatica willen starten.
-          </p>
-
-          <p>
-            Nu de wereld steeds verder digitaliseert, zijn de kennis en
-            vaardigheden die met dit vak worden opgedaan van onschatbare waarde.
-            Met Co-Teach Informatica kunnen vo-leerlingen de wereld van de
-            informatica op een innovatieve manier ervaren, digitale kennis en
-            vaardigheden opdoen die voor iedereen belangrijk zijn, ongeacht
-            vervolg studiekeuze.
-          </p>
-
           <h2>Bovenbouwprogramma op de havo en het vwo</h2>
           <p>
             Het vak informatica wordt als bovenbouwprogramma op de havo en het
