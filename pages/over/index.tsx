@@ -43,20 +43,7 @@ const Home = () => {
             width="1165"
             height="330"
           />
-          <h3>
-            <span>1</span>Keuzedomeinen – Projectonderwijs Gastdocent
-          </h3>
-          <p>
-            Onze <strong>gastdocenten</strong> zijn{" "}
-            <strong>ICT-professionals uit het bedrijfsleven</strong>. Ze brengen
-            de werkvloer naar de klas. Ze delen hun kennis, vertellen een
-            persoonlijk verhaal en brengen inspiratie door praktijkvoorbeelden.
-            Op inspirerende wijze leren leerlingen over nieuwe technologieën,
-            trends en ontwikkelingen op het gebied van ICT. Leerlingen doen
-            praktische ervaring op door projectopdrachten uit te voeren. Het
-            bezoek van een gastdocent aan school is een ervaring van onschatbare
-            waarde.
-          </p>
+          
 
           <h3>
             <span>2</span>Kerndomeinen – Online Leerlijn
@@ -75,6 +62,22 @@ const Home = () => {
             nakijken van het leerlingenwerk en het beantwoorden van vragen
             gebeurd door Co-Teach Informatica.
           </p>
+          
+          <h3>
+            <span>1</span>Keuzedomeinen – Projectonderwijs Gastdocent
+          </h3>
+          <p>
+            Onze <strong>gastdocenten</strong> zijn{" "}
+            <strong>ICT-professionals uit het bedrijfsleven</strong>. Ze brengen
+            de werkvloer naar de klas. Ze delen hun kennis, vertellen een
+            persoonlijk verhaal en brengen inspiratie door praktijkvoorbeelden.
+            Op inspirerende wijze leren leerlingen over nieuwe technologieën,
+            trends en ontwikkelingen op het gebied van ICT. Leerlingen doen
+            praktische ervaring op door projectopdrachten uit te voeren. Het
+            bezoek van een gastdocent aan school is een ervaring van onschatbare
+            waarde.
+          </p>
+          
 
           <h3>
             <span>3</span>Eindexamen
