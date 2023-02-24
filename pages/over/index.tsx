@@ -46,7 +46,7 @@ const Home = () => {
           
 
           <h3>
-            <span>2</span>Kerndomeinen – Online Leerlijn
+            <span>1</span>Kerndomeinen – Online Leerlijn
           </h3>
 
           <p>
@@ -64,7 +64,7 @@ const Home = () => {
           </p>
           
           <h3>
-            <span>1</span>Keuzedomeinen – Projectonderwijs Gastdocent
+            <span>2</span>Keuzedomeinen – Projectonderwijs Gastdocent
           </h3>
           <p>
             Onze <strong>gastdocenten</strong> zijn{" "}
