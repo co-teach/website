@@ -40,7 +40,6 @@ const Index = () => {
     teamMembers.thirza,
     teamMembers.denise,
     teamMembers.karlijn,
-    teamMembers.andor,
   ];
 
   return (
