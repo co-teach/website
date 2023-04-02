@@ -44,13 +44,6 @@ export const teamMembers: { [id: string]: PersonModel } = {
     organisation: "Universiteit Twente",
     roles: ["Evaluatie en effectmeting"],
   },
-  koos: {
-    firstName: "Koos",
-    lastName: "Bax",
-    organisation: "Universiteit Utrecht",
-    roles: ["Communicatiemedewerker"],
-    personalPage: "https://www.linkedin.com/in/koos-bax-bb9595197/",
-  },
   rhea: {
     firstName: "Rhea",
     lastName: "van der Dong",
