@@ -187,4 +187,6 @@ export const teamMembers: { [id: string]: PersonModel } = {
     organisation: "Universiteit Utrecht",
     roles: ["Communicatiemedewerker"],
     personalPage: "https://www.linkedin.com/in/noortbakx/",
-  };
+ },  
+   
+};
