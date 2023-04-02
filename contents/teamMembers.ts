@@ -174,4 +174,17 @@ export const teamMembers: { [id: string]: PersonModel } = {
     email: "co-teach@uu.nl",
     personalPage: "https://www.linkedin.com/in/liesbethvonnordheim/",
   },
-};
+  johanstuiver: {
+    firstName: "Johan",
+    lastName: "Stuiver",
+    organisation: "Deloitte",
+    roles: ["Stuurgroeplid"],
+    personalPage: "https://www.linkedin.com/in/johanstuiver/",
+},
+  noort: {
+    firstName: "Noort",
+    lastName: "Bakx",
+    organisation: "Universiteit Utrecht",
+    roles: ["Communicatiemedewerker"],
+    personalPage: "https://www.linkedin.com/in/noortbakx/",
+  };
