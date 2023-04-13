@@ -16,7 +16,6 @@ const Home = () => {
     partners.voRaad,
     partners.nldigital,
     partners.slo,
-    partners.deloitte,
     partners.ieni,
     partners.uu,
     partners.ut,
