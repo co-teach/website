@@ -61,7 +61,7 @@ const Index = () => {
               met de <PartnerLink partner={partners.unl} />,{" "}
               <PartnerLink partner={partners.voRaad} />,{" "}
               <PartnerLink partner={partners.nldigital} />,{" "}
-              <PartnerLink partner={partners.slo} /,{" "}>
+              <PartnerLink partner={partners.slo} />,{" "}
               <PartnerLink partner={partners.deloitte} />{" "} en{" "}
               <PartnerLink partner={partners.ieni} />.
             </p>
