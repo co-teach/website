@@ -63,7 +63,7 @@ const Index = () => {
               <PartnerLink partner={partners.voRaad} />,{" "}
               <PartnerLink partner={partners.nldigital} />,{" "}
               <PartnerLink partner={partners.slo} /,{" "}>
-              <PartnerLink partner={partners.deloitte} />,{" "} en{" "}
+              <PartnerLink partner={partners.deloitte} />{" "} en{" "}
               <PartnerLink partner={partners.ieni} />.
             </p>
             <h2>De projectgroep</h2>
