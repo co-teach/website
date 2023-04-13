@@ -68,7 +68,7 @@ export const partners: { [id: string]: Partner } = {
   deloitte: {
     name: "Deloitte",
     slug: "deloitte",
-    fileType: "svg",
+    fileType: "png",
     website: new URL(
       "https://www2.deloitte.com/nl/nl.html"
     ),
