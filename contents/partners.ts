@@ -65,4 +65,12 @@ export const partners: { [id: string]: Partner } = {
       "https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat"
     ),
   },
+  deloitte: {
+    name: "Deloitte",
+    slug: "deloitte",
+    fileType: "svg",
+    website: new URL(
+      "https://www2.deloitte.com/nl/nl.html"
+    ),
+  },
 };
