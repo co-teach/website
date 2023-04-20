@@ -20,6 +20,7 @@ const Home = () => {
     partners.uu,
     partners.ut,
     partners.vu,
+    partners.deloitte,
   ];
   const supportingPartners: Partner[] = [partners.ocw, partners.ezk];
 
