@@ -181,5 +181,12 @@ export const teamMembers: { [id: string]: PersonModel } = {
     roles: ["Communicatiemedewerker"],
     personalPage: "https://www.linkedin.com/in/noortbakx/",
  },  
+  floris_jan: {
+    firstName: "Floris-Jan",
+    lastName: "Overink",
+    organisation: "Deloitte",
+    roles: ["Lid names Deloitte"],
+    personalPage: "https://www.linkedin.com/in/floris-jan-overink/",
+ }, 
    
 };
