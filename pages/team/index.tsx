@@ -28,6 +28,7 @@ const Index = () => {
     teamMembers.casper,
     teamMembers.jos,
     teamMembers.aad,
+    teamMembers.floris_jan
   ];
   const steeringGroup: PersonModel[] = [
     teamMembers.pieter,
