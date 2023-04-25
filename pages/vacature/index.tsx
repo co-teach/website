@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Header from "../../components/Header/Header";
-import classes from "./het-vak-informatica.module.scss";
+import classes from "./vacature.module.scss";
 import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import Footer from "../../components/Footer/Footer";
 import { menuStructure } from "../../contents/menuStructure";
