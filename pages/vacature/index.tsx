@@ -19,7 +19,7 @@ const Home = () => {
 
           <h2>Student-assistent Informatica gezocht voor Co-Teach Informatica (6-10uur per week)</h2>
           <p>
-            Ben jij UU student Informatica én wil je een interessante veelzijdige bijbaan naast jouw studie.
+            Ben jij UU student Informatica én wil je een interessante veelzijdige bijbaan naast jouw studie?
             Als Co-Teach Informatica student-assistent kijk jij huiswerk na van middelbare schoolleerlingen, 
             het ondersteunen van havo/vwo leerlingen en denk je mee bij de ontwikkeling van lesmateriaal. 
             Hierbij wordt je ondersteunt door vakdidacticus Informatica van Co-Teach Informatica.
@@ -44,7 +44,7 @@ const Home = () => {
           </p>
 
           <h2>Wat ga je doen?</h2>
-           
+          <p> 
           De leerlingen krijgen via een online leerlijn kennis aangereikt over programmeren, architectuur, 
           datastructuren, algoritmen, automaten en grammatica’s. In deze functie ben je beschikbaar 
           voor vragen van leerlingen over de inhoud en opdrachten. Soms zullen dit eenvoudige vragen 
@@ -54,6 +54,7 @@ const Home = () => {
           rubrics, zodat je aan elke leerling een goed onderbouwde feedback kunt geven. 
           Afhankelijk van het rooster van de leerlingen moet je beschikbaar zijn voor het beantwoorden van vragen. 
           Dit (nakijk)werk kan goed vanuit huis worden opgepakt. Daarnaast kan je ingezet worden voor andere taken zoals: 
+          </p>
           <ul>
               <li>
                 Vakinhoudelijk meedenken over het lesmateriaal
@@ -74,6 +75,31 @@ const Home = () => {
             </li>
             
             </ul>
+          <h2>Wat wij bieden</h2>
+          <p>
+          Voor hogerejaars informatica studenten bestaat de mogelijkheid om student-assistent te 
+          worden bij Co-Teach Informatica. Je bent 6 á 10 uur per week beschikbaar en staat ingeschreven 
+          als student bij de Universiteit Utrecht. Wij bieden:
+          </p>
+          <ul>
+              <li>
+                Een student-assistent salaris, afhankelijk van je EC-punten en studiejaar (CAO Universiteiten).
+              </li>
+              <li>
+                Je presentatievaardigheden verbeteren
+              </li>
+              <li>
+                Een goede ervaring om op je CV te zetten.
+            </li>
+            <li>
+                Een leuk team om mee te werken.
+            </li>
+            </ul>
+          <h2>Aanmelden</h2>
+          <p>
+          Wil jij ons team komen versterken? Stuur dan je motivatie en beknopt cv naar co-teach@uu.nl
+          t.a.v. Sia van Keijsteren
+          </p>
         </article>
       </main>
       <Footer />
