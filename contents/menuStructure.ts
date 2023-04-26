@@ -22,6 +22,11 @@ export const menuStructure: NavItem[] = [
     href: "/contact",
     label: "contact",
   },
+  {
+    href: "/vacature",
+    label: "vacature",
+  },
+  
   
   
   
