@@ -75,6 +75,11 @@ const Home = () => {
             </li>
             
             </ul>
+          
+          Je werkt in een landelijk studententeam van de 
+          Universiteit Utrecht, de Universiteit Twente en 
+          Technische Universiteit Delft.
+
           <h2>Wat wij bieden</h2>
           <p>
           Voor hogerejaars informatica studenten bestaat de mogelijkheid om student-assistent te 
