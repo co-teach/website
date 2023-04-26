@@ -40,7 +40,7 @@ const Home = () => {
           informatica aanbieden aan bovenbouw havo/vwo leerlingen zonder bevoegd informatica 
           vakdocent op de school. Door een combinatie van een online leerlijn en projectonderwijs door 
           IT-experts uit het bedrijfsleven krijgen de leerlingen de kans het schoolvak informatica met een 
-          schoolexamen af te ronden. Lees meer op www.co-teach.nl
+          schoolexamen af te ronden. Lees meer op <a href="www.co-teach.nl">www.co-teach.nl</a>.
           </p>
 
           <h2>Wat ga je doen?</h2>
