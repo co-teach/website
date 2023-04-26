@@ -24,7 +24,7 @@ export const menuStructure: NavItem[] = [
   },
   {
     href: "/vacature",
-    label: "vacature",
+    label: "",
   },
   
   
