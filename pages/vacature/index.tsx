@@ -50,8 +50,12 @@ const Home = () => {
           voor vragen van leerlingen over de inhoud en opdrachten. Soms zullen dit eenvoudige vragen 
           zijn, soms moet je de stof op meerdere manieren uitleggen om deze bij een leerlingen over te 
           laten komen. Dat vereist geduld, flexibiliteit en aanpassingsvermogen.
+          </p>
+          <p>
           Daarnaast beoordeel je door de leerlingen ingeleverd werk aan de hand van vastgestelde 
           rubrics, zodat je aan elke leerling een goed onderbouwde feedback kunt geven. 
+          </p>
+          <p>
           Afhankelijk van het rooster van de leerlingen moet je beschikbaar zijn voor het beantwoorden van vragen. 
           Dit (nakijk)werk kan goed vanuit huis worden opgepakt. Daarnaast kan je ingezet worden voor andere taken zoals: 
           </p>
