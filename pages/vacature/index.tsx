@@ -107,8 +107,8 @@ const Home = () => {
             </ul>
           <h2>Aanmelden</h2>
           <p>
-          Wil jij ons team komen versterken? Stuur dan je motivatie en beknopt cv naar    co-teach@uu.nl
-          t.a.v. Sia van Keijsteren
+          Wil jij ons team komen versterken? Stuur dan je motivatie en beknopt cv naar co-teach@uu.nl
+          t.a.v. Sia van Keijsteren.
           </p>
         </article>
       </main>
