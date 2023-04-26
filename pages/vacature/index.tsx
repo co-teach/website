@@ -17,7 +17,7 @@ const Home = () => {
       <main className={classes.Over}>
         <article className="restrictedWidth">
 
-          <h2>Student-assistent Informatica gezocht voor Co-Teach Informatica (6-10uur per week)</h2>
+          <h2>Student-assistent Informatica gezocht voor Co-Teach Informatica (6-10 uur per week)</h2>
           <p>
             Ben jij UU student Informatica én wil je een interessante veelzijdige bijbaan naast jouw studie?
             Als Co-Teach Informatica student-assistent kijk jij huiswerk na van middelbare schoolleerlingen, 
