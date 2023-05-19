@@ -26,6 +26,10 @@ export const menuStructure: NavItem[] = [
     href: "/vacature",
     label: "",
   },
+  {
+   href: "/brochure",
+   label: "",
+  },
   
   
   
