@@ -23,6 +23,41 @@ const Home = () => {
             aria-hidden
             alt={""}
           />
+          <img
+            src={"/images/brochures/brochure_2.jpg"}
+            width="1241"
+            height="1755"
+            aria-hidden
+            alt={""}
+          />
+          <img
+            src={"/images/brochures/brochure_3.jpg"}
+            width="1241"
+            height="1755"
+            aria-hidden
+            alt={""}
+          />
+          <img
+            src={"/images/brochures/brochure_4.jpg"}
+            width="1241"
+            height="1755"
+            aria-hidden
+            alt={""}
+          />
+          <img
+            src={"/images/brochures/brochure_5.jpg"}
+            width="1241"
+            height="1755"
+            aria-hidden
+            alt={""}
+          />
+          <img
+            src={"/images/brochures/brochure_6.jpg"}
+            width="1241"
+            height="1755"
+            aria-hidden
+            alt={""}
+          />
 
           
         </article>
