@@ -15,7 +15,7 @@ const Home = () => {
       <Header navData={menuStructure} />
       <main className={classes.Over}>
         <article className="restrictedWidth">
-          
+        <p>  
           {" "}
               <a href="/docs/co-teach-informatica_brochure_scholen.pdf">
                 pdf-versie
@@ -29,7 +29,7 @@ const Home = () => {
               </a>{" "}
             </a>
           </Link>
-          
+          </p>
           <img
             src={"/images/brochures/brochure_1.jpg"}
             width="1241"
