@@ -33,8 +33,7 @@ const Home = () => {
             </a>
           </Link>
           </p>
-          
-          abc
+          <p>
           
           <div className={classes.pdfDownload}>
             <a
@@ -87,7 +86,7 @@ const Home = () => {
             aria-hidden
             alt={""}
           />
-
+          </p>
           
         </article>
       </main>
