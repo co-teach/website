@@ -4,7 +4,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import Link from "next/link";
 import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
-import classes from "./vacature.module.scss";
+import classes from "./brochure.module.scss";
 import { menuStructure } from "../../contents/menuStructure";
 
 const Home = () => {
