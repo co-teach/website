@@ -16,6 +16,20 @@ const Home = () => {
       <main className={classes.Over}>
         <article className="restrictedWidth">
           
+          {" "}
+              <a href="/docs/co-teach-informatica_brochure_scholen.pdf">
+                pdf-versie
+              </a>{" "}
+          
+          <Link href="/voor-professionals">
+            <a>
+               {" "}
+              <a href="/docs/co-teach-informatica_brochure_scholen.pdf">
+                pdf-versie
+              </a>{" "}
+            </a>
+          </Link>
+          
           <img
             src={"/images/brochures/brochure_1.jpg"}
             width="1241"
