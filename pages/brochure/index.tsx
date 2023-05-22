@@ -17,30 +17,7 @@ const Home = () => {
       </Head>
       <Header navData={menuStructure} />
       <main className={classes.Over}>
-        <article className="restrictedWidth">
-          <SignatureHeader
-            title="Het vak informatica" {" "}
-              <a href="/docs/co-teach-informatica_brochure_scholen.pdf">
-                pdf-versie
-              </a>{" "}
-            subtitle="In dit vak ben je een denker en een doener."
-          />
-         <p>  
-          {" "}
-              <a href="/docs/co-teach-informatica_brochure_scholen.pdf">
-                pdf-versie
-              </a>{" "}
-          
-          <Link href="/voor-professionals">
-            <a>
-               {" "}
-              <a href="/docs/co-teach-informatica_brochure_scholen.pdf">
-                pdf-versie
-              </a>{" "}
-            </a>
-          </Link>
-          </p>
-          <p>
+        <article className="restrictedWidth"
           
           <div className={classes.pdfDownload}>
             <a
