@@ -30,6 +30,9 @@ const Home = () => {
             </a>
           </Link>
           </p>
+          
+          abc
+          
           <img
             src={"/images/brochures/brochure_1.jpg"}
             width="1241"
