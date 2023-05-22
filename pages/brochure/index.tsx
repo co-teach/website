@@ -1,24 +1,22 @@
-import React from "react";
 import Head from "next/head";
+import React from "react";
 import Header from "../../components/Header/Header";
-import classes from "./brochure.module.scss";
-import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import Footer from "../../components/Footer/Footer";
+import Link from "next/link";
+import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
+import classes from "./vacature.module.scss";
 import { menuStructure } from "../../contents/menuStructure";
-import Header from "../components/Header/Header";
-import Banner from "../components/Banner/Banner";
-import Paths from "../components/Paths/Paths";
 
 const Home = () => {
   return (
     <>
       <Head>
-        <title>Brochure voor scholen</title>
+        <title>Vacature</title>
       </Head>
       <Header navData={menuStructure} />
-      <main className={classes.main}>
+      <main className={classes.Over}>
         <article className="restrictedWidth">
-        <p>  
+         <p>  
           {" "}
               <a href="/docs/co-teach-informatica_brochure_scholen.pdf">
                 pdf-versie
