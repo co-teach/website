@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Vacature</title>
+        <title>Brochure voor scholen</title>
       </Head>
       <Header navData={menuStructure} />
       <main className={classes.Over}>
