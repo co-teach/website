@@ -5,6 +5,9 @@ import classes from "./brochure.module.scss";
 import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import Footer from "../../components/Footer/Footer";
 import { menuStructure } from "../../contents/menuStructure";
+import Header from "../components/Header/Header";
+import Banner from "../components/Banner/Banner";
+import Paths from "../components/Paths/Paths";
 
 const Home = () => {
   return (
