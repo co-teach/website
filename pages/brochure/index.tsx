@@ -13,7 +13,7 @@ const Home = () => {
         <title>Brochure voor scholen</title>
       </Head>
       <Header navData={menuStructure} />
-      <main className={classes.Over}>
+      <main className={classes.main}>
         <article className="restrictedWidth">
         <p>  
           {" "}
@@ -32,6 +32,15 @@ const Home = () => {
           </p>
           
           abc
+          
+          <div className={classes.pdfDownload}>
+            <a
+              href="/docs/co-teach-informatica_flyer_scholen.pdf"
+              target="_blank"
+            >
+              <span>🗎</span> ook in pdf-formaat beschikbaar
+            </a>
+          </div>
           
           <img
             src={"/images/brochures/brochure_1.jpg"}
