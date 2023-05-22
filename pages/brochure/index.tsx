@@ -2,10 +2,12 @@ import Head from "next/head";
 import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import Paths from "../components/Paths/Paths";
 import Link from "next/link";
 import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import classes from "./brochure.module.scss";
 import { menuStructure } from "../../contents/menuStructure";
+
 
 const Home = () => {
   return (
