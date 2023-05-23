@@ -15,11 +15,19 @@ const Home = () => {
       </Head>
       <Header navData={menuStructure} />
       <main className={classes.Over}>
-        <SignatureHeader title="Download de brochure als PDF" />
-        <a href="/docs/co-teach-informatica_brochure_scholen.pdf" download>
-          Download de brochure als PDF
-        </a>
+        <SignatureHeader
+            title="Brochure voor scholen"
+          />
           
+        <div className={classes.pdfDownload}>
+            <a
+              href="/docs/co-teach-informatica_flyer_scholen.pdf"
+              target="_blank"
+            >
+              <span>🗎</span> ook in pdf-formaat beschikbaar
+            </a>
+          </div>
+        
            <img
             src={"/images/brochures/brochure_1.jpg"}
             width="1241"
