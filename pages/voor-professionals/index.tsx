@@ -232,7 +232,7 @@ const Index = () => (
           src="https://docs.google.com/forms/d/e/1FAIpQLSfmi-ryvg9iY2HRm3RI5vct2HPr6Opxm_8cZzmFXTnpOewq0w/viewform?embedded=true"
           width="640"
           height="1200"
-          frameborder="0"
+          frameBorder="0"
           marginheight="0"
           marginwidth="0"
         >
