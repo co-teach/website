@@ -39,7 +39,7 @@ const Index = () => (
 
         <a
           href={
-            "https://www.nldigital.nl/news/software-engineer-hanneke-staat-ook-voor-de-klas/"
+           <a href="https://www.nldigital.nl/news/software-engineer-hanneke-staat-ook-voor-de-klas/" target="_blank">
           }
         >
           <img
@@ -214,6 +214,6 @@ const Index = () => (
     </main>
     <Footer />
   </>
-));
+);
 
 export default Index;
