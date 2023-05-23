@@ -71,7 +71,6 @@ const Home = () => {
             aria-hidden
             alt={""}
           />
-          </p>
          
         </article>
       </main>
