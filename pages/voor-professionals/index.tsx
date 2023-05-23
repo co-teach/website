@@ -24,10 +24,10 @@ const Index = () => (
             title="Draag bij aan meer informatica op scholen"
             subtitle="Breng de werkvloer naar de klas"
           />
-          
+          <br>
           <a
           href={
-            "https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/"
+            "https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/" target="_blank"
           }
         >
           <img
@@ -46,6 +46,7 @@ const Index = () => (
             alt={"Ervaringen van Hanneke den Ouden"}
           />
         </a>
+        <br>
 
           <p className={classes.Lede}>
             Als IT-professionals uit het bedrijfsleven is het geven van
