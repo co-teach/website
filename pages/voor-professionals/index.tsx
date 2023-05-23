@@ -27,7 +27,7 @@ const Index = () => (
           
           <a
           href={
-            "https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/" target="_blank"
+            "https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/"
           }
         >
           <img
@@ -38,7 +38,7 @@ const Index = () => (
 
         <a
           href={
-            "https://www.nldigital.nl/news/software-engineer-hanneke-staat-ook-voor-de-klas/" target="_blank" 
+            "https://www.nldigital.nl/news/software-engineer-hanneke-staat-ook-voor-de-klas/" 
           }
         >
           <img
