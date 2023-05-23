@@ -24,23 +24,28 @@ const Index = () => (
             title="Draag bij aan meer informatica op scholen"
             subtitle="Breng de werkvloer naar de klas"
           />
-
+          
+          <a
+          href={
+            "https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/" target="_blank"
+          }
+        >
           <img
-            src={"/images/decorative_1.jpg"}
-            width="1219"
-            height="834"
-            aria-hidden
-            alt={""}
+            src={"/images/Klaas.png"}
+            alt={"Ervaringen van Klaas Heek"}
           />
+        </a>
 
-          <div className={classes.pdfDownload}>
-            <a
-              href="/docs/co-teach-informatica_flyer_professionals.pdf"
-              target="_blank"
-            >
-              <span>🗎</span> ook in pdf-formaat beschikbaar
-            </a>
-          </div>
+        <a
+          href={
+            "https://www.nldigital.nl/news/software-engineer-hanneke-staat-ook-voor-de-klas/" target="_blank"
+          }
+        >
+          <img
+            src={"/images/Hanneke.png"}
+            alt={"Ervaringen van Hanneke den Ouden"}
+          />
+        </a>
 
           <p className={classes.Lede}>
             Als IT-professionals uit het bedrijfsleven is het geven van
@@ -73,39 +78,6 @@ const Index = () => (
             </p>
           </div>
         </section>
-
-        <hr />
-
-        <h2>Ervaringen</h2>
-
-        <p>
-          Neem een kijkje in het klaslokaal met Hanneke en Klaas, die hun
-          ervaringen deelden met NLdigital.
-        </p>
-
-        <a
-          href={
-            "https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/"
-          }
-        >
-          <img
-            src={"/images/testimonials/klaas-heek.png"}
-            alt={"Ervaringen van Klaas Heek"}
-          />
-        </a>
-
-        <a
-          href={
-            "https://www.nldigital.nl/news/software-engineer-hanneke-staat-ook-voor-de-klas/"
-          }
-        >
-          <img
-            src={"/images/testimonials/hanneke-den-ouden.png"}
-            alt={"Ervaringen van Hanneke den Ouden"}
-          />
-        </a>
-
-        <hr />
 
         <section>
           <details>
