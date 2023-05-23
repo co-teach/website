@@ -8,7 +8,7 @@ import Link from "next/link";
 import { menuStructure } from "../../contents/menuStructure";
 import Video from "../../components/Video/Video";
 
-const Index = () => (
+const Index = () => {
   <>
     <Head>
       <title>
@@ -217,6 +217,7 @@ const Index = () => (
     </main>
     <Footer />
   </>
-);
+)
+};
 
 export default Index;
