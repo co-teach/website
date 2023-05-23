@@ -18,16 +18,7 @@ const Home = () => {
       <Header navData={menuStructure} />
       <main className={classes.Over}>
         <article className="restrictedWidth"
-          
-          <div className={classes.pdfDownload}>
-            <a
-              href="/docs/co-teach-informatica_brochure_scholen.pdf"
-              target="_blank"
-            >
-              <span>🗎</span> ook in pdf-formaat beschikbaar
-            </a>
-          </div>
-          
+                 
           <img
             src={"/images/brochures/brochure_1.jpg"}
             width="1241"
