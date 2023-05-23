@@ -25,7 +25,10 @@ const Index = () => (
             subtitle="Breng de werkvloer naar de klas"
           />
           <br>
-            
+          <a href="http://www.google.com" target="_blank">
+  <img src={"/images/Klaas.png"}
+            alt={"Ervaringen van Klaas Heek"/>
+</a>
           <a
           href={
              <a href="https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/" target="_blank">
