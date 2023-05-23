@@ -15,6 +15,7 @@ const Home = () => {
       </Head>
       <Header navData={menuStructure} />
       <main className={classes.Over}>
+      <article className="restrictedWidth">
         <SignatureHeader
             title="Brochure voor scholen"
             subtitle=" "
