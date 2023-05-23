@@ -8,7 +8,7 @@ import Link from "next/link";
 import { menuStructure } from "../../contents/menuStructure";
 import Video from "../../components/Video/Video";
 
-const Index = () => {
+const Index = () => (
   <>
     <Head>
       <title>
@@ -24,33 +24,33 @@ const Index = () => {
             title="Draag bij aan meer informatica op scholen"
             subtitle="Breng de werkvloer naar de klas"
           />
-          <br>
-          <a href="http://www.google.com" target="_blank">
-  <img src={"/images/Klaas.png"}
-            alt={"Ervaringen van Klaas Heek"/>
+          
+  <a
+  href={
+    "https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/"
+  }
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src={"/images/Klaas.png"}
+    alt={"Ervaringen van Klaas Heek"}
+  />
 </a>
-          <a
-          href={
-             <a href="https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/" target="_blank">
-          }
-        >
-          <img
-            src={"/images/Klaas.png"}
-            alt={"Ervaringen van Klaas Heek"}
-          />
-        </a>
 
-        <a
-          href={
-           <a href="https://www.nldigital.nl/news/software-engineer-hanneke-staat-ook-voor-de-klas/" target="_blank">
-          }
-        >
-          <img
-            src={"/images/Hanneke.png"}
-            alt={"Ervaringen van Hanneke den Ouden"}
-          />
-        </a>
-        <br>
+          <a
+  href={
+    "https://www.nldigital.nl/news/software-engineer-hanneke-staat-ook-voor-de-klas/"
+  }
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src={"/images/Hanneke.png"}
+    alt={"Ervaringen van Hanneke den Ouden"}
+  />
+</a>
+          
 
           <p className={classes.Lede}>
             Als IT-professionals uit het bedrijfsleven is het geven van
@@ -65,7 +65,7 @@ const Index = () => {
               gastlessenreeks op school willen verzorgen.
             </p>
             <blockquote>
-              “ALs gastdocent geef je les en begeleid leerlingen in een
+              “Als gastdocent geef je les en begeleid leerlingen in een
               informaticaproject”
             </blockquote>
             <p>
@@ -84,102 +84,119 @@ const Index = () => {
           </div>
         </section>
 
+        <hr />
+
+        <h2>Ervaringen</h2>
+
+        <p>
+          Neem een kijkje in het klaslokaal met Hanneke en Klaas, die hun
+          ervaringen deelden met NLdigital.
+        </p>
+
+        <hr />
+
         <section>
-          <details>
-            <summary>
-              <h2>Wat kan je verwachten als gastdocent?</h2>
-            </summary>
-            <p>
-              Als gastdocent geef je vorm aan circa{" "}
-              <strong>40 studielasturen</strong>: 40 klokuren waarin leerlingen
-              binnen en buiten het klaslokaal met jouw project aan de slag gaan.
-            </p>
+          <div>
+            <details>
+              <summary>
+                <h2>Wat kan je verwachten als gastdocent?</h2>
+              </summary>
+              <p>
+                Als gastdocent geef je vorm aan circa{" "}
+                <strong>40 studielasturen</strong>: 40 klokuren waarin
+                leerlingen binnen en buiten het klaslokaal met jouw project aan
+                de slag gaan.
+              </p>
 
-            <h3>De aanmelding</h3>
-            <p>
-              Tijdens je aanmelding (zie hieronder) vragen we je om o.a. je
-              expertise en eventuele projectideeën nader toe te lichten. Dit
-              helpt ons om een groep leerlingen te vinden die voorbereid is om
-              in jouw wereld te duiken.
-            </p>
-            <p>
-              Nadat je je aangemeld hebt wordt je opgenomen in de Co-Teach
-              database. Geen zorgen, deze is AVG-proof en wordt beheerd door de
-              Universiteit Utrecht (lees{" "}
-              <Link href="/privacyverklaring">
-                <a>onze privacyverklaring</a>
-              </Link>
-              ).
-            </p>
+              <h3>De aanmelding</h3>
+              <p>
+                Tijdens je aanmelding (zie hieronder) vragen we je om o.a. je
+                expertise en eventuele projectideeën nader toe te lichten. Dit
+                helpt ons om een groep leerlingen te vinden die voorbereid is om
+                in jouw wereld te duiken.
+              </p>
+              <p>
+                Nadat je je aangemeld hebt wordt je opgenomen in de Co-Teach
+                database. Geen zorgen, deze is AVG-proof en wordt beheerd door
+                de Universiteit Utrecht (lees{" "}
+                <Link href="/privacyverklaring">
+                  <a>onze privacyverklaring</a>
+                </Link>
+                ).
+              </p>
 
-            <h3>Het trainings- en ontwikkelingstraject</h3>
-            <p>
-              Wanneer we een goede match voor je gevonden hebben, nemen we
-              contact met je op over ons voorstel. Nadat jij en je werkgever
-              (waar van toepassing) akkoord zijn gegaan met de voorwaarden,
-              begint het voortraject.
-            </p>
-            <p>
-              Je zult daarin eerst een gastdocentencursus volgen. En ga je het
-              projectonderwijs vormgeven. We zorgen ervoor dat er goede
-              aansluiting is tussen jouw kennis en die van de leerlingen. Ook
-              zoek je samen naar de beste vormen: waar virtueel of fysiek, en
-              waar theorie of praktijk? Tot slot ga je ook nadenken over
-              examinering: wanneer weet je dat leerlingen de leerdoelen van je
-              module hebben gehaald?
-            </p>
+              <h3>Het trainings- en ontwikkelingstraject</h3>
+              <p>
+                Wanneer we een goede match voor je gevonden hebben, nemen we
+                contact met je op over ons voorstel. Nadat jij en je werkgever
+                (waar van toepassing) akkoord zijn gegaan met de voorwaarden,
+                begint het voortraject.
+              </p>
+              <p>
+                Je zult daarin eerst een gastdocentencursus volgen. En ga je het
+                projectonderwijs vormgeven. We zorgen ervoor dat er goede
+                aansluiting is tussen jouw kennis en die van de leerlingen. Ook
+                zoek je samen naar de beste vormen: waar virtueel of fysiek, en
+                waar theorie of praktijk? Tot slot ga je ook nadenken over
+                examinering: wanneer weet je dat leerlingen de leerdoelen van je
+                module hebben gehaald?
+              </p>
 
-            <h3>Co-Teaching</h3>
-            <p>
-              Met je project op zak ga je aan de slag op jouw school. Hier werk
-              je samen met een co-teacher: een (anders-)bevoegde docent die je
-              ondersteunt tijdens het projectonderwijs. Op afstand kijkt ook de
-              eerder-genoemde vakdidacticus mee naar de voortgang.
-            </p>
+              <h3>Co-Teaching</h3>
+              <p>
+                Met je project op zak ga je aan de slag op jouw school. Hier
+                werk je samen met een co-teacher: een (anders-)bevoegde docent
+                die je ondersteunt tijdens het projectonderwijs. Op afstand
+                kijkt ook de eerder-genoemde vakdidacticus mee naar de
+                voortgang.
+              </p>
 
-            <p>
-              Afhankelijk van de wensen van de school en je eigen wensen werk je
-              met één of meer klassen binnen de 40 studielasturen.
-            </p>
+              <p>
+                Afhankelijk van de wensen van de school en je eigen wensen werk
+                je met één of meer klassen binnen de 40 studielasturen.
+              </p>
 
-            <h3>Afronding</h3>
+              <h3>Afronding</h3>
 
-            <p>
-              Na afloop van het traject nemen we graag een moment om samen te
-              reflecteren op de ervaring. Dit is ook het moment waarop we het
-              project opnemen in onze projectendatabase en eventuele
-              vervolgtrajecten bespreken.
-            </p>
-          </details>
+              <p>
+                Na afloop van het traject nemen we graag een moment om samen te
+                reflecteren op de ervaring. Dit is ook het moment waarop we het
+                project opnemen in onze projectendatabase en eventuele
+                vervolgtrajecten bespreken.
+              </p>
+            </details>
+          </div>
         </section>
         <section>
-          <details>
-            <summary>
-              <h2>Wat kan je verwachten als bedrijf of organisatie?</h2>
-            </summary>
-            <p>
-              Co-Teach Informatica zet in op bedrijven en organisaties die hun
-              medewerkers uren geven om een maatschappelijke bijdrage te leveren
-              en deze uren willen inzetten om informaticaonderwijs te verbeteren
-              en te stimuleren.
-            </p>
+          <div>
+            <details>
+              <summary>
+                <h2>Wat kan je verwachten als bedrijf of organisatie?</h2>
+              </summary>
+              <p>
+                Co-Teach Informatica zet in op bedrijven en organisaties die hun
+                medewerkers uren geven om een maatschappelijke bijdrage te
+                leveren en deze uren willen inzetten om informaticaonderwijs te
+                verbeteren en te stimuleren.
+              </p>
 
-            <p>
-              Als tegenprestatie leveren de vaksteunpunten en deelnemende school
-              een hoogkwalitatieve (vak)pedagogische training en
-              begeleidingstraject. Deelnemende bedrijven en organisaties worden
-              ook opgenomen op deze website, waar wij hen tevens graag in het
-              zonnetje zetten met een nieuwsuiting.
-            </p>
+              <p>
+                Als tegenprestatie leveren de vaksteunpunten en deelnemende
+                school een hoogkwalitatieve (vak)pedagogische training en
+                begeleidingstraject. Deelnemende bedrijven en organisaties
+                worden ook opgenomen op deze website, waar wij hen tevens graag
+                in het zonnetje zetten met een nieuwsuiting.
+              </p>
 
-            <p>
-              Bedrijven en organisaties kunnen ervoor kiezen om naast een
-              vermelding van het project in onze projectendatabase (momenteel in
-              wording) ook de projectmaterialen zelf op te laten nemen. Daarmee
-              worden leraren geholpen in de vormgeving van hun onderwijs, ook na
-              afsluiting van het gastdocenttraject.
-            </p>
-          </details>
+              <p>
+                Bedrijven en organisaties kunnen ervoor kiezen om naast een
+                vermelding van het project in onze projectendatabase (momenteel
+                in wording) ook de projectmaterialen zelf op te laten nemen.
+                Daarmee worden leraren geholpen in de vormgeving van hun
+                onderwijs, ook na afsluiting van het gastdocenttraject.
+              </p>
+            </details>
+          </div>
         </section>
 
         <hr />
@@ -193,31 +210,39 @@ const Index = () => {
             hier
           </a>{" "}
           alle keuzedomeinen vinden die gedurende de hele bovenbouw de revue
-          kunnen passeren. Uiteraard helpen we je met het kiezen van een gepast
-          traject en domein.
+          kunnen passeren. Uiteraard hebben wij een voorkeur voor{" "}
+          <strong>
+            keuzedomeinen waar in de beroepspraktijk de meeste raakvlakken mee
+            zijn
+          </strong>
+          .
         </p>
 
         <hr />
 
-        <section>
-          <h2>Meld je nu aan</h2>
-          <p>
-            Schrijf je hieronder in om kennis met ons te maken en verder te
-            kijken of Co-Teach Informatica iets voor jou is. We nemen contact
-            met je op.
-          </p>
-          <iframe
-            title="Aanmeldingsformulier"
-            loading="lazy"
-            className={classes.Survey}
-            src="https://utrechtuniversity.qualtrics.com/jfe/form/SV_eY9tyqz6pnMNw2x"
-          />
-        </section>
+        <h2>Aanmelden</h2>
+
+        <p>
+          Wil je je aanmelden als gastdocent of als bedrijf/organisatie? Vul dan
+          het formulier hieronder in. We nemen dan zo snel mogelijk contact met
+          je op.
+        </p>
+
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfmi-ryvg9iY2HRm3RI5vct2HPr6Opxm_8cZzmFXTnpOewq0w/viewform?embedded=true"
+          width="640"
+          height="1200"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >
+          Laden...
+        </iframe>
       </article>
     </main>
+
     <Footer />
   </>
-)
-};
+);
 
 export default Index;
