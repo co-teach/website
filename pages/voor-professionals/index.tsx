@@ -25,9 +25,10 @@ const Index = () => (
             subtitle="Breng de werkvloer naar de klas"
           />
           <br>
+            
           <a
           href={
-            "https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/" target="_blank"
+             <a href="https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/" target="_blank">
           }
         >
           <img
