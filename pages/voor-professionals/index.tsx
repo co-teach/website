@@ -220,24 +220,20 @@ const Index = () => (
 
         <hr />
 
-        <h2>Aanmelden</h2>
-
-        <p>
-          Wil je je aanmelden als gastdocent of als bedrijf/organisatie? Vul dan
-          het formulier hieronder in. We nemen dan zo snel mogelijk contact met
-          je op.
-        </p>
-
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfmi-ryvg9iY2HRm3RI5vct2HPr6Opxm_8cZzmFXTnpOewq0w/viewform?embedded=true"
-          width="640"
-          height="1200"
-          frameBorder="0"
-          marginheight="0"
-          marginwidth="0"
-        >
-          Laden...
-        </iframe>
+         <section>
+          <h2>Meld je nu aan</h2>
+          <p>
+            Schrijf je hieronder in om kennis met ons te maken en verder te
+            kijken of Co-Teach Informatica iets voor jou is. We nemen contact
+            met je op.
+          </p>
+          <iframe
+            title="Aanmeldingsformulier"
+            loading="lazy"
+            className={classes.Survey}
+            src="https://utrechtuniversity.qualtrics.com/jfe/form/SV_eY9tyqz6pnMNw2x"
+          />
+        </section>
       </article>
     </main>
 
