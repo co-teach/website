@@ -20,7 +20,7 @@ const Home = () => {
             title="Brochure voor scholen"
             subtitle=" "
           />
-          
+        <p> 
         <div className={classes.pdfDownload}>
             <a
               href="/docs/co-teach-informatica_brochure_scholen.pdf"
@@ -29,7 +29,7 @@ const Home = () => {
               <span>🗎</span> ook in pdf-formaat beschikbaar
             </a>
           </div>
-        
+        </p>
            <img
             src={"/images/brochures/brochure_1.jpg"}
             width="1241"
