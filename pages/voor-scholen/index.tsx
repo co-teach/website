@@ -106,6 +106,7 @@ const Index = () => {
             src={"/images/CTI 3-jaren programma.png"}
             alt={"Co-teach informatica programma"}
           />
+          </p>
           <p>
             * Domein A gaat om informatica vaardigheden die in verschillende
             modules worden afgedekt.
