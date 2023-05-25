@@ -34,7 +34,7 @@ const Index = () => (
               href="/docs/co-teach-informatica_brochure_scholen.pdf"
               target="_blank"
             >
-              <span>🗎</span> Download hier de informatie brochure
+              <span>🗎</span> Download hier de informatie brochure.
             </a>
           </div>
 
