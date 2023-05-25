@@ -31,10 +31,10 @@ const Index = () => (
 
           <div className={classes.pdfDownload}>
             <a
-              href="/docs/co-teach-informatica_flyer_scholen.pdf"
+              href="/docs/co-teach-informatica_brochure_scholen.pdf"
               target="_blank"
             >
-              <span>🗎</span> ook in pdf-formaat beschikbaar
+              <span>🗎</span> Download hier de informatie brochure
             </a>
           </div>
 
