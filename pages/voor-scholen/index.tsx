@@ -6,7 +6,7 @@ import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import Footer from "../../components/Footer/Footer";
 import { menuStructure } from "../../contents/menuStructure";
 
-const Index = () => {
+const Index = () => (
   <>
     <Head>
       <title>Co-Teach Informatica voor Leerlingen, Leraren en Scholen</title>
@@ -31,18 +31,16 @@ const Index = () => {
 
           <div className={classes.pdfDownload}>
             <a
-              href="/docs/co-teach-informatica_brochure_scholen.pdf"
+              href="/docs/co-teach-informatica_flyer_scholen.pdf"
               target="_blank"
             >
-              <span>🗎</span> Download hier de informatie brochure
+              <span>🗎</span> ook in pdf-formaat beschikbaar
             </a>
           </div>
 
           <p className={classes.Lede}>
             ICT-vaardigheden doen ertoe, dat staat buiten kijf. Toch biedt
-            minder dan de helft van de scholen 
-            
-            47% in 2019) het examenvak
+            minder dan de helft van de scholen (47% in 2019) het examenvak
             informatica aan en slinkt dat aantal met elke leraar die met
             pensioen gaat. Tegelijkertijd kiezen leerlingen steeds vaker voor
             het vak.
@@ -106,7 +104,6 @@ const Index = () => {
             src={"/images/CTI 3-jaren programma.png"}
             alt={"Co-teach informatica programma"}
           />
-          </p>
           <p>
             * Domein A gaat om informatica vaardigheden die in verschillende
             modules worden afgedekt.
@@ -190,6 +187,6 @@ const Index = () => {
     </main>
     <Footer />
   </>
-};
+);
 
 export default Index;
