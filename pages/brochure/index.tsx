@@ -20,7 +20,7 @@ const Home = () => {
             title="Brochure voor scholen"
             subtitle=" "
           />
-        <br>
+        <br />
         <p> 
         <div className={classes.pdfDownload}>
             <a
