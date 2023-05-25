@@ -40,7 +40,9 @@ const Index = () => (
 
           <p className={classes.Lede}>
             ICT-vaardigheden doen ertoe, dat staat buiten kijf. Toch biedt
-            minder dan de helft van de scholen (47% in 2019) het examenvak
+            minder dan de helft van de scholen 
+            
+            47% in 2019) het examenvak
             informatica aan en slinkt dat aantal met elke leraar die met
             pensioen gaat. Tegelijkertijd kiezen leerlingen steeds vaker voor
             het vak.
