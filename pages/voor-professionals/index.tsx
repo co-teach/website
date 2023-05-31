@@ -76,7 +76,7 @@ const Index = () => (
 
         <hr />
 
-        <h2>Ervaringen</h2>
+        <h2>Word gastdocent bij Co-Teach</h2>
 
         <p>
           Neem een kijkje in het klaslokaal met Hanneke en Klaas, die hun
@@ -106,119 +106,57 @@ const Index = () => (
         </a>
 
         <hr />
+        
+        <img
+            src={"/images/Infographic_gastdocenten.jpg"}
+            width="1552"
+            height="1030"
+            aria-hidden
+            alt={""}
+          />
 
         <section>
           <details>
             <summary>
-              <h2>Wat kan je verwachten als gastdocent?</h2>
+              <h2>Download hier onze gastdocenten brochure</h2>
             </summary>
             <p>
-              Als gastdocent geef je vorm aan circa{" "}
-              <strong>40 studielasturen</strong>: 40 klokuren waarin leerlingen
-              binnen en buiten het klaslokaal met jouw project aan de slag gaan.
-            </p>
-
-            <h3>De aanmelding</h3>
-            <p>
-              Tijdens je aanmelding (zie hieronder) vragen we je om o.a. je
-              expertise en eventuele projectideeën nader toe te lichten. Dit
-              helpt ons om een groep leerlingen te vinden die voorbereid is om
-              in jouw wereld te duiken.
-            </p>
-            <p>
-              Nadat je je aangemeld hebt wordt je opgenomen in de Co-Teach
-              database. Geen zorgen, deze is AVG-proof en wordt beheerd door de
-              Universiteit Utrecht (lees{" "}
-              <Link href="/privacyverklaring">
-                <a>onze privacyverklaring</a>
-              </Link>
-              ).
-            </p>
-
-            <h3>Het trainings- en ontwikkelingstraject</h3>
-            <p>
-              Wanneer we een goede match voor je gevonden hebben, nemen we
-              contact met je op over ons voorstel. Nadat jij en je werkgever
-              (waar van toepassing) akkoord zijn gegaan met de voorwaarden,
-              begint het voortraject.
-            </p>
-            <p>
-              Je zult daarin eerst een gastdocentencursus volgen. En ga je het
-              projectonderwijs vormgeven. We zorgen ervoor dat er goede
-              aansluiting is tussen jouw kennis en die van de leerlingen. Ook
-              zoek je samen naar de beste vormen: waar virtueel of fysiek, en
-              waar theorie of praktijk? Tot slot ga je ook nadenken over
-              examinering: wanneer weet je dat leerlingen de leerdoelen van je
-              module hebben gehaald?
-            </p>
-
-            <h3>Co-Teaching</h3>
-            <p>
-              Met je project op zak ga je aan de slag op jouw school. Hier werk
-              je samen met een co-teacher: een (anders-)bevoegde docent die je
-              ondersteunt tijdens het projectonderwijs. Op afstand kijkt ook de
-              eerder-genoemde vakdidacticus mee naar de voortgang.
-            </p>
-
-            <p>
-              Afhankelijk van de wensen van de school en je eigen wensen werk je
-              met één of meer klassen binnen de 40 studielasturen.
-            </p>
-
-            <h3>Afronding</h3>
-
-            <p>
-              Na afloop van het traject nemen we graag een moment om samen te
-              reflecteren op de ervaring. Dit is ook het moment waarop we het
-              project opnemen in onze projectendatabase en eventuele
-              vervolgtrajecten bespreken.
+             Wil je meer met je eigen praktijkervaring doen en voor de klas staan als gastdocent? . <a href="/docs/co-teach-informatica_brochure_gastdocenten">Download hier de Co-Teach Informatica gastdocent brochure</a>
+              
             </p>
           </details>
         </section>
         <section>
           <details>
             <summary>
-              <h2>Wat kan je verwachten als bedrijf of organisatie?</h2>
+              <h2>Gastdocenten cursus - 2023</h2>
             </summary>
             <p>
-              Co-Teach Informatica zet in op bedrijven en organisaties die hun
-              medewerkers uren geven om een maatschappelijke bijdrage te leveren
-              en deze uren willen inzetten om informaticaonderwijs te verbeteren
-              en te stimuleren.
-            </p>
-
-            <p>
-              Als tegenprestatie leveren de vaksteunpunten en deelnemende school
-              een hoogkwalitatieve (vak)pedagogische training en
-              begeleidingstraject. Deelnemende bedrijven en organisaties worden
-              ook opgenomen op deze website, waar wij hen tevens graag in het
-              zonnetje zetten met een nieuwsuiting.
-            </p>
-
-            <p>
-              Bedrijven en organisaties kunnen ervoor kiezen om naast een
-              vermelding van het project in onze projectendatabase (momenteel in
-              wording) ook de projectmaterialen zelf op te laten nemen. Daarmee
-              worden leraren geholpen in de vormgeving van hun onderwijs, ook na
-              afsluiting van het gastdocenttraject.
+              Dit zijn de aankomende gastdocenten cursus data.
             </p>
           </details>
         </section>
 
         <hr />
-
-        <h2>Vakexpertise</h2>
-
-        <p>
-          In de bovenbouw klassen zijn we op zoek naar IT-experts die invulling
-          kunnen geven aan één van de keuzedomeinen. Je kan{" "}
+        
+        <section>
+          <details>
+            <summary>
+              <h2>Vakexpertise</h2>
+            </summary>
+            <p>
+              In de bovenbouw klassen zijn we op zoek naar IT-experts die invulling
+          kunnen geven aan één van de lesdomeinen. Je kan{" "}
           <a href="https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-info-hv/examenprogramma/keuzedomeinen/">
             hier
           </a>{" "}
-          alle keuzedomeinen vinden die gedurende de hele bovenbouw de revue
+          alle lesdomeinen vinden die gedurende de hele bovenbouw de revue
           kunnen passeren. Uiteraard helpen we je met het kiezen van een gepast
           traject en domein.
-        </p>
+            </p>
+          </details>
+        </section>
+        
 
         <hr />
 
