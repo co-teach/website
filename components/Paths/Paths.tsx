@@ -24,7 +24,7 @@ const Paths = () => (
           </li>
         </ul>
         <p>
-          Als gastdocent krijg je een <em>crash course</em>, doorlopende
+          Als gastdocent krijg je een <em>gastdocenten cursus</em>, doorlopende
           professionele begeleiding en heb je de vrijheid om zelf
           projectonderwijs vorm te geven.{" "}
           <Link href="/voor-professionals">
