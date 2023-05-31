@@ -77,33 +77,6 @@ const Index = () => (
         <hr />
 
         <h2>Word gastdocent bij Co-Teach Informatica</h2>
-
-        <p>
-          Neem een kijkje in het klaslokaal met Hanneke en Klaas, die hun
-          ervaringen deelden met NLdigital.
-        </p>
-
-        <a
-          href={
-            "https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/"
-          }
-        >
-          <img
-            src={"/images/testimonials/klaas-heek.png"}
-            alt={"Ervaringen van Klaas Heek"}
-          />
-        </a>
-
-        <a
-          href={
-            "https://www.nldigital.nl/news/software-engineer-hanneke-staat-ook-voor-de-klas/"
-          }
-        >
-          <img
-            src={"/images/testimonials/hanneke-den-ouden.png"}
-            alt={"Ervaringen van Hanneke den Ouden"}
-          />
-        </a>
         
         <img
             src={"/images/Infographic_gastdocenten.png"}
