@@ -35,7 +35,7 @@ const Index = () => (
 
           <div className={classes.pdfDownload}>
             <a
-              href="/docs/co-teach-informatica_flyer_professionals.pdf"
+              href="/docs/co-teach-informatica_brochure_gastdocenten.pdf"
               target="_blank"
             >
               <span>🗎</span> download hier de informatie brochure
@@ -96,7 +96,8 @@ const Index = () => (
               <h2>Download hier onze gastdocenten brochure</h2>
             </summary>
             <p>
-             Wil je meer met je eigen praktijkervaring doen en voor de klas staan als gastdocent? . <a href="/docs/co-teach-informatica_brochure_gastdocenten">Download hier de Co-Teach Informatica gastdocent brochure</a>
+             Wil je meer met je eigen praktijkervaring doen en voor de klas staan als gastdocent? 
+              <a href="/docs/co-teach-informatica_brochure_gastdocenten.pdf">Download hier de Co-Teach Informatica gastdocent brochure.</a>
               
             </p>
           </details>
@@ -110,7 +111,7 @@ const Index = () => (
               Dit zijn de aankomende gastdocenten cursus data.
               
               <img
-            src={"/images/brochures/gastdocenten_cursus_planning.png"}
+            src={"/images/gastdocenten_cursus_planning.png"}
             width="1241"
             height="1755"
             aria-hidden
