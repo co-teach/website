@@ -14,7 +14,7 @@ export const menuStructure: NavItem[] = [
     label: "Voor scholen",
   },
   {
-    href: "/voor-professionals",
+    href: "/voor-gastdocenten",
     label: "Voor gastdocenten",
   },
   { href: "/team", label: "Het team" },
