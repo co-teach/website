@@ -38,7 +38,7 @@ const Index = () => (
               href="/docs/co-teach-informatica_flyer_professionals.pdf"
               target="_blank"
             >
-              <span>🗎</span> ook in pdf-formaat beschikbaar
+              <span>🗎</span> download hier de informatie brochure
             </a>
           </div>
 
@@ -76,7 +76,7 @@ const Index = () => (
 
         <hr />
 
-        <h2>Word gastdocent bij Co-Teach</h2>
+        <h2>Word gastdocent bij Co-Teach Informatica</h2>
 
         <p>
           Neem een kijkje in het klaslokaal met Hanneke en Klaas, die hun
@@ -104,16 +104,18 @@ const Index = () => (
             alt={"Ervaringen van Hanneke den Ouden"}
           />
         </a>
-
-        <hr />
         
         <img
-            src={"/images/Infographic_gastdocenten.jpg"}
+            src={"/images/Infographic_gastdocenten.png"}
             width="1552"
             height="1030"
             aria-hidden
             alt={""}
           />
+
+        <hr />
+        
+        
 
         <section>
           <details>
@@ -133,6 +135,14 @@ const Index = () => (
             </summary>
             <p>
               Dit zijn de aankomende gastdocenten cursus data.
+              
+              <img
+            src={"/images/brochures/gastdocenten_cursus_planning.png"}
+            width="1241"
+            height="1755"
+            aria-hidden
+            alt={""}
+          />
             </p>
           </details>
         </section>
