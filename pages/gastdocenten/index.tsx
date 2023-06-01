@@ -88,7 +88,7 @@ const Index = () => (
         <h2>Word gastdocent bij Co-Teach Informatica</h2>
         
         <img
-            src={"/images/Infographic_gastdocenten.pdf"}
+            src={"/images/Infographic_gastdocenten.png"}
             width="1552"
             height="1030"
             aria-hidden
