@@ -5,7 +5,7 @@ import Link from "next/link";
 const Paths = () => (
   <section id={classes.Paths}>
     <div id={classes.Professionals}>
-      <Link href="/voor-professionals">
+      <Link href="/gastdocenten">
         <a aria-hidden tabIndex={-1}>
           <img src="/images/professionals_illustration.svg" aria-hidden />
         </a>
