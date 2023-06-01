@@ -27,7 +27,7 @@ const Paths = () => (
           Als gastdocent krijg je een <em>gastdocenten cursus</em>, doorlopende
           professionele begeleiding en heb je de vrijheid om zelf
           projectonderwijs vorm te geven.{" "}
-          <Link href="/voor-professionals">
+          <Link href="/gastdocenten">
             <a>
               Meer informatie voor IT-professionals, managers en werkgevers.
             </a>
