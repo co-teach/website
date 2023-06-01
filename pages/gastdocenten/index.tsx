@@ -89,7 +89,7 @@ const Index = () => (
         
         <img
             src={"/images/Infographic_gastdocenten.png"}
-            width="1552"
+            width="1800"
             height="1030"
             aria-hidden
             alt={""}
