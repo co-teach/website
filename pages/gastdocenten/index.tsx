@@ -25,22 +25,31 @@ const Index = () => (
             subtitle="Breng de werkvloer naar de klas"
           />
 
-          <img
-            src={"/images/decorative_1.jpg"}
-            width="1219"
-            height="834"
-            aria-hidden
-            alt={""}
-          />
+           <a
+  href={
+    "https://www.nldigital.nl/news/solution-architect-klaas-geeft-les-als-gastdocent/"
+  }
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src={"/images/Klaas.png"}
+    alt={"Ervaringen van Klaas Heek"}
+  />
+</a>
 
-          <div className={classes.pdfDownload}>
-            <a
-              href="/docs/co-teach-informatica_brochure_gastdocenten.pdf"
-              target="_blank"
-            >
-              <span>🗎</span> download hier de informatie brochure
-            </a>
-          </div>
+          <a
+  href={
+    "https://www.nldigital.nl/news/software-engineer-hanneke-staat-ook-voor-de-klas/"
+  }
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src={"/images/Hanneke.png"}
+    alt={"Ervaringen van Hanneke den Ouden"}
+  />
+</a>
 
           <p className={classes.Lede}>
             Als IT-professionals uit het bedrijfsleven is het geven van
