@@ -18,21 +18,7 @@ const Home = () => {
         <article className="restrictedWidth">
           <SignatureHeader title="Contact" subtitle="" />
 
-          <h2>Laten we een keertje praten</h2>
-          <p>Heb je een vraag of wil je praten over de mogelijkheden?</p>
-
-          <p>
-            Neem gerust eens contact met ons op om de mogelijkheden te
-            bespreken. Bel met onze accountmanager Liesbeth von Nordheim op
-            06-81183563 of stuur een bericht naar co-teach@uu.nl
-          </p>
-
-          <p>
-            Meer informatie over werken als gastdocent in het onderwijs of
-            persoonlijk advies?
-          </p>
-
-          <p>Vul dan onderstaand formulier in en we nemen contact met je op.</p>
+          <p>Interesse om gastdocent te worden? Vul dan onderstaande formulier in.</p>
           <iframe
             title="Aanmeldingsformulier"
             loading="lazy"
