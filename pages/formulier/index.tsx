@@ -16,7 +16,7 @@ const Home = () => {
       <Header navData={menuStructure} />
       <main className={classes.Contact}>
         <article className="restrictedWidth">
-          <SignatureHeader title="Contact" subtitle="" />
+          <SignatureHeader title="Gastdocenten" subtitle="" />
 
           <p>Interesse om gastdocent te worden? Vul dan onderstaande formulier in.</p>
           <iframe
