@@ -17,21 +17,21 @@ const Home = () => {
       <main className={classes.Contact}>
         <article className="restrictedWidth">
           <SignatureHeader title="Agenda" subtitle="" />
-          
+          <p>
           <h2>Aankomende bijeenkomsten, cursussen en events</h2>
-          
+          </p>
           <h3>Webinars voor scholen</h3>
           <p>
             Korte sessies waarin je informatie krijgt over
             het Co-Teach Informatica programma en hoe je als school kan deelnemen.
             <ul>
               <li>
-                12 juni 2023 | 16.15-17.00 uur 
-                	https://events.teams.microsoft.com/event/6e72fddb-f04e-485d-9d9c-9cf2aee61d01@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7 
+                12 juni 2023 | 16.15-17.00 uur \n
+                <a href="https://events.teams.microsoft.com/event/e6b2051e-b802-48b3-8b97-4181e8d0438c@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">Microsoft Teams link</a>
               </li>
               <li>
                 13 juni 2023 | 16.15-17.00 uur 
-                https://events.teams.microsoft.com/event/e6b2051e-b802-48b3-8b97-4181e8d0438c@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7 
+                <a href=https://events.teams.microsoft.com/event/e6b2051e-b802-48b3-8b97-4181e8d0438c@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7 
               </li>
               <li>
                 15 juni 2023 | 16.15-17.00 uur 
