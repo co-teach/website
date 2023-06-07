@@ -34,6 +34,11 @@ export const menuStructure: NavItem[] = [
    href: "/formulier",
    label: "",
   },
+  {
+   href: "/agenda",
+   label: "",
+  },
+  
   
   
   
