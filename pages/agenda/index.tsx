@@ -16,29 +16,35 @@ const Home = () => {
       <Header navData={menuStructure} />
       <main className={classes.Contact}>
         <article className="restrictedWidth">
-          <SignatureHeader title="Contact" subtitle="" />
-
-          <h2>Laten we een keertje praten</h2>
-          <p>Heb je een vraag of wil je praten over de mogelijkheden?</p>
-
+          <SignatureHeader title="Agenda" subtitle="" />
+          
+          <h2>Aankomende bijeenkomsten, cursussen en events</h2>
+          
+          <h3>Webinars voor scholen</h3>
           <p>
-            Neem gerust eens contact met ons op om de mogelijkheden te
-            bespreken. Bel met onze accountmanager Liesbeth von Nordheim op
-            06-81183563 of stuur een bericht naar co-teach@uu.nl
+            Korte sessies waarin je informatie krijgt over
+            het Co-Teach Informatica programma en hoe je als school kan deelnemen.
+            <ul>
+              <li>
+                12 juni 2023 | 16.15-17.00 uur 
+                	https://events.teams.microsoft.com/event/6e72fddb-f04e-485d-9d9c-9cf2aee61d01@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7 
+              </li>
+              <li>
+                13 juni 2023 | 16.15-17.00 uur 
+                https://events.teams.microsoft.com/event/e6b2051e-b802-48b3-8b97-4181e8d0438c@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7 
+              </li>
+              <Li>
+                15 juni 2023 | 16.15-17.00 uur 
+                https://events.teams.microsoft.com/event/beced50f-7f5f-4c5d-b287-6839440bada1@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7 
+                </li>
+              <Li>
+                16 juni 2023 | 16.15-17.00 uur 
+                https://events.teams.microsoft.com/event/a6f9725d-9541-452d-8c4a-eb1fd93d90c7@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7 
+                </li>
+            </ul>
           </p>
 
-          <p>
-            Meer informatie over werken als gastdocent in het onderwijs of
-            persoonlijk advies?
-          </p>
-
-          <p>Vul dan onderstaand formulier in en we nemen contact met je op.</p>
-          <iframe
-            title="Aanmeldingsformulier"
-            loading="lazy"
-            className={classes.Survey}
-            src="https://utrechtuniversity.qualtrics.com/jfe/form/SV_eY9tyqz6pnMNw2x"
-          />
+          
         </article>
       </main>
       <Footer />
