@@ -16,9 +16,9 @@ const Home = () => {
       <Header navData={menuStructure} />
       <main className={classes.Contact}>
         <article className="restrictedWidth">
-          <SignatureHeader title="Agenda" subtitle="Aankomende bijeenkomsten, cursussen en events" />
+          <SignatureHeader title="Co-Teach Informatica Agenda" subtitle="Aankomende bijeenkomsten, cursussen en events" />
 
-          <h3>Webinars voor scholen</h3>
+          <h2>Webinars voor scholen</h2>
 
           <p>
             Korte sessies waarin je informatie krijgt over het Co-Teach Informatica programma en hoe je als school kan deelnemen.
