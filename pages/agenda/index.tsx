@@ -16,10 +16,8 @@ const Home = () => {
       <Header navData={menuStructure} />
       <main className={classes.Contact}>
         <article className="restrictedWidth">
-          <SignatureHeader title="Agenda" subtitle="" />
+          <SignatureHeader title="Agenda" subtitle="Aankomende bijeenkomsten, cursussen en events" />
 
-          <h2>Aankomende bijeenkomsten, cursussen en events</h2>
-&nbsp;
           <h3>Webinars voor scholen</h3>
 
           <p>
@@ -45,9 +43,9 @@ const Home = () => {
             </li>
           </ul>
 
-          <h3>Gastdocenten cursus planning</h3>
+          <h2>Gastdocenten cursus planning</h2>
 
-          <h2>GASTDOCENTEN CURSUS – UTRECHT - JUNI 2023</h2>
+          <h3>GASTDOCENTEN CURSUS – UTRECHT - JUNI 2023</h3>
           
           Locatie: Universiteit Utrecht
 
@@ -63,7 +61,7 @@ const Home = () => {
             </li>
           </ul>
           
-          <h2>GASTDOCENTEN CURSUS – DELFT - SEPTEMBER/OKTOBER 2023</h2>
+          <h3>GASTDOCENTEN CURSUS – DELFT - SEPTEMBER/OKTOBER 2023</h3>
           
           Locatie: TU Delft
 
@@ -79,7 +77,7 @@ const Home = () => {
             </li>
           </ul>
           
-          <h2>GASTDOCENTEN CURSUS – ENSCHEDE - OKTOBER 2023</h2>
+          <h3>GASTDOCENTEN CURSUS – ENSCHEDE - OKTOBER 2023</h3>
           
           Locatie: Universiteit Twente
 
