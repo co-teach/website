@@ -17,11 +17,11 @@ const Home = () => {
       <main className={classes.Contact}>
         <article className="restrictedWidth">
           <SignatureHeader title="Agenda" subtitle="" />
-          <p>
-          <h2>Aankomende bijeenkomsten, cursussen en events</h2> <\br>
-          </p>
+          
+          <h2>Aankomende bijeenkomsten, cursussen en events</h2> <br />
+          
           <h3>Webinars voor scholen</h3>
-          <p>
+          
             Korte sessies waarin je informatie krijgt over
             het Co-Teach Informatica programma en hoe je als school kan deelnemen.
             <ul>
@@ -53,13 +53,13 @@ const Home = () => {
             <ul>
               <li>
                 Week 23: Vrijdag 9 Juni 2023 – Gastdocentencursus Deel I | Utrecht | 14u – 17u
-                <\li>
+                </li>
                   <li>
                 Week 24: Vrijdag 16 Juni 2023 – Gastdocentencursus Deel II | Online | 14u – 17u
-                <\li>
+                </li>
                   <li>
                 Week 26: Vrijdag 30 Juni 2023 – Gastdocentencursus Deel III | Utrecht | 13u – 17u
-                <\li>
+                </li>
             </ul>
                     </p>
                   
