@@ -44,6 +44,42 @@ const Home = () => {
               <a href="https://events.teams.microsoft.com/event/a6f9725d-9541-452d-8c4a-eb1fd93d90c7@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">Microsoft Teams</a>
             </li>
           </ul>
+          
+          <h2>Webinars voor IT-professionals</h2>
+          
+          Co-Teach Informatica werkt graag met IT-Experts om de verbinding te maken tussen het onderwijs en het bedrijfsleven. 
+          De ervaring leert dat leerlingen het projectonderwijs van IT-experts enorm leerzaam vinden omdat ze in aanraking komen met praktijkvoorbeelden uit de ‘echte wereld’.  
+          
+          Wil jij meer met je eigen praktijkervaring doen en voor de klas staan als gastdocent? 
+          Tijdens deze online informatiebijeenkomst vertellen hoe je als gastdocent een gastlessenreeks van 6 á 8 weken kan verzorgen voor bovenbouw havo/vwo leerlingen. 
+          Je staat dus 6 á 8 weken in de klas (á 2uur) waarbij je projectonderwijs verzorgt op basis van je eigen expertise.  
+
+          <ul>
+            <li>
+              Dinsdag 20 juni 2023 - 16.30 tot 17.00&nbsp;
+              <a href="https://events.teams.microsoft.com/event/196a0629-7119-4421-a1eb-a77bcad60044@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">Microsoft Teams</a>
+            </li>
+            <li>
+              Donderdag 22 juni 2023 – 9.00 tot 9.30&nbsp;
+              <a href="https://events.teams.microsoft.com/event/c81aab09-d08b-4029-9a4e-74808ca608a5@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">Microsoft Teams</a>
+            </li>
+            <li>
+              Maandag 26 juni 2023 – 12.00 tot 12.30&nbsp;
+              <a href="https://events.teams.microsoft.com/event/fb3d0629-dadd-47fb-b343-6a7d7715657b@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">Microsoft Teams</a>
+            </li>
+            <li>
+              Dinsdag 27 juni 2023 – 12.30 tot 13.00&nbsp;
+              <a href="https://events.teams.microsoft.com/event/b28e4322-a04b-4415-9886-9126ebf4cc8a@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">Microsoft Teams</a>
+            </li>
+            <li>
+              Maandag 3 juli 2023  - 12.00 tot 12.30&nbsp;
+              <a href="https://events.teams.microsoft.com/event/301d0c2f-f053-42cd-b107-104ff6bd96ca@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">Microsoft Teams</a>
+            </li>
+            <li>
+              Vrijdag 7 juli 2023 – 12.00 tot 12.30&nbsp;
+              <a href="https://events.teams.microsoft.com/event/cf77e24a-4a7f-4013-9740-6eff03630ebc@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">Microsoft Teams</a>
+            </li>
+          </ul>
 
           <h2>Gastdocenten cursus planning</h2>
 
