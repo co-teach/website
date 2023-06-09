@@ -17,6 +17,10 @@ export const menuStructure: NavItem[] = [
     href: "/gastdocenten",
     label: "Voor gastdocenten",
   },
+    {
+   href: "/agenda",
+   label: "",
+  },
   { href: "/team", label: "Het team" },
   {
     href: "/contact",
@@ -34,10 +38,7 @@ export const menuStructure: NavItem[] = [
    href: "/formulier",
    label: "",
   },
-  {
-   href: "/agenda",
-   label: "",
-  },
+  
   
   
   
