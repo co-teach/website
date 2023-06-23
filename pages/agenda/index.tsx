@@ -26,14 +26,6 @@ const Home = () => {
           
           <ul>
             <li>
-              Dinsdag 20 juni 2023 - 16.30 tot 17.00&nbsp;
-              <a href="https://events.teams.microsoft.com/event/196a0629-7119-4421-a1eb-a77bcad60044@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">Microsoft Teams</a>
-            </li>
-            <li>
-              Donderdag 22 juni 2023 – 9.00 tot 9.30&nbsp;
-              <a href="https://events.teams.microsoft.com/event/c81aab09-d08b-4029-9a4e-74808ca608a5@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">Microsoft Teams</a>
-            </li>
-            <li>
               Maandag 26 juni 2023 – 12.00 tot 12.30&nbsp;
               <a href="https://events.teams.microsoft.com/event/fb3d0629-dadd-47fb-b343-6a7d7715657b@d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">Microsoft Teams</a>
             </li>
@@ -59,13 +51,13 @@ const Home = () => {
 
           <ul>
             <li>
-              Week 23: Vrijdag 9 Juni 2023 – Gastdocentencursus Deel I | Utrecht | 14u – 17u
+              Week 23: Vrijdag 9 Juni 2023 – Deel I | Utrecht | 14u – 17u
             </li>
             <li>
-              Week 24: Vrijdag 16 Juni 2023 – Gastdocentencursus Deel II | Online | 14u – 17u
+              Week 24: Vrijdag 16 Juni 2023 – Deel II | Online | 14u – 17u
             </li>
             <li>
-              Week 26: Vrijdag 30 Juni 2023 – Gastdocentencursus Deel III | Utrecht | 13u – 17u
+              Week 26: Vrijdag 30 Juni 2023 – Deel III | Utrecht | 13u – 17u
             </li>
           </ul>
           
@@ -75,13 +67,13 @@ const Home = () => {
 
           <ul>
             <li>
-              Week 37: Vrijdag 15 September 2023 – Gastdocentencursus Deel I | Delft | 14u – 17u
+              Week 37: Vrijdag 15 September 2023 – Deel I | Delft | 14u – 17u
             </li>
             <li>
-              Week 38: Vrijdag 22 September 2023 – Gastdocentencursus Deel II | Online | 14u – 17u
+              Week 38: Vrijdag 22 September 2023 – Deel II | Online | 14u – 17u
             </li>
             <li>
-              Week 41: Vrijdag 13 Oktober 2023 – Gastdocentencursus Deel III | Delft | 13u – 17u
+              Week 41: Vrijdag 13 Oktober 2023 – Deel III | Delft | 13u – 17u
             </li>
           </ul>
           
@@ -91,10 +83,10 @@ const Home = () => {
 
           <ul>
             <li>
-              Week 40: Vrijdag 6 Oktober 2023 – Gastdocentencursus Deel I & II | Enschede| 11u – 17u
+              Week 40: Vrijdag 6 Oktober 2023 – Deel I & II | Enschede| 11u – 17u
             </li>
             <li>
-              Week 41: Vrijdag 13 Oktober 2023 – Gastdocentencursus Deel III | Enschede| 13u – 17u
+              Week 41: Vrijdag 13 Oktober 2023 – Deel III | Enschede| 13u – 17u
             </li>
           </ul>
           
