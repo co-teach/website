@@ -22,10 +22,8 @@ const Home = () => {
          
           <h2>Webinars voor IT-professionals</h2>
           
-          Co-Teach Informatica werkt graag met IT-Experts om de verbinding te maken tussen het onderwijs en het bedrijfsleven. 
           Tijdens deze online informatiebijeenkomst vertellen hoe je als gastdocent een gastlessenreeks van 6 á 8 weken kan verzorgen voor bovenbouw havo/vwo leerlingen. 
-          Je staat dus 6 á 8 weken in de klas (á 2uur) waarbij je projectonderwijs verzorgt op basis van je eigen expertise.  
-
+          
           <ul>
             <li>
               Dinsdag 20 juni 2023 - 16.30 tot 17.00&nbsp;
