@@ -16,16 +16,13 @@ const Home = () => {
       <Header navData={menuStructure} />
       <main className={classes.Contact}>
         <article className="restrictedWidth">
-          <SignatureHeader title="Co-Teach Informatica Agenda" subtitle=" Aankomende bijeenkomsten, cursussen en events" />
+          <SignatureHeader title="Co-Teach Informatica Agenda" subtitle=" Aankomende gastdocenten webinars en cursussen" />
       
          
          
           <h2>Webinars voor IT-professionals</h2>
           
           Co-Teach Informatica werkt graag met IT-Experts om de verbinding te maken tussen het onderwijs en het bedrijfsleven. 
-          De ervaring leert dat leerlingen het projectonderwijs van IT-experts enorm leerzaam vinden omdat ze in aanraking komen met praktijkvoorbeelden uit de ‘echte wereld’.  
-          
-          Wil jij meer met je eigen praktijkervaring doen en voor de klas staan als gastdocent? 
           Tijdens deze online informatiebijeenkomst vertellen hoe je als gastdocent een gastlessenreeks van 6 á 8 weken kan verzorgen voor bovenbouw havo/vwo leerlingen. 
           Je staat dus 6 á 8 weken in de klas (á 2uur) waarbij je projectonderwijs verzorgt op basis van je eigen expertise.  
 
