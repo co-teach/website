@@ -16,7 +16,7 @@ const Home = () => {
       <Header navData={menuStructure} />
       <main className={classes.Contact}>
         <article className="restrictedWidth">
-          <SignatureHeader title="Co-Teach Informatica Agenda" subtitle=" Aankomende gastdocenten webinars en cursussen" />
+          <SignatureHeader title="Co-Teach Informatica Agenda" subtitle="." />
       
          
          
