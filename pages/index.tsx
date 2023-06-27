@@ -1,5 +1,6 @@
+import React, { useEffect } from "react";
+import { useRouter } from "next/router";
 import Head from "next/head";
-import React from "react";
 import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import Paths from "../components/Paths/Paths";
@@ -9,8 +10,6 @@ import { menuStructure } from "../contents/menuStructure";
 import { partners } from "../contents/partners";
 import type { Partner } from "../models/Partner";
 import Video from "../components/Video/Video";
-import { useRouter } from "next/router";
-import React, { useEffect } from "react";
 
 const Home = () => {
   const projectPartners: Partner[] = [
