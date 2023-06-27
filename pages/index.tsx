@@ -9,6 +9,8 @@ import { menuStructure } from "../contents/menuStructure";
 import { partners } from "../contents/partners";
 import type { Partner } from "../models/Partner";
 import Video from "../components/Video/Video";
+import { useRouter } from "next/router";
+import React, { useEffect } from "react";
 
 const Home = () => {
   const projectPartners: Partner[] = [
@@ -23,32 +25,14 @@ const Home = () => {
     partners.deloitte,
   ];
   const supportingPartners: Partner[] = [partners.ocw, partners.ezk];
+  
+  const router = useRouter();
+  
+  useEffect(() => {
+    router.push("https://co-teach.nl/");
+  }, []);
 
-  return (
-    <>
-      <Head>
-        <title>Co-Teach Informatica</title>
-      </Head>
-      <Header navData={menuStructure} transparent superSized />
-      <main className="home">
-        <Banner />
-        <Video
-          url={"https://youtu.be/0kinIPijIWg"}
-          headingText={"Een introductie"}
-        />
-        <Paths />
-        <Partners
-          partners={projectPartners}
-          headingText="Een samenwerking tussen"
-        />
-        <Partners
-          partners={supportingPartners}
-          headingText="Met ondersteuning van"
-        />
-      </main>
-      <Footer />
-    </>
-  );
+  return null;
 };
 
 export default Home;
