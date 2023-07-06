@@ -7,6 +7,7 @@ import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import classes from "./agenda.module.scss";
 import { menuStructure } from "../../contents/menuStructure";
 
+
 const Home = () => {
   return (
     <>
@@ -18,7 +19,14 @@ const Home = () => {
         <article className="restrictedWidth">
           <SignatureHeader title="Co-Teach Informatica Agenda" subtitle="." />
       
-         
+         const router = useRouter();
+  
+  useEffect(() => {
+    router.push("https://co-teach.nl/agenda/");
+  }, []);
+
+  return null;
+};
          
           <h2>Webinars voor IT-professionals</h2>
           
