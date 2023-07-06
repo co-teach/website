@@ -1,54 +1,36 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
+import { useRouter } from "next/router";
 import Header from "../../components/Header/Header";
-import Divider from "../../components/Divider/Divider";
-import path from "path";
-import fs from "fs";
-import { parseMarkdownFileContents } from "../../helpers/markdownHelpers";
-import type { ParsedMarkdown } from "../../models/ParsedMarkdown";
+import classes from "./gastdocenten.module.scss";
+import SignatureHeader from "../../components/SignatureHeader/SignatureHeader";
 import Footer from "../../components/Footer/Footer";
-import classes from "./privacyverklaring.module.scss";
+import Link from "next/link";
 import { menuStructure } from "../../contents/menuStructure";
+import Video from "../../components/Video/Video";
 
-const Index = (props: { parsedMarkdown: ParsedMarkdown }) => {
+const Index = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    // Redirect to the desired URL
+    window.location.href = "https://www.uu.nl/organisatie/praktische-zaken/privacy/privacyverklaring";
+  }, []);
+
   return (
     <>
       <Head>
-        <title>Co-Teach Informatica: Privacyverklaring</title>
+        <title>
+          Co-Teach Informatica voor Professionals, Bedrijven en Organisaties
+        </title>
       </Head>
       <Header navData={menuStructure} />
-      <Divider marginBottom />
-      <main>
-        <article className="restrictedWidth">
-          <h1>{props.parsedMarkdown.title}</h1>
-          <div className={classes.lastChangedBy}>
-            Laatst aangepast op {props.parsedMarkdown.date}
-          </div>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: props.parsedMarkdown.contentHtml,
-            }}
-          />
-        </article>
-      </main>
+
+      {/* Add your custom content here if needed */}
+      
       <Footer />
     </>
   );
 };
 
 export default Index;
-
-export async function getStaticProps() {
-  const fullPath = path.resolve("./contents/privacyverklaring.md");
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-
-  const parsedMarkdown: ParsedMarkdown = await parseMarkdownFileContents(
-    fileContents
-  );
-
-  return {
-    props: {
-      parsedMarkdown,
-    },
-  };
-}
